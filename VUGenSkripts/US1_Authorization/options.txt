@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IF:\Git\Final_Task_IBM\VUGenSkripts\US1_Authorization
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ef:\git\final_task_ibm\vugenskripts\us1_authorization\\logfile.log
+f:\git\final_task_ibm\vugenskripts\us1_authorization\\combined_US1_Authorization.c
+f:\git\final_task_ibm\vugenskripts\us1_authorization\\pre_cci.c

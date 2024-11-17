@@ -1,0 +1,4 @@
+"{"seaddress":{"addressLine1":"Foosha Village 13","addressLine2":"","city":"East Blue","country"
+"":"jp","postalCode":400001,"state":"Goa King"},"secustomerName":"Monkey D.Luffy","secustomerPh"
+"one":"+81880002233","senumberOfProducts":1,"setransactionType":"SHIPPING_COST","sessionId":"71"
+"DB23A59491300371FAAFB60BAE9981"}"

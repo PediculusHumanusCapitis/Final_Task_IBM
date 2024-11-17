@@ -1,0 +1,12 @@
+[t43]
+FileName1=t43.html
+URL1=https://www.advantageonlineshopping.com/
+Total=4
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_35.xml
+FileName2=t43_require.html
+URL2=https://www.advantageonlineshopping.com/vendor/requirejs/require.js
+FileName3=t43_services.html
+URL3=https://www.advantageonlineshopping.com/services.properties
+FileName4=t43_Roboto-Light-webfont.html
+URL4=https://www.advantageonlineshopping.com/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff

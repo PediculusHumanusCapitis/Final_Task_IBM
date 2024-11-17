@@ -1,0 +1,109 @@
+Virtual User Script started at: 17.11.2024 22:02:17
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (ноя 27 2019 19:51:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0  	[MsgId: MMSG-26988]
+Runtime Settings file: "F:\Git\Final_Task_IBM\VUGenSkripts\US3_Buying_Product\\default.cfg"  	[MsgId: MMSG-27141]
+Vuser directory: "F:\Git\Final_Task_IBM\VUGenSkripts\US3_Buying_Product"  	[MsgId: MMSG-27052]
+Vuser output directory: "F:\Git\Final_Task_IBM\VUGenSkripts\US3_Buying_Product"  	[MsgId: MMSG-27050]
+Operating system's current working directory: "f:\git\final_task_ibm\vugenskripts\us3_buying_product"  	[MsgId: MMSG-27048]
+UTC (GMT) start date/time   : 2024-11-17 18:02:17  	[MsgId: MMSG-26992]
+LOCAL start date/time       : 2024-11-17 22:02:17  	[MsgId: MMSG-26991]
+Local daylight-Savings-Time : No  	[MsgId: MMSG-26990]
+Some of the Runtime Settings:  	[MsgId: MMSG-27142]
+    Download non-HTML resources: Yes  	[MsgId: MMSG-27018]
+    Verification checks: No  	[MsgId: MMSG-27017]
+    Convert from/to UTF-8: No  	[MsgId: MMSG-27016]
+    Simulate a new user each iteration: Yes  	[MsgId: MMSG-27009]
+    Non-critical item errors as warnings: Yes  	[MsgId: MMSG-27008]
+    HTTP errors as warnings: No  	[MsgId: MMSG-27007]
+    WinInet replay instead of Sockets: No  	[MsgId: MMSG-27006]
+    HTTP version: 1.1  	[MsgId: MMSG-27005]
+    Keep-Alive HTTP connections: Yes  	[MsgId: MMSG-27004]
+    Max self Meta refresh updates: 2  	[MsgId: MMSG-27003]
+    No proxy is used (direct connection to the Internet)  	[MsgId: MMSG-27171]
+    DNS caching: Yes  	[MsgId: MMSG-27035]
+    Simulate browser cache: Yes  	[MsgId: MMSG-27034]
+        Cache URLs requiring content (e.g., HTMLs): Yes  	[MsgId: MMSG-27033]
+            Additional URLs requiring content: None  	[MsgId: MMSG-27032]
+        Check for newer versions every visit to the page: No  	[MsgId: MMSG-27031]
+    Page download timeout (sec): 120  	[MsgId: MMSG-27030]
+    Resource Page Timeout is a Warning: No  	[MsgId: MMSG-27029]
+    ContentCheck enabled: Yes  	[MsgId: MMSG-27028]
+    ContentCheck script-level file: "F:\Git\Final_Task_IBM\VUGenSkripts\US3_Buying_Product\LrwiAedScript.xml"  	[MsgId: MMSG-27027]
+    Enable Web Page Breakdown: Yes  	[MsgId: MMSG-27026]
+    Enable connection data points: Yes  	[MsgId: MMSG-27023]
+    Process socket after reschedule: Yes  	[MsgId: MMSG-27022]
+    Snapshot on error: No  	[MsgId: MMSG-27021]
+    Define each step as a transaction: No  	[MsgId: MMSG-27020]
+    Read beyond Content-Length: No  	[MsgId: MMSG-26994]
+    Parse HTML Content-Type: TEXT  	[MsgId: MMSG-26999]
+    Graph hits per second and HTTP status codes: Yes  	[MsgId: MMSG-26998]
+    Graph response bytes per second: Yes  	[MsgId: MMSG-26997]
+    Graph pages per second: No  	[MsgId: MMSG-26996]
+    Web recorder version ID: 10  	[MsgId: MMSG-26995]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): Notify: Transaction "US3_Buying _Products" started.
+..\\..\\Transactions\\common_lib.h(2): Notify: Transaction "Go_To_HomePage" started.
+..\\..\\Transactions\\common_lib.h(4): web_reg_find started  	[MsgId: MMSG-26355]
+..\\..\\Transactions\\common_lib.h(4): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\..\\Transactions\\common_lib.h(6): web_set_sockets_option started  	[MsgId: MMSG-26355]
+..\\..\\Transactions\\common_lib.h(6): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+..\\..\\Transactions\\common_lib.h(8): web_add_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\..\\Transactions\\common_lib.h(8): An unrecognized header ("Sec-Fetch-Dest") is being added  	[MsgId: MMSG-26595]
+..\\..\\Transactions\\common_lib.h(8): "Sec-Fetch-Dest: document" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+..\\..\\Transactions\\common_lib.h(8): web_add_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\..\\Transactions\\common_lib.h(11): web_add_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\..\\Transactions\\common_lib.h(11): An unrecognized header ("Sec-Fetch-Mode") is being added  	[MsgId: MMSG-26595]
+..\\..\\Transactions\\common_lib.h(11): "Sec-Fetch-Mode: navigate" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+..\\..\\Transactions\\common_lib.h(11): web_add_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\..\\Transactions\\common_lib.h(14): web_add_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\..\\Transactions\\common_lib.h(14): An unrecognized header ("Sec-Fetch-Site") is being added  	[MsgId: MMSG-26595]
+..\\..\\Transactions\\common_lib.h(14): "Sec-Fetch-Site: none" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+..\\..\\Transactions\\common_lib.h(14): web_add_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\..\\Transactions\\common_lib.h(17): web_add_header("Priority") started  	[MsgId: MMSG-26355]
+..\\..\\Transactions\\common_lib.h(17): An unrecognized header ("Priority") is being added  	[MsgId: MMSG-26595]
+..\\..\\Transactions\\common_lib.h(17): "Priority: u=0, i" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+..\\..\\Transactions\\common_lib.h(17): web_add_header("Priority") was successful  	[MsgId: MMSG-26392]
+..\\..\\Transactions\\common_lib.h(20): web_add_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\..\\Transactions\\common_lib.h(20): An unrecognized header ("Sec-Fetch-User") is being added  	[MsgId: MMSG-26595]
+..\\..\\Transactions\\common_lib.h(20): "Sec-Fetch-User: ?1" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+..\\..\\Transactions\\common_lib.h(20): web_add_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\..\\Transactions\\common_lib.h(23): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\..\\Transactions\\common_lib.h(23): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+..\\..\\Transactions\\common_lib.h(23): "Upgrade-Insecure-Requests: 1" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+..\\..\\Transactions\\common_lib.h(23): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\..\\Transactions\\common_lib.h(26): web_url("www.advantageonlineshopping.com") started  	[MsgId: MMSG-26355]
+..\\..\\Transactions\\common_lib.h(26): t=1523443ms: Connecting [0] to host 54.227.55.203:443  	[MsgId: MMSG-26000]
+..\\..\\Transactions\\common_lib.h(26): t=1523643ms: Connected socket [0] from 192.168.1.64:13143 to 54.227.55.203:443 in 200 ms  	[MsgId: MMSG-26000]
+..\\..\\Transactions\\common_lib.h(26): t=1523645ms: Trying to set SNI with servername www.advantageonlineshopping.com  	[MsgId: MMSG-26000]
+..\\..\\Transactions\\common_lib.h(26): t=1523645ms: Setting SNI was succesful  	[MsgId: MMSG-26000]
+..\\..\\Transactions\\common_lib.h(26): The request to server https://www.advantageonlineshopping.com/" is done with headers:
+..\\..\\Transactions\\common_lib.h(26):     :method = GET
+..\\..\\Transactions\\common_lib.h(26):     :scheme = https
+..\\..\\Transactions\\common_lib.h(26):     :path = /
+..\\..\\Transactions\\common_lib.h(26):     :authority = www.advantageonlineshopping.com
+..\\..\\Transactions\\common_lib.h(26):     Sec-Fetch-Dest = document
+..\\..\\Transactions\\common_lib.h(26):     Sec-Fetch-Mode = navigate
+..\\..\\Transactions\\common_lib.h(26):     Sec-Fetch-Site = none
+..\\..\\Transactions\\common_lib.h(26):     Priority = u=0, i
+..\\..\\Transactions\\common_lib.h(26):     Sec-Fetch-User = ?1
+..\\..\\Transactions\\common_lib.h(26):     Upgrade-Insecure-Requests = 1
+..\\..\\Transactions\\common_lib.h(26):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/13
+..\\..\\Transactions\\common_lib.h(26):     0.0
+..\\..\\Transactions\\common_lib.h(26):     Accept-Encoding = gzip, deflate
+..\\..\\Transactions\\common_lib.h(26):     Accept-Language = ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+..\\..\\Transactions\\common_lib.h(26):     Accept = */*
+..\\..\\Transactions\\common_lib.h(26): Notify: Transaction "Go_To_HomePage" ended with a "Stop" status (Duration: 2,6297 Wasted Time: 0,0644).
+..\\..\\Transactions\\common_lib.h(26): Notify: Transaction "US3_Buying _Products" ended with a "Stop" status (Duration: 2,6440 Wasted Time: 0,0644).
+Abort was called from an action.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+..\\..\\Transactions\\common_lib.h(26): Error -27760: Request "https://www.advantageonlineshopping.com/" failed  	[MsgId: MERR-27760]
+..\\..\\Transactions\\common_lib.h(26): t=1524783ms: Closed connection [0] to www.advantageonlineshopping.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]

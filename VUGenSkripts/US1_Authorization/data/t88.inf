@@ -1,0 +1,11 @@
+[t88]
+FileName1=t88_popularProducts.json
+URL1=https://www.advantageonlineshopping.com/app/tempFiles/popularProducts.json
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_80.xml
+RequestHeaderFile=t88_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t88_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

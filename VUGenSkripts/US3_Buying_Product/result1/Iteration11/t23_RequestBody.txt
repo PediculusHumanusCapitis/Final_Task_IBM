@@ -1,0 +1,4 @@
+"{"seaddress":{"addressLine1":"Apartment 22","addressLine2":"","city":"Albuquerque","country":""
+"us","postalCode":87108,"state":"New Mexico"},"secustomerName":"Jesse Pinkman","secustomerPhone"
+"":"+15055550202","senumberOfProducts":1,"setransactionType":"SHIPPING_COST","sessionId":"A0180"
+"345BBDE9E74108168C6689CC436"}"

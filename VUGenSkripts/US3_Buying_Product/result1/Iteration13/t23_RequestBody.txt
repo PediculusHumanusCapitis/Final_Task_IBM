@@ -1,0 +1,4 @@
+"{"seaddress":{"addressLine1":"221B Baker Street","addressLine2":"","city":"London","country":""
+"uk","postalCode":23334,"state":"England"},"secustomerName":"John Watson","secustomerPhone":"+4"
+"42071114455","senumberOfProducts":1,"setransactionType":"SHIPPING_COST","sessionId":"22EBC121C"
+"43923336A79C08F48155431"}"

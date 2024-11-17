@@ -1,0 +1,22 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [],
+        "transactions": [
+            {
+                "transactionName": "Go_To_HomePage",
+                "rawStartTime": 1731870618007,
+                "rawEndTime": 1731870620005,
+                "thinkTime": 0.0,
+                "wastedTime": 0.043680429458618167
+            },
+            {
+                "transactionName": "US1_Authorization",
+                "rawStartTime": 1731870617992,
+                "rawEndTime": 1731870620005,
+                "thinkTime": 0.0,
+                "wastedTime": 0.043680429458618167
+            }
+        ]
+    }
+]

@@ -1,0 +1,4 @@
+"{"seaddress":{"addressLine1":"221B Baker Street","addressLine2":"","city":"London","country":""
+"uk","postalCode":23334,"state":"England"},"secustomerName":"Sherlock Holmes","secustomerPhone""
+":"+442071112233","senumberOfProducts":1,"setransactionType":"SHIPPING_COST","sessionId":"2F17B"
+"AD2B7DC1EDCFFE565728E18496D"}"

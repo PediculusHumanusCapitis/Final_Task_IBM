@@ -1,0 +1,17 @@
+POST /order/api/v1/orders/users/964281101 HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: application/json, text/plain, */*
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate, br, zstd
+content-type: application/json
+Authorization: Basic QXJ0WmF5OkhhaGEwMDcw
+Content-Length: 1024
+Origin: https://www.advantageonlineshopping.com
+Connection: keep-alive
+Referer: https://www.advantageonlineshopping.com/
+Cookie: JSESSIONID=377D7AB2E448800F6B7BC7FB41B8BB48; _ga_TBPYED8WSW=GS1.1.1731796963.7.1.1731797744.0.0.0; _ga=GA1.2.1428554695.1731610030; _ga_56EMNRF2S2=GS1.2.1731797006.7.1.1731797854.16.0.0; _gid=GA1.2.114201075.1731778528
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+

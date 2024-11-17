@@ -1,0 +1,20 @@
+login,password,fname,sname,country,countryShort,city,state,address,postalCode,phone,cardNumber,expirationDate,cvvNumber,customerName
+ArtZay,Haha0070,Artem,Zayarny,Russia,ru,Saratov,Saratovska,Kavkazska 16,123123123,+71231231212,123123123123,122027,233,artzay
+Jojo3,OraOra123,Jotaro,Kujo,Japan,jp,Tokio,Hakaido,Morio 12,3322,+71112223344,111122223333,112028,333,jotaro
+Naruto99,Shad0wClone,Naruto,Uzumaki,Japan,jp,Konoha,Konoha Reg,Hokage Street 7,110011,+81880001122,222233334444,102027,111,naruto
+Walter99,H3isenberg,Walter,White,United States,us,Albuquerque,New Mexico,308 Negra Arroyo Lane,87104,+15055550101,121122334455,102029,112,walt
+Sherlock77,D3duction,Sherlock,Holmes,United Kingdom,uk,London,England,221B Baker Street,23334,+442071112233,567890123456,072028,115,sherlock
+Sasuke23,Shar1ngan,Sasuke,Uchiha,Japan,jp,Konoha,Uchiha Cl,Uchiha Street 1,110112,+81880001123,333344445555,122027,222,sasuke
+LuffyGear4,Rubb3rMan,Monkey,D.Luffy,Japan,jp,East Blue,Goa King,Foosha Village 13,400001,+81880002233,444455556666,072027,333,luffy
+Zoro3,Sant0ryu,Roronoa,Zoro,Japan,jp,Grand Line,Wano,Wano Street 5,500001,+81880003344,555566667777,112027,444,zoro
+Tanjiro99,FireBreath1,Tanjiro,Kamado,Japan,jp,Taisho Era,Mountain,Mt.Sagiri 15,600001,+81880004455,666677778888,052027,555,tanjiro
+Nezuko8,Blood4rt,Nezuko,Kamado,Japan,jp,Taisho Era,Mountain,Mt.Sagiri 15,600002,+81880005566,777788889999,032028,666,nezuko
+Jesse22,P1nkman,Jesse,Pinkman,United States,us,Albuquerque,New Mexico,Apartment 22,87108,+15055550202,212345678901,092027,113,jesse
+Dexter10,Bl00dSpatter,Dexter,Morgan,United States,us,Miami,Florida,Ocean Drive 25,33101,+13055550303,345678901234,082028,114,dexter
+John87,Watson123,John,Watson,United Kingdom,uk,London,England,221B Baker Street,23334,+442071114455,678901234567,062027,116,john
+Rick99,M0rtyAdvent,Rick,Sanchez,United States,us,Seattle,Washington,Dimension C-137,98101,+12065550404,789012345678,052029,117,rick
+Daryl44,Crossb0w,Daryl,Dixon,United States,us,Atlanta,Georgia,Survivor Camp 9,30303,+14065550505,890123456789,042028,118,daryl
+Tony33,Ir0nMan,Tony,Stark,United States,us,New York,New York,Stark Tower,10001,+12125550606,901234567890,032028,119,tony
+Dean13,W1nchester,Dean,Winchester,United States,us,Kansas,Kansas,Winchester Road 12,66044,+19135550808,123456789012,102027,121,dean
+Sam23,D3monBlood,Sam,Winchester,United States,us,Kansas,Kansas,Winchester Road 12,66044,+19135550909,234567890123,092029,122,sam
+Eleven11,P0wer88,Eleven,Ives,United States,us,Hawkins,Indiana,Hawkins Street 4,46001,+18125551010,345678901234,082029,123,el

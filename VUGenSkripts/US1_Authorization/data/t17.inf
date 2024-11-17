@@ -1,0 +1,11 @@
+[t17]
+FileName1=t17_main.min.css
+URL1=https://www.advantageonlineshopping.com/css/main.min.css
+Total=1
+ContentType=text/css
+SnapshotXmlFile=snapshot_11.xml
+RequestHeaderFile=t17_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t17_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

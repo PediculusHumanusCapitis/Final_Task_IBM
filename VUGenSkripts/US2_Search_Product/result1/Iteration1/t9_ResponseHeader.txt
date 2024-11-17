@@ -1,0 +1,15 @@
+HTTP/2.0 200
+Status: 200
+server: nginx/1.18.0 (Ubuntu)
+date: Sun, 17 Nov 2024 18:54:41 GMT
+content-type: application/json
+expires: 0
+cache-control: no-store
+set-cookie: JSESSIONID=2B714E53DD0B4B5B94C87971193E61E2; Path=/order; HttpOnly
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: DENY
+vary: accept-encoding
+content-encoding: gzip
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+

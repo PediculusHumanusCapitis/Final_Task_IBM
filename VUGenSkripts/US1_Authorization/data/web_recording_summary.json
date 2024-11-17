@@ -1,0 +1,771 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-requested-with",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "soapaction",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "priority",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-modified-since",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "authorization",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/xml"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "font/woff"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 6,
+    "RecordedBrowser": "Firefox",
+    "RecordingDate": "ноя-16-2024",
+    "RecordingDuration": 74063,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1731777807,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 107731,
+    "TotalBytesSent": 17120,
+    "TotalRequests": 20,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "o.pki.goog",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.74.99",
+          "IncludeInScript": false,
+          "Name": "o.pki.goog",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 47,
+              "EventId": 7323,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://o.pki.goog/wr2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 62,
+              "EventId": 7318,
+              "HttpStatus": 200,
+              "Size": 472,
+              "URL": "http://o.pki.goog/wr2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 62,
+              "EventId": 7316,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://o.pki.goog/we2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 62,
+              "EventId": 7311,
+              "HttpStatus": 200,
+              "Size": 280,
+              "URL": "http://o.pki.goog/we2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 47,
+              "EventId": 7258,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://o.pki.goog/wr2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 62,
+              "EventId": 7254,
+              "HttpStatus": 200,
+              "Size": 472,
+              "URL": "http://o.pki.goog/wr2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 62,
+              "EventId": 7248,
+              "HttpStatus": 200,
+              "Size": 279,
+              "URL": "http://o.pki.goog/we2"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.120.208.123",
+          "IncludeInScript": false,
+          "Name": "incoming.telemetry.mozilla.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 281,
+              "EventId": 7234,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/dc550337-467c-46e7-9d1e-8302a4a63fcf"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 281,
+              "EventId": 7199,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/6ca37bca-b985-4abb-a5d9-7f601d518b68"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 282,
+              "EventId": 7197,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/c05dc7ea-3a11-4d8a-b1c2-c6c5fafc713a"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 250,
+              "EventId": 7195,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/0f3de1d1-4642-43a9-b59b-4b7b78077102"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 281,
+              "EventId": 7193,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/0f099114-b428-4b34-88c9-d2a7c99529d5"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 282,
+              "EventId": 7191,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/3247c888-6e71-4aa3-8d0c-6b4bf63309c9"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 281,
+              "EventId": 7189,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/f590a545-afa3-4fc2-894f-45dfe337e7f3"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "35.244.181.201",
+          "IncludeInScript": false,
+          "Name": "aus5.mozilla.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/xml",
+              "DownloadTime": 234,
+              "EventId": 7179,
+              "HttpStatus": 200,
+              "Size": 452,
+              "URL": "https://aus5.mozilla.org/update/6/Firefox/130.0.1/20240913135723/WINNT_x86_64-msvc-x64/ru/release/Windows_NT%252010.0.0.0.19045.5131%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16303/default/default/update.xml?force=1"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/xml",
+              "DownloadTime": 235,
+              "EventId": 7177,
+              "HttpStatus": 200,
+              "Size": 452,
+              "URL": "https://aus5.mozilla.org/update/6/Firefox/130.0.1/20240913135723/WINNT_x86_64-msvc-x64/ru/release/Windows_NT%252010.0.0.0.19045.5131%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16303/default/default/update.xml"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.160.144.191",
+          "IncludeInScript": false,
+          "Name": "content-signature-2.cdn.mozilla.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 47,
+              "EventId": 7164,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2024-12-07-16-25-46.chain"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.107.243.93",
+          "IncludeInScript": false,
+          "Name": "push.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 235,
+              "EventId": 7181,
+              "HttpStatus": 101,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.149.100.209",
+          "IncludeInScript": false,
+          "Name": "firefox.settings.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 46,
+              "EventId": 7173,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-ru"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "lencr.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "128.75.237.145",
+          "IncludeInScript": false,
+          "Name": "r11.o.lencr.org",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 282,
+              "EventId": 7159,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r11.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 62,
+              "EventId": 7148,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r11.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 31,
+              "EventId": 7113,
+              "HttpStatus": 200,
+              "Size": 504,
+              "URL": "http://r11.o.lencr.org/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "128.75.237.145",
+          "IncludeInScript": false,
+          "Name": "r10.o.lencr.org",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 32,
+              "EventId": 7220,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r10.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 46,
+              "EventId": 7218,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r10.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 31,
+              "EventId": 7171,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r10.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 47,
+              "EventId": 7167,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r10.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 31,
+              "EventId": 7157,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r10.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 31,
+              "EventId": 7152,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r10.o.lencr.org/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "firefox.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.107.221.82",
+          "IncludeInScript": false,
+          "Name": "detectportal.firefox.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 7386,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 7378,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 31,
+              "EventId": 7125,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 6828,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "digicert.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.229.221.95",
+          "IncludeInScript": false,
+          "Name": "ocsp.digicert.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 578,
+              "EventId": 7184,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.digicert.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 78,
+              "EventId": 7150,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.digicert.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "advantageonlineshopping.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "54.227.55.203",
+          "IncludeInScript": true,
+          "Name": "www.advantageonlineshopping.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 219,
+              "EventId": 7392,
+              "HttpStatus": 200,
+              "Size": 402,
+              "URL": "https://www.advantageonlineshopping.com/accountservice/ws/AccountLogoutRequest"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 203,
+              "EventId": 7390,
+              "HttpStatus": 200,
+              "Size": 110,
+              "URL": "https://www.advantageonlineshopping.com/order/api/v1/carts/964281101"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 265,
+              "EventId": 7388,
+              "HttpStatus": 200,
+              "Size": 789,
+              "URL": "https://www.advantageonlineshopping.com/accountservice/ws/AccountLoginRequest"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 157,
+              "EventId": 7366,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.advantageonlineshopping.com/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 156,
+              "EventId": 7354,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 234,
+              "EventId": 7337,
+              "HttpStatus": 200,
+              "Size": 2114,
+              "URL": "https://www.advantageonlineshopping.com/css/images/GoUp.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 296,
+              "EventId": 7335,
+              "HttpStatus": 200,
+              "Size": 3003,
+              "URL": "https://www.advantageonlineshopping.com/css/images/chat_logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 328,
+              "EventId": 7333,
+              "HttpStatus": 200,
+              "Size": 32367,
+              "URL": "https://www.advantageonlineshopping.com/css/images/Special-offer.jpg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 156,
+              "EventId": 7331,
+              "HttpStatus": 200,
+              "Size": 2243,
+              "URL": "https://www.advantageonlineshopping.com/app/views/home-page.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 157,
+              "EventId": 7329,
+              "HttpStatus": 200,
+              "Size": 500,
+              "URL": "https://www.advantageonlineshopping.com/app/tempFiles/popularProducts.json"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 485,
+              "EventId": 7327,
+              "HttpStatus": 200,
+              "Size": 351,
+              "URL": "https://www.advantageonlineshopping.com/catalog/api/v1/deals/search?dealOfTheDay=true"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 547,
+              "EventId": 7305,
+              "HttpStatus": 200,
+              "Size": 5208,
+              "URL": "https://www.advantageonlineshopping.com/catalog/api/v1/categories"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 485,
+              "EventId": 7301,
+              "HttpStatus": 200,
+              "Size": 25048,
+              "URL": "https://www.advantageonlineshopping.com/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 172,
+              "EventId": 7271,
+              "HttpStatus": 200,
+              "Size": 823,
+              "URL": "https://www.advantageonlineshopping.com/accountservice/ws/GetAccountConfigurationRequest"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 328,
+              "EventId": 7266,
+              "HttpStatus": 200,
+              "Size": 6541,
+              "URL": "https://www.advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 297,
+              "EventId": 7263,
+              "HttpStatus": 200,
+              "Size": 24576,
+              "URL": "https://www.advantageonlineshopping.com/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 172,
+              "EventId": 7256,
+              "HttpStatus": 200,
+              "Size": 1011,
+              "URL": "https://www.advantageonlineshopping.com/services.properties"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 172,
+              "EventId": 7252,
+              "HttpStatus": 200,
+              "Size": 2645,
+              "URL": "https://www.advantageonlineshopping.com/css/images/logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 157,
+              "EventId": 7242,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.advantageonlineshopping.com/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 156,
+              "EventId": 7228,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.advantageonlineshopping.com/"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": true
+  },
+  "NumberOfCorrelations": 0
+}

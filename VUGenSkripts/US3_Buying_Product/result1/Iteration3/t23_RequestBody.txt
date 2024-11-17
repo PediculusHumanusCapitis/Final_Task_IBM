@@ -1,0 +1,4 @@
+"{"seaddress":{"addressLine1":"Hokage Street 7","addressLine2":"","city":"Konoha","country":"jp"
+"","postalCode":110011,"state":"Konoha Reg"},"secustomerName":"Naruto Uzumaki","secustomerPhone"
+"":"+81880001122","senumberOfProducts":1,"setransactionType":"SHIPPING_COST","sessionId":"7E29A"
+"20F5E69B3A332FE1E09DC6D533E"}"

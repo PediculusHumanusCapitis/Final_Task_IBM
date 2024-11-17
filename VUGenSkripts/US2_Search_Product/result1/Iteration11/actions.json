@@ -1,0 +1,122 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP131",
+                "stepName": "Url: www.advantageonlineshopping.com",
+                "infFile": "t1.inf",
+                "time": 1731869847915
+            },
+            {
+                "stepId": "STEP132",
+                "stepName": "Url: ALL",
+                "infFile": "t2.inf",
+                "time": 1731869848326
+            },
+            {
+                "stepId": "STEP133",
+                "stepName": "Custom Request: GetAccountConfigurationRequest",
+                "infFile": "t3.inf",
+                "time": 1731869849174
+            },
+            {
+                "stepId": "STEP134",
+                "stepName": "Url: categories",
+                "infFile": "t4.inf",
+                "time": 1731869850000
+            },
+            {
+                "stepId": "STEP135",
+                "stepName": "Url: search",
+                "infFile": "t5.inf",
+                "time": 1731869850715
+            },
+            {
+                "stepId": "STEP136",
+                "stepName": "Url: popularProducts.json",
+                "infFile": "t6.inf",
+                "time": 1731869850971
+            },
+            {
+                "stepId": "STEP137",
+                "stepName": "Url: home-page.html",
+                "infFile": "t7.inf",
+                "time": 1731869852195
+            },
+            {
+                "stepId": "STEP138",
+                "stepName": "Custom Request: AccountLoginRequest",
+                "infFile": "t8.inf",
+                "time": 1731869852730
+            },
+            {
+                "stepId": "STEP139",
+                "stepName": "Url: carts",
+                "infFile": "t9.inf",
+                "time": 1731869853130
+            },
+            {
+                "stepId": "STEP140",
+                "stepName": "Url: products",
+                "infFile": "t10.inf",
+                "time": 1731869854068
+            },
+            {
+                "stepId": "STEP141",
+                "stepName": "Url: attributes",
+                "infFile": "t11.inf",
+                "time": 1731869855107
+            },
+            {
+                "stepId": "STEP142",
+                "stepName": "Url: category-page.html",
+                "infFile": "t12.inf",
+                "time": 1731869855372
+            },
+            {
+                "stepId": "STEP143",
+                "stepName": "Custom Request: AccountLogoutRequest",
+                "infFile": "t13.inf",
+                "time": 1731869856193
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Go_To_HomePage",
+                "rawStartTime": 1731869844499,
+                "rawEndTime": 1731869852197,
+                "thinkTime": 0.0,
+                "wastedTime": 0.37584781646728518
+            },
+            {
+                "transactionName": "Login",
+                "rawStartTime": 1731869852199,
+                "rawEndTime": 1731869853130,
+                "thinkTime": 0.0,
+                "wastedTime": 0.08359479904174805
+            },
+            {
+                "transactionName": "Search_Product",
+                "rawStartTime": 1731869853145,
+                "rawEndTime": 1731869855382,
+                "thinkTime": 0.0,
+                "wastedTime": 0.13541793823242188
+            },
+            {
+                "transactionName": "Logout",
+                "rawStartTime": 1731869855415,
+                "rawEndTime": 1731869856194,
+                "thinkTime": 0.0,
+                "wastedTime": 0.041478872299194339
+            },
+            {
+                "transactionName": "US2_Search_product",
+                "rawStartTime": 1731869844483,
+                "rawEndTime": 1731869856209,
+                "thinkTime": 0.0,
+                "wastedTime": 0.6363394260406494
+            }
+        ]
+    }
+]

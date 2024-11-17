@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IF:\Git\Final_Task_IBM\VUGenSkripts\US5_Registration_Random_Users
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ef:\git\final_task_ibm\vugenskripts\us5_registration_random_users\\logfile.log
+f:\git\final_task_ibm\vugenskripts\us5_registration_random_users\\combined_US5_Registration_Random_Users.c
+f:\git\final_task_ibm\vugenskripts\us5_registration_random_users\\pre_cci.c

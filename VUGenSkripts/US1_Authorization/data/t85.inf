@@ -1,0 +1,13 @@
+[t85]
+FileName1=t85.xml
+URL1=https://www.advantageonlineshopping.com/accountservice/ws/GetAccountConfigurationRequest
+Total=2
+RequestHeaderFile=t85_RequestHeader.txt
+RequestBodyFile=t85_RequestBody.txt
+ResponseHeaderFile=t85_ResponseHeader.txt
+ContentType=text/xml
+SnapshotXmlFile=snapshot_77.xml
+FileName2=t85_Roboto-Medium-webfont.html
+URL2=https://www.advantageonlineshopping.com/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t37]
+FileName1=t37_GoUp.png
+URL1=https://www.advantageonlineshopping.com/css/images/GoUp.png
+Total=1
+ContentType=image/png
+SnapshotXmlFile=snapshot_29.xml
+RequestHeaderFile=t37_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t37_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

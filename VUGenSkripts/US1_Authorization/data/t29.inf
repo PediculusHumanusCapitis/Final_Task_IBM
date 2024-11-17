@@ -1,0 +1,11 @@
+[t29]
+FileName1=t29_Roboto-Medium-webfont.html
+URL1=https://www.advantageonlineshopping.com/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff
+Total=1
+ContentType=font/woff
+SnapshotXmlFile=snapshot_21.xml
+RequestHeaderFile=t29_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t29_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

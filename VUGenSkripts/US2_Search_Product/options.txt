@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IF:\Git\Final_Task_IBM\VUGenSkripts\US2_Search_Product
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ef:\git\final_task_ibm\vugenskripts\us2_search_product\\logfile.log
+f:\git\final_task_ibm\vugenskripts\us2_search_product\\combined_US2_Search_Product.c
+f:\git\final_task_ibm\vugenskripts\us2_search_product\\pre_cci.c

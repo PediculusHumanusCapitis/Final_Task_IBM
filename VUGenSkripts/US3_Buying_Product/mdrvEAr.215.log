@@ -1,0 +1,66 @@
+Action.c(75):     cache-control: no-store\r\n
+Action.c(75):     x-content-type-options: nosniff\r\n
+Action.c(75):     x-xss-protection: 1; mode=block\r\n
+Action.c(75):     x-frame-options: DENY\r\n
+Action.c(75):     content-encoding: gzip\r\n
+Action.c(75):     strict-transport-security: max-age=31536000; includeSubDomains; preload\r\n
+Action.c(75):     \r\n
+Action.c(75): t=367887ms: 285-byte ENCODED response body received for "https://www.advantageonlineshopping.com/order/api/v1/carts/760110385/product/70/color/545195?quantity=1" (RelFrameId=1, Internal ID=231)
+Action.c(75): t=367887ms: 795-byte DECODED response body for "https://www.advantageonlineshopping.com/order/api/v1/carts/760110385/product/70/color/545195?quantity=1" (RelFrameId=1, Internal ID=231)
+Action.c(75):     {"userId":760110385,"productsInCart":[{"productId":70,"productName":"game of thrones","pri
+Action.c(75):     ce":10000.0,"quantity":1,"imageUrl":"1245","color":{"code":"545195","name":"PURPLE","inSto
+Action.c(75):     ck":10},"exists":true,"hasWarranty":false},{"productId":16,"productName":"HP ElitePad 1000
+Action.c(75):      G2 Tablet","price":1009.0,"quantity":1,"imageUrl":"3100","color":{"code":"C3C3C3","name":
+Action.c(75):     "GRAY","inStock":10},"exists":true,"hasWarranty":false},{"productId":7,"productName":"HP E
+Action.c(75):     NVY - 17t Touch Laptop","price":849.99,"quantity":1,"imageUrl":"1700","color":{"code":"C3C
+Action.c(75):     3C3","name":"GRAY","inStock":10},"exists":true,"hasWarranty":false},{"productId":134,"prod
+Action.c(75):     uctName":"game of thrones","price":10000.0,"quantity":1,"imageUrl":"1245","color":{"code":
+Action.c(75):     "545195","name":"PURPLE","inStock":10},"exists":true,"hasWarranty":false}]}
+Action.c(75): t=367888ms: 10-byte ENCODED response body received for "https://www.advantageonlineshopping.com/order/api/v1/carts/760110385/product/70/color/545195?quantity=1" (RelFrameId=1, Internal ID=231)
+Action.c(75): t=367888ms: Request done "https://www.advantageonlineshopping.com/order/api/v1/carts/760110385/product/70/color/545195?quantity=1"  	[MsgId: MMSG-26000]
+Action.c(75): Registered web_reg_find successful for "Text="userId":760110385,"productsInCart":[{"productId":70," (count=1)  	[MsgId: MMSG-26364]
+Action.c(75): web_submit_data("Add") was successful, 295 body bytes, 492 header bytes  	[MsgId: MMSG-26386]
+Action.c(86): Notify: Transaction "Add_to_Cart" ended with a "Pass" status (Duration: 1,6276 Wasted Time: 0,0000).	[MsgId: MMSG-16871]
+Action.c(88): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+..\\..\\Transactions\\common_lib.h(187): Notify: Transaction "US3_Buying _Products" ended with a "Stop" status (Duration: 11,6590 Think Time: 5,0002 Wasted Time: 0,0092).	[MsgId: MMSG-16870]
+Action.c(92): Notify: Transaction "Go_to_cart" ended with a "Stop" status (Duration: 0,9289 Wasted Time: 0,0000).	[MsgId: MMSG-16871]
+Action.c(88): Notify: Transaction "US3_Buying _Products" ended with a "Stop" status (Duration: 27,3009 Think Time: 15,0184 Wasted Time: 0,0166).	[MsgId: MMSG-16870]
+..\\..\\Transactions\\common_lib.h(187): Notify: Transaction "US3_Buying _Products" ended with a "Stop" status (Duration: 15,5885 Think Time: 5,0023 Wasted Time: 0,0061).	[MsgId: MMSG-16870]
+Action.c(92): Notify: Transaction "US3_Buying _Products" ended with a "Stop" status (Duration: 44,4739 Think Time: 20,0305 Wasted Time: 0,0058).	[MsgId: MMSG-16870]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Ending Vuser...	[MsgId: MMSG-15966]
+Ending Vuser...	[MsgId: MMSG-15966]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+..\\..\\Transactions\\common_lib.h(187): t=368253ms: Closed connection [0] to www.advantageonlineshopping.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(88): t=368253ms: Closed connection [0] to www.advantageonlineshopping.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+..\\..\\Transactions\\common_lib.h(187): t=368253ms: Closed connection [0] to www.advantageonlineshopping.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+..\\..\\Transactions\\common_lib.h(187): t=368253ms: Closed connection [1] to www.googletagmanager.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(88): t=368253ms: Closed connection [1] to www.googletagmanager.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(92): Error -27760: Request "https://www.advantageonlineshopping.com/order/api/v1/carts/760110385" failed  	[MsgId: MERR-27760]
+..\\..\\Transactions\\common_lib.h(187): t=368254ms: Closed connection [1] to www.googletagmanager.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=1, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Action.c(92): t=368318ms: Closed connection [0] to www.advantageonlineshopping.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(92): t=368319ms: Closed connection [1] to www.googletagmanager.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=1, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 3 (thread 16140), ended OK."	[MsgId: MMSG-10695]
+HTML-Mode memory management statistics: Reusable=1, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 1 (thread 5504), ended OK."	[MsgId: MMSG-10695]
+Vuser 0 (thread 7680), ended OK."	[MsgId: MMSG-10695]
+HTML-Mode memory management statistics: Reusable=1, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 2 (thread 19184), ended OK."	[MsgId: MMSG-10695]

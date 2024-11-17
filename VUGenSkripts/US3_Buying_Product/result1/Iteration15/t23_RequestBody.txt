@@ -1,0 +1,4 @@
+"{"seaddress":{"addressLine1":"Survivor Camp 9","addressLine2":"","city":"Atlanta","country":"u"
+"s","postalCode":30303,"state":"Georgia"},"secustomerName":"Daryl Dixon","secustomerPhone":"+14"
+"065550505","senumberOfProducts":1,"setransactionType":"SHIPPING_COST","sessionId":"0E558CF1346"
+"D341BAB6F15919E979A06"}"

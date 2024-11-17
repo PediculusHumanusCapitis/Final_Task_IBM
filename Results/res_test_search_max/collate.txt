@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=F:\Git\Final_Task_IBM\Controller\Scenario_search_max.lrs
+Completed=0

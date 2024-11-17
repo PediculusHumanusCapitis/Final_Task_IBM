@@ -1,0 +1,109 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: www.advantageonlineshopping.com",
+                "infFile": "t1.inf",
+                "time": 1731850778498
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: ALL",
+                "infFile": "t2.inf",
+                "time": 1731850778772
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: GetAccountConfigurationRequest",
+                "infFile": "t3.inf",
+                "time": 1731850779400
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: categories",
+                "infFile": "t4.inf",
+                "time": 1731850780178
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: search",
+                "infFile": "t5.inf",
+                "time": 1731850780785
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: popularProducts.json",
+                "infFile": "t6.inf",
+                "time": 1731850780976
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: home-page.html",
+                "infFile": "t7.inf",
+                "time": 1731850781898
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: register-page.html",
+                "infFile": "t8.inf",
+                "time": 1731850782259
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Custom Request: GetCountriesRequest",
+                "infFile": "t9.inf",
+                "time": 1731850782725
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Custom Request: AccountCreateRequest",
+                "infFile": "t10.inf",
+                "time": 1731850783209
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Custom Request: AccountLoginRequest",
+                "infFile": "t11.inf",
+                "time": 1731850783734
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: 914910686",
+                "infFile": "t12.inf",
+                "time": 1731850784066
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Go_To_HomePage",
+                "rawStartTime": 1731850776005,
+                "rawEndTime": 1731850781900,
+                "thinkTime": 0.0,
+                "wastedTime": 0.2850053310394287
+            },
+            {
+                "transactionName": "Go_to_registration",
+                "rawStartTime": 1731850781920,
+                "rawEndTime": 1731850782730,
+                "thinkTime": 0.0,
+                "wastedTime": 0.015253543853759766
+            },
+            {
+                "transactionName": "Add_information",
+                "rawStartTime": 1731850782762,
+                "rawEndTime": 1731850784069,
+                "thinkTime": 0.0,
+                "wastedTime": 0.028233051300048829
+            },
+            {
+                "transactionName": "US5_RegistrtionRandomUser",
+                "rawStartTime": 1731850775989,
+                "rawEndTime": 1731850784085,
+                "thinkTime": 0.0,
+                "wastedTime": 0.3284919261932373
+            }
+        ]
+    }
+]

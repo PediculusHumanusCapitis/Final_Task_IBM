@@ -1,0 +1,4 @@
+"{\"seaddress\":{\"addressLine1\":\"Address 1\",\"addressLine2\":\"\",\"city\":\"Saratov\",\"co"
+"untry\":\"ru\",\"postalCode\":123123123,\"state\":\"Sar\"},\"secustomerName\":\"Art Zay\",\"se"
+"customerPhone\":\"+71231231212\",\"senumberOfProducts\":1,\"setransactionType\":\"SHIPPING_COS"
+"T\",\"sessionId\":\"408AB4D5B2519FA95653E905929597F3\"}"

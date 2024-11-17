@@ -1,0 +1,4 @@
+"{"seaddress":{"addressLine1":"Wano Street 5","addressLine2":"","city":"Grand Line","country":""
+"jp","postalCode":500001,"state":"Wano"},"secustomerName":"Roronoa Zoro","secustomerPhone":"+81"
+"880003344","senumberOfProducts":1,"setransactionType":"SHIPPING_COST","sessionId":"ADF1D8A9A35"
+"0D445A5889FD0D7CC0894"}"
