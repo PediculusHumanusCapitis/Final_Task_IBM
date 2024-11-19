@@ -6,91 +6,91 @@
                 "stepId": "STEP21",
                 "stepName": "Url: www.advantageonlineshopping.com",
                 "infFile": "t1.inf",
-                "time": 1731870346040
+                "time": 1731881712679
             },
             {
                 "stepId": "STEP22",
                 "stepName": "Url: ALL",
                 "infFile": "t2.inf",
-                "time": 1731870346426
+                "time": 1731881712964
             },
             {
                 "stepId": "STEP23",
                 "stepName": "Custom Request: GetAccountConfigurationRequest",
                 "infFile": "t3.inf",
-                "time": 1731870347088
+                "time": 1731881713706
             },
             {
                 "stepId": "STEP24",
                 "stepName": "Url: categories",
                 "infFile": "t4.inf",
-                "time": 1731870347885
+                "time": 1731881714515
             },
             {
                 "stepId": "STEP25",
                 "stepName": "Url: search",
                 "infFile": "t5.inf",
-                "time": 1731870348506
+                "time": 1731881715181
             },
             {
                 "stepId": "STEP26",
                 "stepName": "Url: popularProducts.json",
                 "infFile": "t6.inf",
-                "time": 1731870348731
+                "time": 1731881715379
             },
             {
                 "stepId": "STEP27",
                 "stepName": "Url: home-page.html",
                 "infFile": "t7.inf",
-                "time": 1731870349692
+                "time": 1731881716261
             },
             {
                 "stepId": "STEP28",
                 "stepName": "Custom Request: AccountLoginRequest",
                 "infFile": "t8.inf",
-                "time": 1731870350343
+                "time": 1731881716904
             },
             {
                 "stepId": "STEP29",
                 "stepName": "Url: carts",
                 "infFile": "t9.inf",
-                "time": 1731870350637
+                "time": 1731881717642
             },
             {
                 "stepId": "STEP30",
                 "stepName": "Custom Request: AccountLogoutRequest",
                 "infFile": "t10.inf",
-                "time": 1731870351225
+                "time": 1731881718171
             }
         ],
         "transactions": [
             {
                 "transactionName": "Go_To_HomePage",
-                "rawStartTime": 1731870343447,
-                "rawEndTime": 1731870349706,
+                "rawStartTime": 1731881709721,
+                "rawEndTime": 1731881716268,
                 "thinkTime": 0.0,
-                "wastedTime": 0.16740131378173829
+                "wastedTime": 0.16569757461547852
             },
             {
                 "transactionName": "Login",
-                "rawStartTime": 1731870349738,
-                "rawEndTime": 1731870350654,
+                "rawStartTime": 1731881716301,
+                "rawEndTime": 1731881717652,
                 "thinkTime": 0.0,
-                "wastedTime": 0.037764787673950198
+                "wastedTime": 0.03710126876831055
             },
             {
                 "transactionName": "Logout",
-                "rawStartTime": 1731870350686,
-                "rawEndTime": 1731870351241,
+                "rawStartTime": 1731881717684,
+                "rawEndTime": 1731881718186,
                 "thinkTime": 0.0,
-                "wastedTime": 0.019336462020874025
+                "wastedTime": 0.0185086727142334
             },
             {
                 "transactionName": "US1_Authorization",
-                "rawStartTime": 1731870343431,
-                "rawEndTime": 1731870351256,
+                "rawStartTime": 1731881709706,
+                "rawEndTime": 1731881718202,
                 "thinkTime": 0.0,
-                "wastedTime": 0.2245025634765625
+                "wastedTime": 0.22130751609802247
             }
         ]
     }

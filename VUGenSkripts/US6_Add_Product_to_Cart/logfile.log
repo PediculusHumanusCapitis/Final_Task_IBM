@@ -1,0 +1,6 @@
+f:\git\final_task_ibm\vugenskripts\us6_add_product_to_cart\\pre_cci.c: ..\\..\\Transactions\\common_lib.h:130: warning: missing return value
+f:\git\final_task_ibm\vugenskripts\us6_add_product_to_cart\\pre_cci.c: ..\\..\\Transactions\\common_lib.h:149: warning: unrecognized character escape sequence `\/'
+f:\git\final_task_ibm\vugenskripts\us6_add_product_to_cart\\pre_cci.c: ..\\..\\Transactions\\common_lib.h:154: warning: unrecognized character escape sequence `\/'
+f:\git\final_task_ibm\vugenskripts\us6_add_product_to_cart\\pre_cci.c: ..\\..\\Transactions\\common_lib.h:188: warning: missing return value
+f:\git\final_task_ibm\vugenskripts\us6_add_product_to_cart\\pre_cci.c: ..\\..\\Transactions\\common_lib.h:218: warning: missing return value
+f:\git\final_task_ibm\vugenskripts\us6_add_product_to_cart\\pre_cci.c: ..\\..\\Transactions\\common_lib.h:259: warning: missing return value

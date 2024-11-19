@@ -1,4 +1,0 @@
-"{"seaddress":{"addressLine1":"Mt.Sagiri 15","addressLine2":"","city":"Taisho Era","country":"j"
-"p","postalCode":600001,"state":"Mountain"},"secustomerName":"Tanjiro Kamado","secustomerPhone""
-":"+81880004455","senumberOfProducts":1,"setransactionType":"SHIPPING_COST","sessionId":"16B906"
-"CCEC1B5E1961A68A0827B08E6D"}"

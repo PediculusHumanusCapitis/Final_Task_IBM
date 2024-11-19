@@ -1,53 +1,253 @@
-28 11 1731860268 2 202585024 1073093620 1699564
-28 4 US3_Buying_Product 1 1731860269 0 US3_Buying_Product localhost 0 1
+28 11 1731928187 2 303782144 731258424 1699564
+28 4 US3_Buying_Product 31 1731928188 0 US3_Buying_Product localhost 0 1
 28 10 localhost 28 0 0
-28 0 US3_Buying_Product 1 1731860269 0 localhost 0
-28 8 US3_Buying_Product 1  0 0
-28 2 US3_Buying_Product 1 1731860269 0 p 0 0
-28 4 US2_Search_Product 1 1731860284 0 US2_Search_Product localhost 0 1
-28 0 US2_Search_Product 1 1731860284 0 localhost 0
-28 8 US2_Search_Product 1  0 0
-28 2 US2_Search_Product 1 1731860284 0 p 0 0
-28 4 US1_Authorization 1 1731860299 0 US1_Authorization localhost 0 1
-28 0 US1_Authorization 1 1731860299 0 localhost 0
-28 8 US1_Authorization 1  0 0
-28 2 US1_Authorization 1 1731860299 0 p 0 0
-28 4 US3_Buying_Product 5 1731860314 0 US3_Buying_Product localhost 0 1
-28 0 US3_Buying_Product 5 1731860314 0 localhost 0
-28 8 US3_Buying_Product 5  0 0
-28 2 US3_Buying_Product 5 1731860314 0 p 0 0
-28 4 US5_Registration_Random_Users 1 1731860329 0 US5_Registration_Random_Users localhost 0 1
-28 0 US5_Registration_Random_Users 1 1731860329 0 localhost 0
+28 0 US3_Buying_Product 31 1731928188 0 localhost 0
+28 8 US3_Buying_Product 31  0 0
+28 2 US3_Buying_Product 31 1731928188 0 p 0 0
+28 4 US6_Add_Product_to_Cart 1 1731928194 0 US6_Add_Product_to_Cart localhost 0 1
+28 0 US6_Add_Product_to_Cart 1 1731928194 0 localhost 0
+28 8 US6_Add_Product_to_Cart 1  0 0
+28 2 US6_Add_Product_to_Cart 1 1731928194 0 p 0 0
+28 4 US2_Search_Product 16 1731928200 0 US2_Search_Product localhost 0 1
+28 0 US2_Search_Product 16 1731928200 0 localhost 0
+28 8 US2_Search_Product 16  0 0
+28 2 US2_Search_Product 16 1731928200 0 p 0 0
+28 4 US3_Buying_Product 32 1731928205 0 US3_Buying_Product localhost 0 1
+28 0 US3_Buying_Product 32 1731928205 0 localhost 0
+28 8 US3_Buying_Product 32  0 0
+28 2 US3_Buying_Product 32 1731928205 0 p 0 0
+28 4 US1_Authorization 14 1731928212 0 US1_Authorization localhost 0 1
+28 0 US1_Authorization 14 1731928212 0 localhost 0
+28 8 US1_Authorization 14  0 0
+28 2 US1_Authorization 14 1731928212 0 p 0 0
+28 4 US5_Registration_Random_Users 1 1731928218 0 US5_Registration_Random_Users localhost 0 1
+28 0 US5_Registration_Random_Users 1 1731928218 0 localhost 0
 28 8 US5_Registration_Random_Users 1  0 0
-28 2 US5_Registration_Random_Users 1 1731860329 0 p 0 0
-28 4 US2_Search_Product 5 1731860344 0 US2_Search_Product localhost 0 1
-28 0 US2_Search_Product 5 1731860344 0 localhost 0
-28 8 US2_Search_Product 5  0 0
-28 2 US2_Search_Product 5 1731860344 0 p 0 0
-28 4 US3_Buying_Product 7 1731860359 0 US3_Buying_Product localhost 0 1
-28 0 US3_Buying_Product 7 1731860359 0 localhost 0
-28 8 US3_Buying_Product 7  0 0
-28 2 US3_Buying_Product 7 1731860359 0 p 0 0
-28 4 US1_Authorization 2 1731860374 0 US1_Authorization localhost 0 1
-28 0 US1_Authorization 2 1731860374 0 localhost 0
-28 8 US1_Authorization 2  0 0
-28 2 US1_Authorization 2 1731860374 0 p 0 0
-28 4 US2_Search_Product 6 1731860389 0 US2_Search_Product localhost 0 1
-28 0 US2_Search_Product 6 1731860389 0 localhost 0
-28 8 US2_Search_Product 6  0 0
-28 2 US2_Search_Product 6 1731860389 0 p 0 0
-28 4 US3_Buying_Product 8 1731860404 0 US3_Buying_Product localhost 0 1
-28 0 US3_Buying_Product 8 1731860404 0 localhost 0
-28 8 US3_Buying_Product 8  0 0
-28 2 US3_Buying_Product 8 1731860404 0 p 0 0
-28 1 US1_Authorization 2 1731860637 0 2
-28 1 US5_Registration_Random_Users 1 1731860637 0 2
-28 1 US1_Authorization 1 1731860637 0 2
-28 1 US3_Buying_Product 8 1731860637 0 2
-28 1 US3_Buying_Product 5 1731860637 0 2
-28 1 US3_Buying_Product 1 1731860637 0 2
-28 1 US2_Search_Product 5 1731860637 0 2
-28 1 US3_Buying_Product 7 1731860637 0 2
-28 1 US2_Search_Product 6 1731860637 0 2
-28 1 US2_Search_Product 1 1731860637 0 2
-28 12 1731860638 0 1731860638 0 1731860638
+28 2 US5_Registration_Random_Users 1 1731928218 0 p 0 0
+28 4 US3_Buying_Product 33 1731928223 0 US3_Buying_Product localhost 0 1
+28 0 US3_Buying_Product 33 1731928223 0 localhost 0
+28 8 US3_Buying_Product 33  0 0
+28 2 US3_Buying_Product 33 1731928223 0 p 0 0
+28 4 US6_Add_Product_to_Cart 2 1731928229 0 US6_Add_Product_to_Cart localhost 0 1
+28 0 US6_Add_Product_to_Cart 2 1731928229 0 localhost 0
+28 8 US6_Add_Product_to_Cart 2  0 0
+28 2 US6_Add_Product_to_Cart 2 1731928229 0 p 0 0
+28 4 US2_Search_Product 17 1731928235 0 US2_Search_Product localhost 0 1
+28 0 US2_Search_Product 17 1731928235 0 localhost 0
+28 8 US2_Search_Product 17  0 0
+28 2 US2_Search_Product 17 1731928235 0 p 0 0
+28 4 US3_Buying_Product 34 1731928241 0 US3_Buying_Product localhost 0 1
+28 0 US3_Buying_Product 34 1731928241 0 localhost 0
+28 8 US3_Buying_Product 34  0 0
+28 2 US3_Buying_Product 34 1731928241 0 p 0 0
+28 4 US3_Buying_Product 35 1731929561 0 US3_Buying_Product localhost 0 1
+28 0 US3_Buying_Product 35 1731929562 0 localhost 0
+28 8 US3_Buying_Product 35  0 0
+28 2 US3_Buying_Product 35 1731929562 0 p 0 0
+28 4 US6_Add_Product_to_Cart 3 1731929568 0 US6_Add_Product_to_Cart localhost 0 1
+28 0 US6_Add_Product_to_Cart 3 1731929568 0 localhost 0
+28 8 US6_Add_Product_to_Cart 3  0 0
+28 2 US6_Add_Product_to_Cart 3 1731929568 0 p 0 0
+28 4 US2_Search_Product 18 1731929574 0 US2_Search_Product localhost 0 1
+28 0 US2_Search_Product 18 1731929574 0 localhost 0
+28 8 US2_Search_Product 18  0 0
+28 2 US2_Search_Product 18 1731929574 0 p 0 0
+28 4 US3_Buying_Product 36 1731929580 0 US3_Buying_Product localhost 0 1
+28 0 US3_Buying_Product 36 1731929580 0 localhost 0
+28 8 US3_Buying_Product 36  0 0
+28 2 US3_Buying_Product 36 1731929580 0 p 0 0
+28 4 US1_Authorization 15 1731929586 0 US1_Authorization localhost 0 1
+28 0 US1_Authorization 15 1731929586 0 localhost 0
+28 8 US1_Authorization 15  0 0
+28 2 US1_Authorization 15 1731929586 0 p 0 0
+28 4 US5_Registration_Random_Users 2 1731929592 0 US5_Registration_Random_Users localhost 0 1
+28 0 US5_Registration_Random_Users 2 1731929592 0 localhost 0
+28 8 US5_Registration_Random_Users 2  0 0
+28 2 US5_Registration_Random_Users 2 1731929592 0 p 0 0
+28 4 US3_Buying_Product 37 1731929598 0 US3_Buying_Product localhost 0 1
+28 0 US3_Buying_Product 37 1731929598 0 localhost 0
+28 8 US3_Buying_Product 37  0 0
+28 2 US3_Buying_Product 37 1731929598 0 p 0 0
+28 4 US6_Add_Product_to_Cart 4 1731929604 0 US6_Add_Product_to_Cart localhost 0 1
+28 0 US6_Add_Product_to_Cart 4 1731929604 0 localhost 0
+28 8 US6_Add_Product_to_Cart 4  0 0
+28 2 US6_Add_Product_to_Cart 4 1731929604 0 p 0 0
+28 4 US2_Search_Product 20 1731929610 0 US2_Search_Product localhost 0 1
+28 0 US2_Search_Product 20 1731929610 0 localhost 0
+28 8 US2_Search_Product 20  0 0
+28 2 US2_Search_Product 20 1731929610 0 p 0 0
+28 4 US3_Buying_Product 38 1731929616 0 US3_Buying_Product localhost 0 1
+28 0 US3_Buying_Product 38 1731929616 0 localhost 0
+28 8 US3_Buying_Product 38  0 0
+28 2 US3_Buying_Product 38 1731929616 0 p 0 0
+28 4 US3_Buying_Product 39 1731930936 0 US3_Buying_Product localhost 0 1
+28 0 US3_Buying_Product 39 1731930936 0 localhost 0
+28 8 US3_Buying_Product 39  0 0
+28 2 US3_Buying_Product 39 1731930936 0 p 0 0
+28 4 US6_Add_Product_to_Cart 5 1731930942 0 US6_Add_Product_to_Cart localhost 0 1
+28 0 US6_Add_Product_to_Cart 5 1731930942 0 localhost 0
+28 8 US6_Add_Product_to_Cart 5  0 0
+28 2 US6_Add_Product_to_Cart 5 1731930942 0 p 0 0
+28 4 US2_Search_Product 21 1731930948 0 US2_Search_Product localhost 0 1
+28 0 US2_Search_Product 21 1731930948 0 localhost 0
+28 8 US2_Search_Product 21  0 0
+28 2 US2_Search_Product 21 1731930948 0 p 0 0
+28 4 US3_Buying_Product 40 1731930954 0 US3_Buying_Product localhost 0 1
+28 0 US3_Buying_Product 40 1731930954 0 localhost 0
+28 8 US3_Buying_Product 40  0 0
+28 2 US3_Buying_Product 40 1731930954 0 p 0 0
+28 4 US1_Authorization 17 1731930960 0 US1_Authorization localhost 0 1
+28 0 US1_Authorization 17 1731930960 0 localhost 0
+28 8 US1_Authorization 17  0 0
+28 2 US1_Authorization 17 1731930960 0 p 0 0
+28 4 US5_Registration_Random_Users 6 1731930966 0 US5_Registration_Random_Users localhost 0 1
+28 0 US5_Registration_Random_Users 6 1731930966 0 localhost 0
+28 8 US5_Registration_Random_Users 6  0 0
+28 2 US5_Registration_Random_Users 6 1731930966 0 p 0 0
+28 4 US3_Buying_Product 41 1731930972 0 US3_Buying_Product localhost 0 1
+28 0 US3_Buying_Product 41 1731930972 0 localhost 0
+28 8 US3_Buying_Product 41  0 0
+28 2 US3_Buying_Product 41 1731930972 0 p 0 0
+28 4 US6_Add_Product_to_Cart 7 1731930978 0 US6_Add_Product_to_Cart localhost 0 1
+28 0 US6_Add_Product_to_Cart 7 1731930978 0 localhost 0
+28 8 US6_Add_Product_to_Cart 7  0 0
+28 2 US6_Add_Product_to_Cart 7 1731930978 0 p 0 0
+28 4 US2_Search_Product 22 1731930984 0 US2_Search_Product localhost 0 1
+28 0 US2_Search_Product 22 1731930984 0 localhost 0
+28 8 US2_Search_Product 22  0 0
+28 2 US2_Search_Product 22 1731930984 0 p 0 0
+28 4 US3_Buying_Product 42 1731930990 0 US3_Buying_Product localhost 0 1
+28 0 US3_Buying_Product 42 1731930990 0 localhost 0
+28 8 US3_Buying_Product 42  0 0
+28 2 US3_Buying_Product 42 1731930990 0 p 0 0
+28 4 US3_Buying_Product 43 1731932310 0 US3_Buying_Product localhost 0 1
+28 0 US3_Buying_Product 43 1731932310 0 localhost 0
+28 8 US3_Buying_Product 43  0 0
+28 2 US3_Buying_Product 43 1731932310 0 p 0 0
+28 4 US6_Add_Product_to_Cart 8 1731932316 0 US6_Add_Product_to_Cart localhost 0 1
+28 0 US6_Add_Product_to_Cart 8 1731932316 0 localhost 0
+28 8 US6_Add_Product_to_Cart 8  0 0
+28 2 US6_Add_Product_to_Cart 8 1731932316 0 p 0 0
+28 4 US2_Search_Product 23 1731932322 0 US2_Search_Product localhost 0 1
+28 0 US2_Search_Product 23 1731932322 0 localhost 0
+28 8 US2_Search_Product 23  0 0
+28 2 US2_Search_Product 23 1731932322 0 p 0 0
+28 4 US3_Buying_Product 44 1731932328 0 US3_Buying_Product localhost 0 1
+28 0 US3_Buying_Product 44 1731932328 0 localhost 0
+28 8 US3_Buying_Product 44  0 0
+28 2 US3_Buying_Product 44 1731932329 0 p 0 0
+28 4 US1_Authorization 18 1731932334 0 US1_Authorization localhost 0 1
+28 0 US1_Authorization 18 1731932335 0 localhost 0
+28 8 US1_Authorization 18  0 0
+28 2 US1_Authorization 18 1731932335 0 p 0 0
+28 4 US5_Registration_Random_Users 7 1731932341 0 US5_Registration_Random_Users localhost 0 1
+28 0 US5_Registration_Random_Users 7 1731932341 0 localhost 0
+28 8 US5_Registration_Random_Users 7  0 0
+28 2 US5_Registration_Random_Users 7 1731932341 0 p 0 0
+28 4 US3_Buying_Product 45 1731932347 0 US3_Buying_Product localhost 0 1
+28 0 US3_Buying_Product 45 1731932347 0 localhost 0
+28 8 US3_Buying_Product 45  0 0
+28 2 US3_Buying_Product 45 1731932347 0 p 0 0
+28 4 US6_Add_Product_to_Cart 9 1731932353 0 US6_Add_Product_to_Cart localhost 0 1
+28 0 US6_Add_Product_to_Cart 9 1731932353 0 localhost 0
+28 8 US6_Add_Product_to_Cart 9  0 0
+28 2 US6_Add_Product_to_Cart 9 1731932353 0 p 0 0
+28 4 US2_Search_Product 24 1731932359 0 US2_Search_Product localhost 0 1
+28 0 US2_Search_Product 24 1731932359 0 localhost 0
+28 8 US2_Search_Product 24  0 0
+28 2 US2_Search_Product 24 1731932359 0 p 0 0
+28 4 US3_Buying_Product 46 1731932365 0 US3_Buying_Product localhost 0 1
+28 0 US3_Buying_Product 46 1731932365 0 localhost 0
+28 8 US3_Buying_Product 46  0 0
+28 2 US3_Buying_Product 46 1731932365 0 p 0 0
+28 4 US3_Buying_Product 47 1731933685 0 US3_Buying_Product localhost 0 1
+28 0 US3_Buying_Product 47 1731933685 0 localhost 0
+28 8 US3_Buying_Product 47  0 0
+28 2 US3_Buying_Product 47 1731933685 0 p 0 0
+28 4 US6_Add_Product_to_Cart 10 1731933691 0 US6_Add_Product_to_Cart localhost 0 1
+28 0 US6_Add_Product_to_Cart 10 1731933691 0 localhost 0
+28 8 US6_Add_Product_to_Cart 10  0 0
+28 2 US6_Add_Product_to_Cart 10 1731933691 0 p 0 0
+28 4 US2_Search_Product 25 1731933697 0 US2_Search_Product localhost 0 1
+28 0 US2_Search_Product 25 1731933697 0 localhost 0
+28 8 US2_Search_Product 25  0 0
+28 2 US2_Search_Product 25 1731933697 0 p 0 0
+28 4 US3_Buying_Product 48 1731933703 0 US3_Buying_Product localhost 0 1
+28 0 US3_Buying_Product 48 1731933703 0 localhost 0
+28 8 US3_Buying_Product 48  0 0
+28 2 US3_Buying_Product 48 1731933703 0 p 0 0
+28 4 US1_Authorization 20 1731933709 0 US1_Authorization localhost 0 1
+28 0 US1_Authorization 20 1731933709 0 localhost 0
+28 8 US1_Authorization 20  0 0
+28 2 US1_Authorization 20 1731933709 0 p 0 0
+28 4 US5_Registration_Random_Users 8 1731933715 0 US5_Registration_Random_Users localhost 0 1
+28 0 US5_Registration_Random_Users 8 1731933715 0 localhost 0
+28 8 US5_Registration_Random_Users 8  0 0
+28 2 US5_Registration_Random_Users 8 1731933715 0 p 0 0
+28 4 US3_Buying_Product 49 1731933721 0 US3_Buying_Product localhost 0 1
+28 0 US3_Buying_Product 49 1731933721 0 localhost 0
+28 8 US3_Buying_Product 49  0 0
+28 2 US3_Buying_Product 49 1731933721 0 p 0 0
+28 4 US6_Add_Product_to_Cart 11 1731933727 0 US6_Add_Product_to_Cart localhost 0 1
+28 0 US6_Add_Product_to_Cart 11 1731933727 0 localhost 0
+28 8 US6_Add_Product_to_Cart 11  0 0
+28 2 US6_Add_Product_to_Cart 11 1731933727 0 p 0 0
+28 4 US2_Search_Product 26 1731933733 0 US2_Search_Product localhost 0 1
+28 0 US2_Search_Product 26 1731933733 0 localhost 0
+28 8 US2_Search_Product 26  0 0
+28 2 US2_Search_Product 26 1731933733 0 p 0 0
+28 4 US3_Buying_Product 50 1731933739 0 US3_Buying_Product localhost 0 1
+28 0 US3_Buying_Product 50 1731933739 0 localhost 0
+28 8 US3_Buying_Product 50  0 0
+28 2 US3_Buying_Product 50 1731933739 0 p 0 0
+28 1 US5_Registration_Random_Users 1 1731935064 0 2
+28 1 US3_Buying_Product 34 1731935069 0 2
+28 1 US6_Add_Product_to_Cart 3 1731935073 0 2
+28 1 US3_Buying_Product 32 1731935076 0 2
+28 1 US1_Authorization 14 1731935077 0 2
+28 1 US2_Search_Product 18 1731935084 0 2
+28 1 US1_Authorization 15 1731935085 0 2
+28 1 US2_Search_Product 20 1731935086 0 2
+28 1 US5_Registration_Random_Users 2 1731935088 0 2
+28 1 US2_Search_Product 16 1731935089 0 2
+28 1 US5_Registration_Random_Users 6 1731935089 0 2
+28 1 US2_Search_Product 17 1731935094 0 2
+28 1 US1_Authorization 17 1731935095 0 2
+28 1 US3_Buying_Product 36 1731935095 0 2
+28 1 US6_Add_Product_to_Cart 4 1731935095 0 2
+28 1 US2_Search_Product 22 1731935097 0 2
+28 1 US2_Search_Product 21 1731935097 0 2
+28 1 US1_Authorization 18 1731935100 0 2
+28 1 US3_Buying_Product 38 1731935102 0 2
+28 1 US3_Buying_Product 37 1731935102 0 2
+28 1 US2_Search_Product 23 1731935105 0 2
+28 1 US2_Search_Product 25 1731935106 0 2
+28 1 US5_Registration_Random_Users 8 1731935106 0 2
+28 1 US6_Add_Product_to_Cart 1 1731935107 0 2
+28 1 US5_Registration_Random_Users 7 1731935107 0 2
+28 1 US6_Add_Product_to_Cart 5 1731935110 0 2
+28 1 US3_Buying_Product 39 1731935110 0 2
+28 1 US2_Search_Product 26 1731935112 0 2
+28 1 US1_Authorization 20 1731935112 0 2
+28 1 US2_Search_Product 24 1731935113 0 2
+28 1 US6_Add_Product_to_Cart 2 1731935113 0 2
+28 1 US6_Add_Product_to_Cart 9 1731935116 0 2
+28 1 US6_Add_Product_to_Cart 7 1731935116 0 2
+28 1 US3_Buying_Product 31 1731935117 0 2
+28 1 US3_Buying_Product 40 1731935118 0 2
+28 1 US3_Buying_Product 42 1731935121 0 2
+28 1 US3_Buying_Product 41 1731935127 0 2
+28 1 US6_Add_Product_to_Cart 11 1731935129 0 2
+28 1 US6_Add_Product_to_Cart 10 1731935129 0 2
+28 1 US3_Buying_Product 33 1731935129 0 2
+28 1 US3_Buying_Product 47 1731935129 0 2
+28 1 US6_Add_Product_to_Cart 8 1731935130 0 2
+28 1 US3_Buying_Product 49 1731935137 0 2
+28 1 US3_Buying_Product 35 1731935138 0 2
+28 1 US3_Buying_Product 43 1731935138 0 2
+28 1 US3_Buying_Product 48 1731935139 0 2
+28 1 US3_Buying_Product 50 1731935142 0 2
+28 1 US3_Buying_Product 44 1731935145 0 2
+28 1 US3_Buying_Product 45 1731935147 0 2
+28 1 US3_Buying_Product 46 1731935149 0 2
+28 12 1731935150 1 1731935150 0 1731935150

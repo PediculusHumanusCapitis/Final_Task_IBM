@@ -1,0 +1,2 @@
+[Hosts]
+localhost=f:\git\final_task_ibm\results\res_test_stability\localhost_93.eve

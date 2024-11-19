@@ -1,4 +1,0 @@
-"{"seaddress":{"addressLine1":"Morio 12","addressLine2":"","city":"Tokio","country":"jp","posta"
-"lCode":3322,"state":"Hakaido"},"secustomerName":"Jotaro Kujo","secustomerPhone":"+71112223344""
-","senumberOfProducts":1,"setransactionType":"SHIPPING_COST","sessionId":"867EFEED62822842BCD32"
-"0A3937D51AB"}"

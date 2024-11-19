@@ -2730,7 +2730,7 @@ GoToHomePage(){
         lr_save_string(lr_paramarr_random("categoryId"), "randomCategory");
 
         lr_end_transaction("Go_To_HomePage",2);
-	    lr_think_time(5);
+        lr_think_time(2);
 }
 Login(){
         lr_start_transaction("Login");
@@ -2788,7 +2788,7 @@ Login(){
 
         lr_end_transaction("Login",2);
         
-        lr_think_time(5);
+        lr_think_time(2);
 }
 Logout(){
         lr_start_transaction("Logout");
@@ -2859,7 +2859,7 @@ Search_Product(){
 		"LAST");
     lr_save_string(lr_paramarr_random("productId"), "randomProduct");
 	lr_end_transaction("Search_Product",2);
-    lr_think_time(5);
+    lr_think_time(2);
 }
 # 14 "globals.h" 2
 
@@ -2961,10 +2961,10 @@ Action()
 
 	lr_end_transaction("Add_to_Cart",2);
 
-	lr_think_time(5);
+	lr_think_time(2);
 
 	lr_start_transaction("Go_to_cart");
-	web_reg_find("Text=\"code\":\"{randomColor}\",\"name","LAST");
+	
 	web_url("964281101_2", 
 		"URL=https://www.advantageonlineshopping.com/order/api/v1/carts/{userId_1}", 
 		"Resource=0", 
@@ -2985,7 +2985,9 @@ Action()
 		"LAST");
 
 	lr_end_transaction("Go_to_cart",2);
-
+	
+	lr_think_time(2);
+	
 	lr_start_transaction("Checkout");
 
 	web_add_header("SOAPAction", 
@@ -3107,7 +3109,7 @@ Action()
 
 	lr_end_transaction("Checkout",2);
 
-	lr_think_time(5);
+	lr_think_time(2);
 	
 	lr_start_transaction("PayNow");
 	web_reg_find("Text=Successful","LAST");
@@ -3132,7 +3134,6 @@ Action()
 		"LAST");
 
 	(web_remove_auto_header("X-Requested-With", "ImplicitGen=Yes", "LAST"));
-	web_reg_find("Text=order completed successfully","LAST");
 	web_custom_request("964281101_4", 
 		"URL=https://www.advantageonlineshopping.com/order/api/v1/orders/users/{userId_1}", 
 		"Method=POST", 
@@ -3159,7 +3160,7 @@ Action()
 		"LAST");
 
 	lr_end_transaction("PayNow",2);
-	lr_think_time(5);
+	lr_think_time(2);
 
 	Logout();
 

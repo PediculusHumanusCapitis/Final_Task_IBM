@@ -126,7 +126,7 @@ GoToHomePage(){
         lr_save_string(lr_paramarr_random("categoryId"), "randomCategory");
 
         lr_end_transaction("Go_To_HomePage",LR_AUTO);
-	    lr_think_time(5);
+        lr_think_time(2);
 }
 Login(){
         lr_start_transaction("Login");
@@ -184,7 +184,7 @@ Login(){
 
         lr_end_transaction("Login",LR_AUTO);
         
-        lr_think_time(5);
+        lr_think_time(2);
 }
 Logout(){
         lr_start_transaction("Logout");
@@ -255,5 +255,5 @@ Search_Product(){
 		LAST);
     lr_save_string(lr_paramarr_random("productId"), "randomProduct");
 	lr_end_transaction("Search_Product",LR_AUTO);
-    lr_think_time(5);
+    lr_think_time(2);
 }

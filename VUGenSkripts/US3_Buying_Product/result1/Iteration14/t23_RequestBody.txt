@@ -1,4 +1,0 @@
-"{"seaddress":{"addressLine1":"Dimension C-137","addressLine2":"","city":"Seattle","country":"u"
-"s","postalCode":98101,"state":"Washington"},"secustomerName":"Rick Sanchez","secustomerPhone":"
-""+12065550404","senumberOfProducts":1,"setransactionType":"SHIPPING_COST","sessionId":"AE21BB1"
-"622591BA115B46079E434A6D1"}"

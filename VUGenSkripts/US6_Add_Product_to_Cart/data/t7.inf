@@ -1,0 +1,17 @@
+[t7]
+FileName1=t7.htm
+URL1=https://www.advantageonlineshopping.com/app/views/home-page.html
+Total=4
+RequestHeaderFile=t7_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t7_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_7.xml
+FileName2=t7_Special-offer.jpg
+URL2=https://www.advantageonlineshopping.com/css/images/Special-offer.jpg
+FileName3=t7_chat_logo.png
+URL3=https://www.advantageonlineshopping.com/css/images/chat_logo.png
+FileName4=t7_GoUp.png
+URL4=https://www.advantageonlineshopping.com/css/images/GoUp.png
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,49 @@
+[Scenario]
+Product=LoadRunner Controller
+Version=2020.0.0.0
+Path=F:\Git\Final_Task_IBM\Controller\Scenario_stability.lrs
+Subject=Scenario_search_max
+Result_file=f:\git\final_task_ibm\results\res_test_stability\res_test_stability.lrr
+Description=
+ResultName=res_test_stability
+Time_Zone=-14400
+Start_time=1731959422
+Daylight_Bias=0
+Stop_time=1731965033
+
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+
+[Data Collection]
+FullData=1
+SummaryEnded=1
+
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 10 Vusers: 1 every 00:00:06 (HH:MM:SS); Run for 01:32:00 (HH:MM:SS); Stop all Vusers: 1 every 00:00:01 (HH:MM:SS)
+Load Behavior=Initialize each Vuser just before it runs
+Global Schedule=ST10_1E6;R5520;SP10_1E1;
+
+[Scripts]
+US3_Buying_Product=F:\Git\Final_Task_IBM\VUGenSkripts\US3_Buying_Product\US3_Buying_Product.usr
+US6_Add_Product_to_Cart=F:\Git\Final_Task_IBM\VUGenSkripts\US6_Add_Product_to_Cart\US6_Add_Product_to_Cart.usr
+US2_Search_Product=F:\Git\Final_Task_IBM\VUGenSkripts\US2_Search_Product\US2_Search_Product.usr
+US1_Authorization=F:\Git\Final_Task_IBM\VUGenSkripts\US1_Authorization\US1_Authorization.usr
+US5_Registration_Random_Users=F:\Git\Final_Task_IBM\VUGenSkripts\US5_Registration_Random_Users\US5_Registration_Random_Users.usr
+
+[Scripts_types]
+US3_Buying_Product=Multi+QTWeb
+US6_Add_Product_to_Cart=Multi+QTWeb
+US2_Search_Product=Multi+QTWeb
+US1_Authorization=Multi+QTWeb
+US5_Registration_Random_Users=Multi+QTWeb
+

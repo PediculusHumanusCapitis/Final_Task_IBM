@@ -112,7 +112,7 @@
       "Domains": [
         {
           "HTTPVersion": "HTTP/1.1",
-          "IP": "142.250.74.99",
+          "IP": "64.233.180.94",
           "IncludeInScript": false,
           "Name": "o.pki.goog",
           "Port": 80,
@@ -373,7 +373,7 @@
       "Domains": [
         {
           "HTTPVersion": "HTTP/1.1",
-          "IP": "128.75.237.145",
+          "IP": "128.75.237.147",
           "IncludeInScript": false,
           "Name": "r11.o.lencr.org",
           "Port": 80,
@@ -411,7 +411,7 @@
         },
         {
           "HTTPVersion": "HTTP/1.1",
-          "IP": "128.75.237.145",
+          "IP": "128.75.237.161",
           "IncludeInScript": false,
           "Name": "r10.o.lencr.org",
           "Port": 80,

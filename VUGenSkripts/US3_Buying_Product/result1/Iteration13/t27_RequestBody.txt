@@ -1,7 +1,0 @@
-"<?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/so"
-"ap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.o"
-"rg/2001/XMLSchema"><soap:Body><UpdateMasterCreditMethodRequest xmlns="com.advantage.online.sto"
-"re.accountservice"><userId>451637020</userId><cardNumber>4886678901234567</cardNumber><expirat"
-"ionDate>062027</expirationDate><cvvNumber>116</cvvNumber><customerName>john</customerName><ref"
-"erenceId>1234567890</referenceId><base64Token>Basic Sm9objg3OldhdHNvbjEyMw==</base64Token></Up"
-"dateMasterCreditMethodRequest></soap:Body></soap:Envelope>"

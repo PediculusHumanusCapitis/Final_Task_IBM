@@ -1,0 +1,10 @@
+[t45]
+FileName1=t45_product-page.html
+URL1=https://www.advantageonlineshopping.com/app/views/product-page.html
+Total=3
+ContentType=image/jpeg
+SnapshotXmlFile=snapshot_45.xml
+FileName2=t45_fetchImage.jpg
+URL2=https://www.advantageonlineshopping.com/catalog/fetchImage?image_id=3202
+FileName3=t45_fetchImage.jpg
+URL3=https://www.advantageonlineshopping.com/catalog/fetchImage?image_id=3201

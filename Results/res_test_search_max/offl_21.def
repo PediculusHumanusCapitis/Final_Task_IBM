@@ -1,10 +1,10 @@
 [Graph definition]
 count=1
-GraphTitle=System Cache Resident Bytes (Memory)
+GraphTitle=File Data Operations/sec (System)
 DataPointLabel_1=offline_datapoint_21
-LineTitle_1=Local
+LineTitle_1=localhost
 LineGroup_1=0
-YAxisTitle=System Cache Resident Bytes (Memory)
+YAxisTitle=File Data Operations/sec (System)
 GraphGroupMenuTitle=Windows Resources
 XAxisTitle=Elapsed Scenario Time (seconds)
 XAxisIsElapsedTime=TRUE
@@ -15,4 +15,4 @@ MissingData=PREVIOUS
 GranularityMode=NOTINCLUDEZERO
 NoDataBehavior=RemoveGraph
 GraphType=es_rm_svr_res_nt
-DataPointDescr_1=System Cache Resident Bytes is the size, in bytes, of the pageable operating system code in the file system cache. This value includes only current physical pages and does not include any virtual memory pages not currently resident. It does equal the System Cache value shown in Task Manager. As a result, this value may be smaller than the actual amount of virtual memory in use by the file system cache. This value is a component of Memory\System Code Resident Bytes which represents all pageable operating system code that is currently in physical memory. This counter displays the last observed value only; it is not an average.
+DataPointDescr_1=File Data Operations per second is the rate that the computer is issuing Read and Write operations to file system devices.  It does not include File Control Operations.

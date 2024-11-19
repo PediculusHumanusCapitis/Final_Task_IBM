@@ -1,4 +1,0 @@
-"{"seaddress":{"addressLine1":"Hawkins Street 4","addressLine2":"","city":"Hawkins","country":""
-"us","postalCode":46001,"state":"Indiana"},"secustomerName":"Eleven Ives","secustomerPhone":"+1"
-"8125551010","senumberOfProducts":1,"setransactionType":"SHIPPING_COST","sessionId":"9137E74DEE"
-"8F0B2AEED763100CEC487D"}"

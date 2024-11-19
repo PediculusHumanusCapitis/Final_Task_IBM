@@ -15,7 +15,7 @@ Action()
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 
 	web_set_user("ArtZay", 
-		lr_unmask("673902f7e38a7cc43f67f6b3"), 
+		lr_unmask("673a69b9b09e9e0ff4d4c5b6"), 
 		"www.advantageonlineshopping.com:443");
 
 	web_add_cookie("_ga_TBPYED8WSW=GS1.1.1731789014.4.1.1731789463.0.0.0; DOMAIN=www.advantageonlineshopping.com");
@@ -58,7 +58,7 @@ Action()
 		"URL=https://www.advantageonlineshopping.com/", 
 		"Resource=0", 
 		"Referer=", 
-		"Snapshot=t83.inf", 
+		"Snapshot=t5.inf", 
 		"Mode=HTML", 
 		EXTRARES, 
 		"Url=/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff", "Referer=https://www.advantageonlineshopping.com/css/main.min.css", ENDITEM, 
@@ -85,7 +85,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://www.advantageonlineshopping.com/", 
-		"Snapshot=t84.inf", 
+		"Snapshot=t7.inf", 
 		"Mode=HTML", 
 		LAST);
 
@@ -104,7 +104,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=text/xml", 
 		"Referer=https://www.advantageonlineshopping.com/", 
-		"Snapshot=t85.inf", 
+		"Snapshot=t8.inf", 
 		"Mode=HTML", 
 		"EncType=text/xml; charset=UTF-8", 
 		"Body=<?xml version=\"1.0\" encoding=\"UTF-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><GetAccountConfigurationRequest xmlns=\"com.advantage.online.store.accountservice\"></GetAccountConfigurationRequest></soap:Body></soap:Envelope>", 
@@ -119,7 +119,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://www.advantageonlineshopping.com/", 
-		"Snapshot=t86.inf", 
+		"Snapshot=t11.inf", 
 		"Mode=HTML", 
 		LAST);
 
@@ -128,7 +128,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://www.advantageonlineshopping.com/", 
-		"Snapshot=t87.inf", 
+		"Snapshot=t13.inf", 
 		"Mode=HTML", 
 		LAST);
 
@@ -137,7 +137,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://www.advantageonlineshopping.com/", 
-		"Snapshot=t88.inf", 
+		"Snapshot=t14.inf", 
 		"Mode=HTML", 
 		LAST);
 
@@ -146,7 +146,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=https://www.advantageonlineshopping.com/", 
-		"Snapshot=t89.inf", 
+		"Snapshot=t15.inf", 
 		"Mode=HTML", 
 		EXTRARES, 
 		"Url=/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff", "Referer=https://www.advantageonlineshopping.com/css/main.min.css", ENDITEM, 
@@ -175,7 +175,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=text/xml", 
 		"Referer=https://www.advantageonlineshopping.com/", 
-		"Snapshot=t90.inf", 
+		"Snapshot=t17.inf", 
 		"Mode=HTML", 
 		"EncType=text/xml; charset=UTF-8", 
 		"Body=<?xml version=\"1.0\" encoding=\"UTF-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><AccountLoginRequest xmlns=\"com.advantage.online.store.accountservice\"><email></email><loginPassword>Haha0070</loginPassword><loginUser>ArtZay</loginUser></AccountLoginRequest></soap:Body></soap:Envelope>", 
@@ -190,7 +190,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://www.advantageonlineshopping.com/", 
-		"Snapshot=t91.inf", 
+		"Snapshot=t18.inf", 
 		"Mode=HTML", 
 		LAST);
 
@@ -218,7 +218,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=text/xml", 
 		"Referer=https://www.advantageonlineshopping.com/", 
-		"Snapshot=t92.inf", 
+		"Snapshot=t19.inf", 
 		"Mode=HTML", 
 		"EncType=text/xml; charset=UTF-8", 
 		"Body=<?xml version=\"1.0\" encoding=\"UTF-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><AccountLogoutRequest xmlns=\"com.advantage.online.store.accountservice\"><loginUser>964281101</loginUser><base64Token>Basic QXJ0WmF5OkhhaGEwMDcw</base64Token></AccountLogoutRequest></soap:Body></soap:Envelope>", 

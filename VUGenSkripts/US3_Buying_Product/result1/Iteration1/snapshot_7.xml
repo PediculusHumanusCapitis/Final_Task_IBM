@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HTTPSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="7">
-  <HTTPTask id="18" hostname="www.advantageonlineshopping.com" path="/app/views/home-page.html" url="https://www.advantageonlineshopping.com/app/views/home-page.html" ip="54.227.55.203" port="443" client_ip="192.168.1.64" client_port="13153" connectionId="2488" origin="Primary" encodingType="ANSI" startDateTime="2024-11-17T22:28:03.369+04:00" startTime="5128" endTime="5303" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="4294967295" waitTime="4294967295" receiveTime="36" sslNegotiateTime="-1" responseBodySize="2506">
+  <HTTPTask id="18" hostname="www.advantageonlineshopping.com" path="/app/views/home-page.html" url="https://www.advantageonlineshopping.com/app/views/home-page.html" ip="54.227.55.203" port="443" client_ip="192.168.1.64" client_port="19229" connectionId="2384" origin="Primary" encodingType="ANSI" startDateTime="2024-11-18T07:25:02.034+04:00" startTime="5077" endTime="5267" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="4294967295" waitTime="4294967295" receiveTime="47" sslNegotiateTime="-1" responseBodySize="2506">
     <HTTPRequest method="GET">
       <HTTPHeaders>
         <HTTPHeaderEntity name=":method" index="0">
@@ -135,7 +135,7 @@
         <HTTPHeaderEntity name="date" index="2">
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>U3VuLCAxNyBOb3YgMjAyNCAxODoyODowMyBHTVQ=</ActualData>
+              <ActualData>TW9uLCAxOCBOb3YgMjAyNCAwMzoyNTowMCBHTVQ=</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
@@ -183,7 +183,7 @@
         <HTTPHeaderEntity name="expires" index="8">
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>U3VuLCAxNyBOb3YgMjAyNCAxODoyODowMyBHTVQ=</ActualData>
+              <ActualData>TW9uLCAxOCBOb3YgMjAyNCAwMzoyNTowMCBHTVQ=</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
@@ -215,7 +215,7 @@
         <HTTPAllHeaders>
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>SFRUUC8yLjAgMjAwDQpTdGF0dXM6IDIwMA0Kc2VydmVyOiBuZ2lueC8xLjE4LjAgKFVidW50dSkNCmRhdGU6IFN1biwgMTcgTm92IDIwMjQgMTg6Mjg6MDMgR01UDQpjb250ZW50LXR5cGU6IHRleHQvaHRtbA0KYWNjZXB0LXJhbmdlczogYnl0ZXMNCmV0YWc6IFcvIjEyNDk5LTE3MjM2MzIzNzAwMDAiDQpsYXN0LW1vZGlmaWVkOiBXZWQsIDE0IEF1ZyAyMDI0IDEwOjQ2OjEwIEdNVA0KY2FjaGUtY29udHJvbDogbWF4LWFnZT0wDQpleHBpcmVzOiBTdW4sIDE3IE5vdiAyMDI0IDE4OjI4OjAzIEdNVA0KdmFyeTogYWNjZXB0LWVuY29kaW5nDQpjb250ZW50LWVuY29kaW5nOiBnemlwDQpzdHJpY3QtdHJhbnNwb3J0LXNlY3VyaXR5OiBtYXgtYWdlPTMxNTM2MDAwOyBpbmNsdWRlU3ViRG9tYWluczsgcHJlbG9hZA0KDQo=</ActualData>
+              <ActualData>SFRUUC8yLjAgMjAwDQpTdGF0dXM6IDIwMA0Kc2VydmVyOiBuZ2lueC8xLjE4LjAgKFVidW50dSkNCmRhdGU6IE1vbiwgMTggTm92IDIwMjQgMDM6MjU6MDAgR01UDQpjb250ZW50LXR5cGU6IHRleHQvaHRtbA0KYWNjZXB0LXJhbmdlczogYnl0ZXMNCmV0YWc6IFcvIjEyNDk5LTE3MjM2MzIzNzAwMDAiDQpsYXN0LW1vZGlmaWVkOiBXZWQsIDE0IEF1ZyAyMDI0IDEwOjQ2OjEwIEdNVA0KY2FjaGUtY29udHJvbDogbWF4LWFnZT0wDQpleHBpcmVzOiBNb24sIDE4IE5vdiAyMDI0IDAzOjI1OjAwIEdNVA0KdmFyeTogYWNjZXB0LWVuY29kaW5nDQpjb250ZW50LWVuY29kaW5nOiBnemlwDQpzdHJpY3QtdHJhbnNwb3J0LXNlY3VyaXR5OiBtYXgtYWdlPTMxNTM2MDAwOyBpbmNsdWRlU3ViRG9tYWluczsgcHJlbG9hZA0KDQo=</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
@@ -234,7 +234,7 @@
         <HTTPProperty name="TotalHeadersSize">263</HTTPProperty>
       </HTTPPropertySet>
     </HTTPResponse>
-    <HTTPTask id="19" hostname="www.advantageonlineshopping.com" path="/app/views/css/images/Special-offer.jpg" url="https://www.advantageonlineshopping.com/app/views/css/images/Special-offer.jpg" ip="54.227.55.203" port="443" client_ip="192.168.1.64" client_port="13153" connectionId="2488" origin="HTML" encodingType="ANSI" ordinal="1" startDateTime="2024-11-17T22:28:03.536+04:00" startTime="5295" endTime="5443" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="4294967295" waitTime="4294967295" receiveTime="3" sslNegotiateTime="-1" responseBodySize="714">
+    <HTTPTask id="19" hostname="www.advantageonlineshopping.com" path="/app/views/css/images/Special-offer.jpg" url="https://www.advantageonlineshopping.com/app/views/css/images/Special-offer.jpg" ip="54.227.55.203" port="443" client_ip="192.168.1.64" client_port="19229" connectionId="2384" origin="HTML" encodingType="ANSI" ordinal="1" startDateTime="2024-11-18T07:25:02.215+04:00" startTime="5259" endTime="5414" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="4294967295" waitTime="4294967295" receiveTime="4" sslNegotiateTime="-1" responseBodySize="714">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name=":method" index="0">
@@ -369,7 +369,7 @@
           <HTTPHeaderEntity name="date" index="2">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>U3VuLCAxNyBOb3YgMjAyNCAxODoyODowMyBHTVQ=</ActualData>
+                <ActualData>TW9uLCAxOCBOb3YgMjAyNCAwMzoyNTowMCBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -393,7 +393,7 @@
           <HTTPHeaderEntity name="expires" index="5">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>U3VuLCAxNyBOb3YgMjAyNCAxODoyODowMyBHTVQ=</ActualData>
+                <ActualData>TW9uLCAxOCBOb3YgMjAyNCAwMzoyNTowMCBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -425,7 +425,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8yLjAgNDA0DQpTdGF0dXM6IDQwNA0Kc2VydmVyOiBuZ2lueC8xLjE4LjAgKFVidW50dSkNCmRhdGU6IFN1biwgMTcgTm92IDIwMjQgMTg6Mjg6MDMgR01UDQpjb250ZW50LXR5cGU6IHRleHQvaHRtbDtjaGFyc2V0PXV0Zi04DQpjYWNoZS1jb250cm9sOiBtYXgtYWdlPTANCmV4cGlyZXM6IFN1biwgMTcgTm92IDIwMjQgMTg6Mjg6MDMgR01UDQpjb250ZW50LWxhbmd1YWdlOiBydQ0Kc3RyaWN0LXRyYW5zcG9ydC1zZWN1cml0eTogbWF4LWFnZT0zMTUzNjAwMDsgaW5jbHVkZVN1YkRvbWFpbnM7IHByZWxvYWQNCmNvbnRlbnQtZW5jb2Rpbmc6IGd6aXANCg0K</ActualData>
+                <ActualData>SFRUUC8yLjAgNDA0DQpTdGF0dXM6IDQwNA0Kc2VydmVyOiBuZ2lueC8xLjE4LjAgKFVidW50dSkNCmRhdGU6IE1vbiwgMTggTm92IDIwMjQgMDM6MjU6MDAgR01UDQpjb250ZW50LXR5cGU6IHRleHQvaHRtbDtjaGFyc2V0PXV0Zi04DQpjYWNoZS1jb250cm9sOiBtYXgtYWdlPTANCmV4cGlyZXM6IE1vbiwgMTggTm92IDIwMjQgMDM6MjU6MDAgR01UDQpjb250ZW50LWxhbmd1YWdlOiBydQ0Kc3RyaWN0LXRyYW5zcG9ydC1zZWN1cml0eTogbWF4LWFnZT0zMTUzNjAwMDsgaW5jbHVkZVN1YkRvbWFpbnM7IHByZWxvYWQNCmNvbnRlbnQtZW5jb2Rpbmc6IGd6aXANCg0K</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -445,7 +445,7 @@
         </HTTPPropertySet>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="20" hostname="www.advantageonlineshopping.com" path="/css/images/chat_logo.png" url="https://www.advantageonlineshopping.com/css/images/chat_logo.png" ip="54.227.55.203" port="443" client_ip="192.168.1.64" client_port="13153" connectionId="2488" origin="HTML" encodingType="ANSI" ordinal="2" startDateTime="2024-11-17T22:28:03.538+04:00" startTime="5296" endTime="5719" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="4294967295" waitTime="4294967295" receiveTime="5717" sslNegotiateTime="-1" responseBodySize="3239">
+    <HTTPTask id="20" hostname="www.advantageonlineshopping.com" path="/css/images/chat_logo.png" url="https://www.advantageonlineshopping.com/css/images/chat_logo.png" ip="54.227.55.203" port="443" client_ip="192.168.1.64" client_port="19229" connectionId="2384" origin="HTML" encodingType="ANSI" ordinal="2" startDateTime="2024-11-18T07:25:02.217+04:00" startTime="5261" endTime="5696" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="4294967295" waitTime="4294967295" receiveTime="5693" sslNegotiateTime="-1" responseBodySize="3239">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name=":method" index="0">
@@ -580,7 +580,7 @@
           <HTTPHeaderEntity name="date" index="2">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>U3VuLCAxNyBOb3YgMjAyNCAxODoyODowMyBHTVQ=</ActualData>
+                <ActualData>TW9uLCAxOCBOb3YgMjAyNCAwMzoyNTowMCBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -636,7 +636,7 @@
           <HTTPHeaderEntity name="expires" index="9">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>V2VkLCAyNyBOb3YgMjAyNCAxODoyODowMyBHTVQ=</ActualData>
+                <ActualData>VGh1LCAyOCBOb3YgMjAyNCAwMzoyNTowMCBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -652,7 +652,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8yLjAgMjAwDQpTdGF0dXM6IDIwMA0Kc2VydmVyOiBuZ2lueC8xLjE4LjAgKFVidW50dSkNCmRhdGU6IFN1biwgMTcgTm92IDIwMjQgMTg6Mjg6MDMgR01UDQpjb250ZW50LXR5cGU6IGltYWdlL3BuZw0KY29udGVudC1sZW5ndGg6IDMwMDMNCmFjY2VwdC1yYW5nZXM6IGJ5dGVzDQpldGFnOiBXLyIzMDAzLTE3MjM2MzIzNzAwMDAiDQpsYXN0LW1vZGlmaWVkOiBXZWQsIDE0IEF1ZyAyMDI0IDEwOjQ2OjEwIEdNVA0KY2FjaGUtY29udHJvbDogbWF4LWFnZT04NjQwMDANCmV4cGlyZXM6IFdlZCwgMjcgTm92IDIwMjQgMTg6Mjg6MDMgR01UDQpzdHJpY3QtdHJhbnNwb3J0LXNlY3VyaXR5OiBtYXgtYWdlPTMxNTM2MDAwOyBpbmNsdWRlU3ViRG9tYWluczsgcHJlbG9hZA0KDQo=</ActualData>
+                <ActualData>SFRUUC8yLjAgMjAwDQpTdGF0dXM6IDIwMA0Kc2VydmVyOiBuZ2lueC8xLjE4LjAgKFVidW50dSkNCmRhdGU6IE1vbiwgMTggTm92IDIwMjQgMDM6MjU6MDAgR01UDQpjb250ZW50LXR5cGU6IGltYWdlL3BuZw0KY29udGVudC1sZW5ndGg6IDMwMDMNCmFjY2VwdC1yYW5nZXM6IGJ5dGVzDQpldGFnOiBXLyIzMDAzLTE3MjM2MzIzNzAwMDAiDQpsYXN0LW1vZGlmaWVkOiBXZWQsIDE0IEF1ZyAyMDI0IDEwOjQ2OjEwIEdNVA0KY2FjaGUtY29udHJvbDogbWF4LWFnZT04NjQwMDANCmV4cGlyZXM6IFRodSwgMjggTm92IDIwMjQgMDM6MjU6MDAgR01UDQpzdHJpY3QtdHJhbnNwb3J0LXNlY3VyaXR5OiBtYXgtYWdlPTMxNTM2MDAwOyBpbmNsdWRlU3ViRG9tYWluczsgcHJlbG9hZA0KDQo=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -672,7 +672,7 @@
         </HTTPPropertySet>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="21" hostname="www.advantageonlineshopping.com" path="/app/views/" url="https://www.advantageonlineshopping.com/app/views/" ip="54.227.55.203" port="443" client_ip="192.168.1.64" client_port="13153" connectionId="2488" origin="HTML" encodingType="ANSI" ordinal="3" startDateTime="2024-11-17T22:28:03.539+04:00" startTime="5298" endTime="5929" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="4294967295" waitTime="4294967295" receiveTime="7" sslNegotiateTime="-1" responseBodySize="693">
+    <HTTPTask id="21" hostname="www.advantageonlineshopping.com" path="/app/views/" url="https://www.advantageonlineshopping.com/app/views/" ip="54.227.55.203" port="443" client_ip="192.168.1.64" client_port="19229" connectionId="2384" origin="HTML" encodingType="ANSI" ordinal="3" startDateTime="2024-11-18T07:25:02.219+04:00" startTime="5262" endTime="5757" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="4294967295" waitTime="4294967295" receiveTime="1" sslNegotiateTime="-1" responseBodySize="693">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name=":method" index="0">
@@ -807,7 +807,7 @@
           <HTTPHeaderEntity name="date" index="2">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>U3VuLCAxNyBOb3YgMjAyNCAxODoyODowMyBHTVQ=</ActualData>
+                <ActualData>TW9uLCAxOCBOb3YgMjAyNCAwMzoyNTowMCBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -831,7 +831,7 @@
           <HTTPHeaderEntity name="expires" index="5">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>U3VuLCAxNyBOb3YgMjAyNCAxODoyODowMyBHTVQ=</ActualData>
+                <ActualData>TW9uLCAxOCBOb3YgMjAyNCAwMzoyNTowMCBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -863,7 +863,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8yLjAgNDA0DQpTdGF0dXM6IDQwNA0Kc2VydmVyOiBuZ2lueC8xLjE4LjAgKFVidW50dSkNCmRhdGU6IFN1biwgMTcgTm92IDIwMjQgMTg6Mjg6MDMgR01UDQpjb250ZW50LXR5cGU6IHRleHQvaHRtbDtjaGFyc2V0PXV0Zi04DQpjYWNoZS1jb250cm9sOiBtYXgtYWdlPTANCmV4cGlyZXM6IFN1biwgMTcgTm92IDIwMjQgMTg6Mjg6MDMgR01UDQpjb250ZW50LWxhbmd1YWdlOiBydQ0Kc3RyaWN0LXRyYW5zcG9ydC1zZWN1cml0eTogbWF4LWFnZT0zMTUzNjAwMDsgaW5jbHVkZVN1YkRvbWFpbnM7IHByZWxvYWQNCmNvbnRlbnQtZW5jb2Rpbmc6IGd6aXANCg0K</ActualData>
+                <ActualData>SFRUUC8yLjAgNDA0DQpTdGF0dXM6IDQwNA0Kc2VydmVyOiBuZ2lueC8xLjE4LjAgKFVidW50dSkNCmRhdGU6IE1vbiwgMTggTm92IDIwMjQgMDM6MjU6MDAgR01UDQpjb250ZW50LXR5cGU6IHRleHQvaHRtbDtjaGFyc2V0PXV0Zi04DQpjYWNoZS1jb250cm9sOiBtYXgtYWdlPTANCmV4cGlyZXM6IE1vbiwgMTggTm92IDIwMjQgMDM6MjU6MDAgR01UDQpjb250ZW50LWxhbmd1YWdlOiBydQ0Kc3RyaWN0LXRyYW5zcG9ydC1zZWN1cml0eTogbWF4LWFnZT0zMTUzNjAwMDsgaW5jbHVkZVN1YkRvbWFpbnM7IHByZWxvYWQNCmNvbnRlbnQtZW5jb2Rpbmc6IGd6aXANCg0K</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -884,7 +884,7 @@
       </HTTPResponse>
     </HTTPTask>
   </HTTPTask>
-  <HTTPTask id="22" hostname="www.advantageonlineshopping.com" path="/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff" url="https://www.advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff" ip="54.227.55.203" port="443" client_ip="192.168.1.64" client_port="13153" connectionId="2488" origin="ExtraRes" encodingType="ANSI" ordinal="1" startDateTime="2024-11-17T22:28:03.540+04:00" startTime="5299" endTime="5926" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="4294967295" waitTime="4294967295" receiveTime="5574" sslNegotiateTime="-1" responseBodySize="25043">
+  <HTTPTask id="22" hostname="www.advantageonlineshopping.com" path="/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff" url="https://www.advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff" ip="54.227.55.203" port="443" client_ip="192.168.1.64" client_port="19229" connectionId="2384" origin="ExtraRes" encodingType="ANSI" ordinal="1" startDateTime="2024-11-18T07:25:02.220+04:00" startTime="5264" endTime="5900" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="4294967295" waitTime="4294967295" receiveTime="5699" sslNegotiateTime="-1" responseBodySize="25043">
     <HTTPRequest method="GET">
       <HTTPHeaders>
         <HTTPHeaderEntity name=":method" index="0">
@@ -1019,7 +1019,7 @@
         <HTTPHeaderEntity name="date" index="2">
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>U3VuLCAxNyBOb3YgMjAyNCAxODoyODowMyBHTVQ=</ActualData>
+              <ActualData>TW9uLCAxOCBOb3YgMjAyNCAwMzoyNTowMCBHTVQ=</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
@@ -1075,7 +1075,7 @@
         <HTTPHeaderEntity name="expires" index="9">
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>U3VuLCAxNyBOb3YgMjAyNCAxODoyODowMyBHTVQ=</ActualData>
+              <ActualData>TW9uLCAxOCBOb3YgMjAyNCAwMzoyNTowMCBHTVQ=</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
@@ -1091,7 +1091,7 @@
         <HTTPAllHeaders>
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>SFRUUC8yLjAgMjAwDQpTdGF0dXM6IDIwMA0Kc2VydmVyOiBuZ2lueC8xLjE4LjAgKFVidW50dSkNCmRhdGU6IFN1biwgMTcgTm92IDIwMjQgMTg6Mjg6MDMgR01UDQpjb250ZW50LXR5cGU6IGZvbnQvd29mZg0KY29udGVudC1sZW5ndGg6IDI0ODA4DQphY2NlcHQtcmFuZ2VzOiBieXRlcw0KZXRhZzogVy8iMjQ4MDgtMTcyMzYzMjM3MDAwMCINCmxhc3QtbW9kaWZpZWQ6IFdlZCwgMTQgQXVnIDIwMjQgMTA6NDY6MTAgR01UDQpjYWNoZS1jb250cm9sOiBtYXgtYWdlPTANCmV4cGlyZXM6IFN1biwgMTcgTm92IDIwMjQgMTg6Mjg6MDMgR01UDQpzdHJpY3QtdHJhbnNwb3J0LXNlY3VyaXR5OiBtYXgtYWdlPTMxNTM2MDAwOyBpbmNsdWRlU3ViRG9tYWluczsgcHJlbG9hZA0KDQo=</ActualData>
+              <ActualData>SFRUUC8yLjAgMjAwDQpTdGF0dXM6IDIwMA0Kc2VydmVyOiBuZ2lueC8xLjE4LjAgKFVidW50dSkNCmRhdGU6IE1vbiwgMTggTm92IDIwMjQgMDM6MjU6MDAgR01UDQpjb250ZW50LXR5cGU6IGZvbnQvd29mZg0KY29udGVudC1sZW5ndGg6IDI0ODA4DQphY2NlcHQtcmFuZ2VzOiBieXRlcw0KZXRhZzogVy8iMjQ4MDgtMTcyMzYzMjM3MDAwMCINCmxhc3QtbW9kaWZpZWQ6IFdlZCwgMTQgQXVnIDIwMjQgMTA6NDY6MTAgR01UDQpjYWNoZS1jb250cm9sOiBtYXgtYWdlPTANCmV4cGlyZXM6IE1vbiwgMTggTm92IDIwMjQgMDM6MjU6MDAgR01UDQpzdHJpY3QtdHJhbnNwb3J0LXNlY3VyaXR5OiBtYXgtYWdlPTMxNTM2MDAwOyBpbmNsdWRlU3ViRG9tYWluczsgcHJlbG9hZA0KDQo=</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
@@ -1111,7 +1111,7 @@
       </HTTPPropertySet>
     </HTTPResponse>
   </HTTPTask>
-  <HTTPTask id="23" hostname="www.advantageonlineshopping.com" path="/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff" url="https://www.advantageonlineshopping.com/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff" ip="54.227.55.203" port="443" client_ip="192.168.1.64" client_port="13153" connectionId="2488" origin="ExtraRes" encodingType="ANSI" ordinal="2" startDateTime="2024-11-17T22:28:03.541+04:00" startTime="5300" endTime="5787" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="4294967295" waitTime="4294967295" receiveTime="5722" sslNegotiateTime="-1" responseBodySize="25179">
+  <HTTPTask id="23" hostname="www.advantageonlineshopping.com" path="/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff" url="https://www.advantageonlineshopping.com/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff" ip="54.227.55.203" port="443" client_ip="192.168.1.64" client_port="19229" connectionId="2384" origin="ExtraRes" encodingType="ANSI" ordinal="2" startDateTime="2024-11-18T07:25:02.221+04:00" startTime="5265" endTime="5874" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="4294967295" waitTime="4294967295" receiveTime="5556" sslNegotiateTime="-1" responseBodySize="25179">
     <HTTPRequest method="GET">
       <HTTPHeaders>
         <HTTPHeaderEntity name=":method" index="0">
@@ -1246,7 +1246,7 @@
         <HTTPHeaderEntity name="date" index="2">
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>U3VuLCAxNyBOb3YgMjAyNCAxODoyODowMyBHTVQ=</ActualData>
+              <ActualData>TW9uLCAxOCBOb3YgMjAyNCAwMzoyNTowMCBHTVQ=</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
@@ -1302,7 +1302,7 @@
         <HTTPHeaderEntity name="expires" index="9">
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>U3VuLCAxNyBOb3YgMjAyNCAxODoyODowMyBHTVQ=</ActualData>
+              <ActualData>TW9uLCAxOCBOb3YgMjAyNCAwMzoyNTowMCBHTVQ=</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
@@ -1318,7 +1318,7 @@
         <HTTPAllHeaders>
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>SFRUUC8yLjAgMjAwDQpTdGF0dXM6IDIwMA0Kc2VydmVyOiBuZ2lueC8xLjE4LjAgKFVidW50dSkNCmRhdGU6IFN1biwgMTcgTm92IDIwMjQgMTg6Mjg6MDMgR01UDQpjb250ZW50LXR5cGU6IGZvbnQvd29mZg0KY29udGVudC1sZW5ndGg6IDI0OTQ0DQphY2NlcHQtcmFuZ2VzOiBieXRlcw0KZXRhZzogVy8iMjQ5NDQtMTcyMzYzMjM3MDAwMCINCmxhc3QtbW9kaWZpZWQ6IFdlZCwgMTQgQXVnIDIwMjQgMTA6NDY6MTAgR01UDQpjYWNoZS1jb250cm9sOiBtYXgtYWdlPTANCmV4cGlyZXM6IFN1biwgMTcgTm92IDIwMjQgMTg6Mjg6MDMgR01UDQpzdHJpY3QtdHJhbnNwb3J0LXNlY3VyaXR5OiBtYXgtYWdlPTMxNTM2MDAwOyBpbmNsdWRlU3ViRG9tYWluczsgcHJlbG9hZA0KDQo=</ActualData>
+              <ActualData>SFRUUC8yLjAgMjAwDQpTdGF0dXM6IDIwMA0Kc2VydmVyOiBuZ2lueC8xLjE4LjAgKFVidW50dSkNCmRhdGU6IE1vbiwgMTggTm92IDIwMjQgMDM6MjU6MDAgR01UDQpjb250ZW50LXR5cGU6IGZvbnQvd29mZg0KY29udGVudC1sZW5ndGg6IDI0OTQ0DQphY2NlcHQtcmFuZ2VzOiBieXRlcw0KZXRhZzogVy8iMjQ5NDQtMTcyMzYzMjM3MDAwMCINCmxhc3QtbW9kaWZpZWQ6IFdlZCwgMTQgQXVnIDIwMjQgMTA6NDY6MTAgR01UDQpjYWNoZS1jb250cm9sOiBtYXgtYWdlPTANCmV4cGlyZXM6IE1vbiwgMTggTm92IDIwMjQgMDM6MjU6MDAgR01UDQpzdHJpY3QtdHJhbnNwb3J0LXNlY3VyaXR5OiBtYXgtYWdlPTMxNTM2MDAwOyBpbmNsdWRlU3ViRG9tYWluczsgcHJlbG9hZA0KDQo=</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>

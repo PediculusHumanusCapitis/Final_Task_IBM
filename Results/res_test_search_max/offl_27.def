@@ -1,10 +1,10 @@
 [Graph definition]
 count=1
-GraphTitle=Pool Paged Failures (Server)
+GraphTitle=Avg. Disk Bytes/Transfer (PhysicalDisk _Total)
 DataPointLabel_1=offline_datapoint_27
-LineTitle_1=Local
+LineTitle_1=localhost
 LineGroup_1=0
-YAxisTitle=Pool Paged Failures (Server)
+YAxisTitle=Avg. Disk Bytes/Transfer (PhysicalDisk _Total)
 GraphGroupMenuTitle=Windows Resources
 XAxisTitle=Elapsed Scenario Time (seconds)
 XAxisIsElapsedTime=TRUE
@@ -15,4 +15,4 @@ MissingData=PREVIOUS
 GranularityMode=NOTINCLUDEZERO
 NoDataBehavior=RemoveGraph
 GraphType=es_rm_svr_res_nt
-DataPointDescr_1=The number of times allocations from paged pool have failed.  Indicates that the computer's physical memory or paging file are too small.
+DataPointDescr_1=Avg. Disk Bytes/Transfer is the average number of bytes transferred to or from the disk during write or read operations.

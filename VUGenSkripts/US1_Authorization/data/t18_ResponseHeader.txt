@@ -1,13 +1,16 @@
 HTTP/1.1 200 
 Server: nginx/1.18.0 (Ubuntu)
-Date: Sat, 16 Nov 2024 18:41:40 GMT
-Content-Type: image/svg+xml
-Content-Length: 795
+Date: Sat, 16 Nov 2024 20:38:57 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
 Connection: keep-alive
-Accept-Ranges: bytes
-ETag: W/"795-1723632370000"
-Last-Modified: Wed, 14 Aug 2024 10:46:10 GMT
-Cache-Control: max-age=864000
-Expires: Tue, 26 Nov 2024 18:41:40 GMT
+Expires: 0
+Cache-control: no-store
+Set-Cookie: JSESSIONID=11193870DE6C75E92203265399E7B45D; Path=/order; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+vary: accept-encoding
+Content-Encoding: gzip
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 

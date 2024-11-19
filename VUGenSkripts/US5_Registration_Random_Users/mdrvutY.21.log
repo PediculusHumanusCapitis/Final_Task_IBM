@@ -1,0 +1,183 @@
+..\\..\\Transactions\\common_lib.h(50):     rName":"Tips_Mock_SOAP_ShipEx_Service","datatype":"enum:[Tip]","description":"The shipping
+..\\..\\Transactions\\common_lib.h(50):      cost is determined by a table table in the 'shipex-mock-for-db.properties' configuration 
+..\\..\\Transactions\\common_lib.h(50):     file, according to country.  Shipping costs to countries not defined in the table are dete
+..\\..\\Transactions\\common_lib.h(50):     rmined based on the value for Other.  Free shipping can be provided when the number of ite
+..\\..\\Transactions\\common_lib.h(50):     ms ordered is equal to or less than the value  of the 'ShipEx_Free_Number_Of_Products' con
+..\\..\\Transactions\\common_lib.h(50):     figuration parameter (default = 1).","attributeTools":"","locationInAdvantage":"Order Paym
+..\\..\\Transactions\\common_lib.h(50):     ent","locationInAdminTool":"General","parameterValue":"Tip"},{"parameterName":"Tips_Applic
+..\\..\\Transactions\\common_lib.h(50):     ation_Development_Environment","datatype":"enum:[Tip]","description":"The Advantage demo s
+..\\..\\Transactions\\common_lib.h(50):     ite uses the following software versions and interfaces:  - Java server: Java 8  - Applica
+..\\..\\Transactions\\common_lib.h(50):     tion server: Tomcat 8  - Web UI: Angular 1.47  - Admin Application: Standalone .NET  - Dat
+..\\..\\Transactions\\common_lib.h(50):     abase: PostgreSQL 9.4  - Schema Management: Liquibase 3.4  - Catalog, Order Services: REST
+..\\..\\Transactions\\common_lib.h(50):      API  - User Management: WSDL.","attributeTools":"","locationInAdvantage":"","locationInAd
+..\\..\\Transactions\\common_lib.h(50):     minTool":"General","parameterValue":"Tip"},{"parameterName":"Tips_Scripting","datatype":"e
+..\\..\\Transactions\\common_lib.h(50):     num:[Tip]","description":"The demo app IP addresses are not fixed. In any scripts you crea
+..\\..\\Transactions\\common_lib.h(50):     te for a demo, make sure to use a parameter for the application IP address.","attributeToo
+..\\..\\Transactions\\common_lib.h(50):     ls":"LeanFT;UFT;LoadRunner;StormRunner","locationInAdvantage":"","locationInAdminTool":"Pe
+..\\..\\Transactions\\common_lib.h(50):     rformance;Functional","parameterValue":"Tip"},{"parameterName":"Tips_Fill_User_Location_Fr
+..\\..\\Transactions\\common_lib.h(50):     om_GPS","datatype":"enum:[Tip]","description":"To use your GPS location instead of the def
+..\\..\\Transactions\\common_lib.h(50):     ault values, toggle on the Use my location option on the following pages:  1. CREATE ACCOU
+..\\..\\Transactions\\common_lib.h(50):     NT, for the user account details.  2. ORDER PAYMENT, for the shipping details.","attribute
+..\\..\\Transactions\\common_lib.h(50):     Tools":"MobileCenter","locationInAdvantage":"Create Account, Order Payment - Shipping deta
+..\\..\\Transactions\\common_lib.h(50):     ils","locationInAdminTool":"Mobile","parameterValue":"Tip"},{"parameterName":"Tips_Mock_Ma
+..\\..\\Transactions\\common_lib.h(50):     sterCredit_Generate_Error","datatype":"enum:[Tip]","description":"To generate an error usi
+..\\..\\Transactions\\common_lib.h(50):     ng the MasterCredit card, enter a MasterCredit expiration date earlier than the current da
+..\\..\\Transactions\\common_lib.h(50):     y.","attributeTools":"","locationInAdvantage":"Order Payment","locationInAdminTool":"Gener
+..\\..\\Transactions\\common_lib.h(50):     al","parameterValue":"Tip"},{"parameterName":"Tips_Mock_SafePay_Generate_Error_409","datat
+..\\..\\Transactions\\common_lib.h(50):     ype":"enum:[Tip]","description":"To generate an error using SafePay, enter identical (case
+..\\..\\Transactions\\common_lib.h(50):      sensitive) username and password.","attributeTools":"AppPulse","locationInAdvantage":"Web
+..\\..\\Transactions\\common_lib.h(50):     : Order Payment; Mobile: Payment Method (SafePay)","locationInAdminTool":"Functional;Mobil
+..\\..\\Transactions\\common_lib.h(50):     e","parameterValue":"Tip"},{"parameterName":"Tips_WebSocket_example","datatype":"enum:[Tip
+..\\..\\Transactions\\common_lib.h(50):     ]","description":"To demonstrate WebSocket features, use the chat widget located on the Ho
+..\\..\\Transactions\\common_lib.h(50):     me page (http://www.advantageonlineshopping.com/), under Contact Us.","attributeTools":"Lo
+..\\..\\Transactions\\common_lib.h(50):     adRunner","locationInAdvantage":"Home page - CONTACT US","locationInAdminTool":"Performanc
+..\\..\\Transactions\\common_lib.h(50):     e","parameterValue":"Tip"},{"parameterName":"Tips_Support_Different_Types_Of_Controls","da
+..\\..\\Transactions\\common_lib.h(50):     tatype":"enum:[Tip]","description":"Use the following UI elements to demonstrate various f
+..\\..\\Transactions\\common_lib.h(50):     unctional testing features:  * String: On the CREATE ACCOUNT or ACCOUNT DETAILS page, upda
+..\\..\\Transactions\\common_lib.h(50):     te the Personal Details fields.  * Radio button: On the ORDER PAYMENT page, select a payme
+..\\..\\Transactions\\common_lib.h(50):     nt method.  * Date value: On the ORDER PAYMENT page
+..\\..\\Transactions\\common_lib.h(50): t=1330685ms: 11644-byte DECODED response body for "https://www.advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL" (RelFrameId=1, Internal ID=432)
+..\\..\\Transactions\\common_lib.h(50):     , select the MasterCredit option and then enter an expiration date.  * List box: On the CR
+..\\..\\Transactions\\common_lib.h(50):     EATE ACCOUNT page, select a country from the Country drop down list.  * Multiple selection
+..\\..\\Transactions\\common_lib.h(50):     : Browse products by category and filter the products shown by using the options on the le
+..\\..\\Transactions\\common_lib.h(50):     ft","attributeTools":"BPT;MobileCenter;LeanFT;UFT","locationInAdvantage":"Entire Site","lo
+..\\..\\Transactions\\common_lib.h(50):     cationInAdminTool":"Functional;Mobile","parameterValue":"Tip"},{"parameterName":"Tips_Syst
+..\\..\\Transactions\\common_lib.h(50):     em_Configuration","datatype":"enum:[Tip]","description":"The Admin UI menu and pages are r
+..\\..\\Transactions\\common_lib.h(50):     ead-only in the shared system on the cloud.  You can make changes in a local instance.  Tr
+..\\..\\Transactions\\common_lib.h(50):     oubleshooting: If you are unable to make changes in a local instance:  1. Navigate to the 
+..\\..\\Transactions\\common_lib.h(50):     DemoApp.properties file.  2. Ensure that the Allow user configuration value is set to Yes.
+..\\..\\Transactions\\common_lib.h(50):      This is the default setting.  3. Verify that you can configure the relevant field from th
+..\\..\\Transactions\\common_lib.h(50):     e Admin UI as needed.","attributeTools":"","locationInAdvantage":".NET Admin app","locatio
+..\\..\\Transactions\\common_lib.h(50):     nInAdminTool":"General","parameterValue":"Tip"},{"parameterName":"Tips_replace_3rd_party_s
+..\\..\\Transactions\\common_lib.h(50):     ervices_with_SV","datatype":"enum:[Tip]","description":"Replace the ShipEx, MasterCredit, 
+..\\..\\Transactions\\common_lib.h(50):     or SafePay 3rd party services with Service Virtualization by updating the relevant URLs in
+..\\..\\Transactions\\common_lib.h(50):      the services.properties configuration file.  This file is located in properties folder of
+..\\..\\Transactions\\common_lib.h(50):      5 services: accountservice, MasterCredit, order, ROOT, SafePay.  For example: /accountser
+..\\..\\Transactions\\common_lib.h(50):     vice/properties/services.properties.  1. Navigate to the <service-name>.url.host line, and
+..\\..\\Transactions\\common_lib.h(50):      modify the URL/IP address string to the Service Virtualization URL and IP address.  2. Na
+..\\..\\Transactions\\common_lib.h(50):     vigate to the <service-name>.url.port line and modify the port string to the Service Virtu
+..\\..\\Transactions\\common_lib.h(50):     alization port.  3. Save the file, and repeat these steps for each service in the services
+..\\..\\Transactions\\common_lib.h(50):     .properties file, and in the services.properties files for each service.","attributeTools"
+..\\..\\Transactions\\common_lib.h(50):     :"SV","locationInAdvantage":"ShipEx;MasterCredit;SafePay","locationInAdminTool":"Functiona
+..\\..\\Transactions\\common_lib.h(50):     l","parameterValue":"Tip"},{"parameterName":"Tips_How_To_Use_Product_Video","datatype":"en
+..\\..\\Transactions\\common_lib.h(50):     um:[Tip]","description":"ADM performance tools support HTML5 video streaming via: native b
+..\\..\\Transactions\\common_lib.h(50):     rowsers, plugins such as Adobe Flash, or standalone software.  To demonstrate this feature
+..\\..\\Transactions\\common_lib.h(50):     , browse to one of the following products and view the demo video:  - HP ROAR WIRELESS SPE
+..\\..\\Transactions\\common_lib.h(50):     AKER (Product ID: 22)  - BEATS STUDIO 2 OVER-EAR MATTE BLACK HEADPHONES (product ID: 15)  
+..\\..\\Transactions\\common_lib.h(50):     - HP ELITEPAD 1000 G2 TABLET (product ID: 16)","attributeTools":"LoadRunner","locationInAd
+..\\..\\Transactions\\common_lib.h(50):     vantage":"Selected Products","locationInAdminTool":"Performance","parameterValue":"Tip"},{
+..\\..\\Transactions\\common_lib.h(50):     "parameterName":"Tips_regular_expression","datatype":"enum:[Tip]","description":"The butto
+..\\..\\Transactions\\common_lib.h(50):     n text always starts with Pay to allow for demonstrating regular expressions in object ide
+..\\..\\Transactions\\common_lib.h(50):     ntification.","attributeTools":"LeanFT;UFT","locationInAdvantage":"Pay button in cart sum"
+..\\..\\Transactions\\common_lib.h(50):     ,"locationInAdminTool":"Functional","parameterValue":"Tip"},{"parameterName":"Tips_correla
+..\\..\\Transactions\\common_lib.h(50):     tion_example","datatype":"enum:[Tip]","description":"To demonstrate correlation, make sure
+..\\..\\Transactions\\common_lib.h(50):      that you include a login step in your flow.  The correlation is implemented with the sess
+..\\..\\Transactions\\common_lib.h(50):     ion ID.","attributeTools":"LoadRunner","locationInAdvantage":"Web Application Login","loca
+..\\..\\Transactions\\common_lib.h(50):     tionInAdminTool":"Performance","parameterValue":"Tip"},{"parameterName":"Tips_async_exampl
+..\\..\\Transactions\\common_lib.h(50):     e","datatype":"enum:[Tip]","description":"ADM performance tools support asynchronous commu
+..\\..\\Transactions\\common_lib.h(50):     nication.  To demonstrate this feature, browse to any of the products in the HEADPHONES ca
+..\\..\\Transactions\\common_lib.h(50):     tegory, and record the comments (web only).","attributeTools":"LoadRunner","locationInAdva
+..\\..\\Transactions\\common_lib.h(50):     ntage":"Performance","locationInAdminTool":"Performance","parameterValue":"Tip"},{"paramet
+..\\..\\Transactions\\common_lib.h(50):     erName":"Tips_Swagger_Interface_For_REST_APIs","datatype":"enum:[Tip]","description":"To u
+..\\..\\Transactions\\common_lib.h(50):     se Swagger interface for REST APIs change the URL to http://<your-server>:<port>/<service>
+..\\..\\Transactions\\common_lib.h(50):     /api/docs.  <service> can be on of the following (case sensitive): catalog, order, MasterC
+..\\..\\Transactions\\common_lib.h(50):     redit or SafePay.  For example: http://www.advantageonlineshopping.com:80/catalog/api/docs
+..\\..\\Transactions\\common_lib.h(50):     .","attributeTools":"","locationInAdvantage":"catalog,MasterCredit,order,SafePay services"
+..\\..\\Transactions\\common_lib.h(50):     ,"locationInAdminTool":"General","parameterValue":"Tip"},{"parameterName":"Tips_REST_API_P
+..\\..\\Transactions\\common_lib.h(50):     arams_In_Request_URL","datatype":"enum:[Tip]","description":"Send the REST API request and
+..\\..\\Transactions\\common_lib.h(50):      parameters in request URL. Example: http://www.advantageonlineshopping.com/catalog/api/v1
+..\\..\\Transactions\\common_lib.h(50):     /products/1.","attributeTools":"UFT","locationInAdvantage":"catalog,MasterCredit,order,Saf
+..\\..\\Transactions\\common_lib.h(50):     ePay services","locationInAdminTool":"Functional","parameterValue":"Tip"},{"parameterName"
+..\\..\\Transactions\\common_lib.h(50):     :"Tips_REST_API_Params_In_Request_Body","datatype":"enum:[Tip]","description":"Send the RE
+..\\..\\Transactions\\common_lib.h(50):     ST API parameters in the request body. Example: http://www.advantageonlineshopping.com/Mas
+..\\..\\Transactions\\common_lib.h(50):     terCredit/api/v1/payments/payment, body: { \\"MCCVVNumber\\": 666, \\"MCCardNumber\\": 654
+..\\..\\Transactions\\common_lib.h(50):     3210987654321, \\"MCCustomerName\\": \\"King David\\", \\"MCCustomerPhone\\": \\"+12025551
+..\\..\\Transactions\\common_lib.h(50):     969\\", \\"MCExpirationDate\\": \\"032017\\", \\"MCRecevingAmount.Value\\": 2011.03, \\"MC
+..\\..\\Transactions\\common_lib.h(50):     RecevingCard.AccountNumber\\": 112987298763, \\"MCRecevingCard.Currency\\": \\"USD\\", \\"
+..\\..\\Transactions\\common_lib.h(50):     MCTransactionDate\\": \\"02092016\\", \\"MCTransactionType\\": \\"PAYMENT\\" }.","attribut
+..\\..\\Transactions\\common_lib.h(50):     eTools":"UFT","locationInAdvantage":"catalog,MasterCredit,order,SafePay services","locatio
+..\\..\\Transactions\\common_lib.h(50):     nInAdminTool":"Functional","parameterValue":"Tip"},{"parameterName":"Tips_DFE","datatype":
+..\\..\\Transactions\\common_lib.h(50):     "enum:[Tip]","description":"Send login request and response in Base-64 encoded, instead of
+..\\..\\Transactions\\common_lib.h(50):      in plain text, to show DFE in snapshot (display only).","attributeTools":"LoadRunner","lo
+..\\..\\Transactions\\common_lib.h(50):     cationInAdvantage":"Web Application Login","locationInAdminTool":"Performance","parameterV
+..\\..\\Transactions\\common_lib.h(50):     alue":"Tip"},{"parameterName":"Tips_validation_example","datatype":"enum:[Tip]","descripti
+..\\..\\Transactions\\common_lib.h(50):     on":"To demonstrate validation: Perform a flow where you buy the contents of the cart, the
+..\\..\\Transactions\\common_lib.h(50):     n go to the My Orders page and look for the order by its order number (shows positive\xC2\xA0
+..\\..\\Transactions\\common_lib.h(50):     validation). Delete the order, then look for the order by its number again (shows negative
+..\\..\\Transactions\\common_lib.h(50):     \xC2\xA0validation).","attributeTools":"LoadRunner","locationInAdvantage":"My Orders","loc
+..\\..\\Transactions\\common_lib.h(50):     ationInAdminTool":"Performance","parameterValue":"Tip"},{"parameterName":"Mobile_crash","d
+..\\..\\Transactions\\common_lib.h(50):     atatype":"enum:[Tip]","description":"To generate a crash, login with AppPulse user and cha
+..\\..\\Transactions\\common_lib.h(50):     nge\xC2\xA0the device orientation from\xC2\xA0portrait to landscape","attributeTools":"App
+..\\..\\Transactions\\common_lib.h(50):     Pulse","locationInAdvantage":"Mobile: entire app","locationInAdminTool":"Mobile;Functional
+..\\..\\Transactions\\common_lib.h(50):     ;ITOM","parameterValue":"Tip"},{"parameterName":"Slow_launch_of_the_native_app","datatype"
+..\\..\\Transactions\\common_lib.h(50):     :"enum:[Tip]","description":"To show a slow launch, log in as the AppPulse user and kill t
+..\\..\\Transactions\\common_lib.h(50):     he app. From this point on, any launch will be slow until you log in with a different user
+..\\..\\Transactions\\common_lib.h(50):     ","attributeTools":"AppPulse","locationInAdvantage":"Android\xC2\xA0native app: Launch","l
+..\\..\\Transactions\\common_lib.h(50):     ocationInAdminTool":"Mobile;Performance","parameterValue":"Tip"},{"parameterName":"Error_5
+..\\..\\Transactions\\common_lib.h(50):     00","datatype":"enum:[Tip]","description":"To generate error 500, login with AppPulse user
+..\\..\\Transactions\\common_lib.h(50):     , add items to\xC2\xA0the the cart, checkout and click on pay now","attributeTools":"AppPu
+..\\..\\Transactions\\common_lib.h(50):     lse","locationInAdvantage":"Order Payment","locationInAdminTool":"Mobile;Functional;ITOM",
+..\\..\\Transactions\\common_lib.h(50):     "parameterValue":"Tip"},{"parameterName":"Error_403","datatype":"enum:[Tip]","description"
+..\\..\\Transactions\\common_lib.h(50):     :"To generate error 403, click on the 'Sign in with Facebook' button.","attributeTools":"A
+..\\..\\Transactions\\common_lib.h(50):     ppPulse","locationInAdvantage":"Login page","locationInAdminTool":"Mobile;Functional;ITOM"
+..\\..\\Transactions\\common_lib.h(50):     ,"parameterValue":"Tip"},{"parameterName":"Use_Camera_Capability","datatype":"enum:[Tip]",
+..\\..\\Transactions\\common_lib.h(50):     "description":"Add an option to enable the user to take a picture with the camera . This p
+..\\..\\Transactions\\common_lib.h(50):     icture will be added to the current product page. In offline mode, the picture is retained
+..\\..\\Transactions\\common_lib.h(50):      for the current session only. When using MC, if \xE2\x80\x9CCamera Sensor\xE2\x80\x9D is 
+..\\..\\Transactions\\common_lib.h(50):     enabled, this picture will be replaced with the picture the user previously uploaded to MC
+..\\..\\Transactions\\common_lib.h(50):     .","attributeTools":"MobileCenter","locationInAdvantage":"Mobile apps: Product page","loca
+..\\..\\Transactions\\common_lib.h(50):     tionInAdminTool":"Mobile","parameterValue":"Tip"},{"parameterName":"Tips_SQL_injection_vul
+..\\..\\Transactions\\common_lib.h(50):     nerability","datatype":"enum:[Tip]","description":"A functional test finds the following d
+..\\..\\Transactions\\common_lib.h(50):     efect: The user creates a user with any\xC2\xA0Username, but the\xC2\xA0name that is actua
+..\\..\\Transactions\\common_lib.h(50):     lly created is duplicated, as displayed at\xC2\xA0the top right side of the site.\xC2\xA0\xC2
+..\\..\\Transactions\\common_lib.h(50):     \xA0 The user opens a defect, fixes the code, and commits the change. This triggers a Fort
+..\\..\\Transactions\\common_lib.h(50):     ify scan (provided that you added the Fortify scan trigger in the code change) that will f
+..\\..\\Transactions\\common_lib.h(50):     ind an\xC2\xA0SQL injection\xC2\xA0vulnerability.  To achieve this, you must edit the\xC2\xA0
+..\\..\\Transactions\\common_lib.h(50):     accountservice\\\\src\\\\main\\\\java\\\\com\\\\advantage\\\\accountsoap\\\\dao\\\\impl\\\\
+..\\..\\Transactions\\common_lib.h(50):     DefaultAccountRepository\xC2\xA0file. In this file, first uncomment the\xC2\xA0code that i
+..\\..\\Transactions\\common_lib.h(50):     s located\xC2\xA0between the\xC2\xA0'SQL injection vulnerability' tags. \xC2\xA0Then, comm
+..\\..\\Transactions\\common_lib.h(50):     ent out the code that is located between the 'Code without\xC2\xA0SQL injection vulnerabil
+..\\..\\Transactions\\common_lib.h(50):     ity' tags. Note that there are 2 locations in the code in which you need to make these cha
+..\\..\\Transactions\\common_lib.h(50):     nges.","attributeTools":"Fortify, LeanFT, UFT","locationInAdvantage":"Create Account page"
+..\\..\\Transactions\\common_lib.h(50):     ,"locationInAdminTool":"Security","parameterValue":"Tip"},{"parameterName":"Enable_Warrant
+..\\..\\Transactions\\common_lib.h(50):     y","datatype":"enum:[Yes,No]","description":"Determines whether a warranty checkbox is add
+..\\..\\Transactions\\common_lib.h(50):     ed to each laptop product screen. Use this parameter to demonstrate an integration between
+..\\..\\Transactions\\common_lib.h(50):      AOS and COBOL, during checkout AOS backend invoke a COBOL service to activate a warranty 
+..\\..\\Transactions\\common_lib.h(50):     for laptop. Default = No. Yes = Add a checkbox to the laptop product page.","attributeTool
+..\\..\\Transactions\\common_lib.h(50):     s":"AMC","locationInAdvantage":"Laptops","locationInAdminTool":"General","parameterValue":
+..\\..\\Transactions\\common_lib.h(50):     "No"},{"parameterName":"Warranty_Service_URL","datatype":"string","description":"The URL o
+..\\..\\Transactions\\common_lib.h(50):     f the COBOL web service to be used for the warranty, the default service is located on AZU
+..\\..\\Transactions\\common_lib.h(50):     RE. the default URL is: https://aoswarrantyfunction.azurewebsites.net/api/Function1?code=K
+..\\..\\Transactions\\common_lib.h(50):     EK/GaiTZ0lfJdRkJGgNdsn8qfenPseDGaS3j3n8noI6AGtSIriLAg== note: mouse over on the text field
+..\\..\\Transactions\\common_lib.h(50):      to view the current URL.","attributeTools":"AMC","locationInAdvantage":"Laptops","locatio
+..\\..\\Transactions\\common_lib.h(50):     nInAdminTool":"General","parameterValue":"https://aoswarrantyfunction.azurewebsites.net/ap
+..\\..\\Transactions\\common_lib.h(50):     i/Function1?code=KEK/GaiTZ0lfJdRkJGgNdsn8qfenPseDGaS3j3n8noI6AGtSIriLAg=="},{"parameterNam
+..\\..\\Transactions\\common_lib.h(50):     e":"Enable_Voltage_Encryption","datatype":"enum:[Yes,No]","description":"Use this paramete
+..\\..\\Transactions\\common_lib.h(50):     r to demonstrate an integration between Voltage Data Encryption And AOS. The MasterCredit 
+..\\..\\Transactions\\common_lib.h(50):     number is encrypted when the flag is set to 'Yes'","attributeTools":"AMC","locationInAdvan
+..\\..\\Transactions\\common_lib.h(50):     tage":"Payment page","locationInAdminTool":"General","parameterValue":"No"},{"parameterNam
+..\\..\\Transactions\\common_lib.h(50):     e":"Voltage_Service_URL","datatype":"string","description":"The URL of the Voltage Data En
+..\\..\\Transactions\\common_lib.h(50):     cryption service to be used for the encryption, the default service is located on AZURE. t
+..\\..\\Transactions\\common_lib.h(50):     he default URL is: https://voltage-pp-0000.dataprotection.voltage.com note: mouse over on 
+..\\..\\Transactions\\common_lib.h(50):     the text field to view the current URL.","attributeTools":"ITOM","locationInAdvantage":"Pa
+..\\..\\Transactions\\common_lib.h(50):     yment page","locationInAdminTool":"General","parameterValue":"https://voltage-pp-0000.data
+..\\..\\Transactions\\common_lib.h(50):     protection.voltage.com"},{"parameterName":"duplicate_countries","datatype":"enum:[Yes,No]"
+..\\..\\Transactions\\common_lib.h(50):     ,"description":"Duplicates the countries in adv_account DB, causing error during registrat
+..\\..\\Transactions\\common_lib.h(50):     ion. Note: Restart required.","attributeTools":"ITOM","locationInAdvantage":"Registration 
+..\\..\\Transactions\\common_lib.h(50):     page","locationInAdminTool":"General","parameterValue":"No"},{"parameterName":"AOB_Endpoin
+..\\..\\Transactions\\common_lib.h(50):     t","datatype":"string","description":"Purchases made using AOB user, will create a transac
+..\\..\\Transactions\\common_lib.h(50):     tion on AOB system, on the current endpoint","attributeTools":"","locationInAdvantage":"Pu
+..\\..\\Transactions\\common_lib.h(50):     rchase Page","locationInAdminTool":"General","parameterValue":"http://advantageonlinebanki
+..\\..\\Transactions\\common_lib.h(50):     ng.com/api/accounts/purchase"}]}
+..\\..\\Transactions\\common_lib.h(50): t=1330694ms: Request done "https://www.advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL"  	[MsgId: MMSG-26000]
+..\\..\\Transactions\\common_lib.h(50): Notify: Transaction "Go_To_HomePage" ended with a "Stop" status (Duration: 6,6542 Wasted Time: 0,0034).	[MsgId: MMSG-16871]
+..\\..\\Transactions\\common_lib.h(50): Notify: Transaction "US5_RegistrtionRandomUser" ended with a "Stop" status (Duration: 6,6543 Wasted Time: 0,0034).	[MsgId: MMSG-16871]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+..\\..\\Transactions\\common_lib.h(50): t=1330703ms: Closed connection [0] to www.advantageonlineshopping.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+..\\..\\Transactions\\common_lib.h(50): t=1330703ms: Closed connection [1] to www.googletagmanager.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=1, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 2 (thread 12856), ended OK."	[MsgId: MMSG-10695]

@@ -1,0 +1,7 @@
+"<?xml version=\"1.0\" encoding=\"UTF-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.o"
+"rg/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http:/"
+"/www.w3.org/2001/XMLSchema\"><soap:Body><UpdateMasterCreditMethodRequest xmlns=\"com.advantage"
+".online.store.accountservice\"><userId>964281101</userId><cardNumber>4886123123123123</cardNum"
+"ber><expirationDate>122027</expirationDate><cvvNumber>233</cvvNumber><customerName>artzay</cus"
+"tomerName><referenceId>1234567890</referenceId><base64Token>Basic QXJ0WmF5OkhhaGEwMDcw</base64"
+"Token></UpdateMasterCreditMethodRequest></soap:Body></soap:Envelope>"

@@ -1,0 +1,43 @@
+..\\..\\Transactions\\common_lib.h(68):     \x01\xD6\xA7\xC2&\xD8\xB8\x0BC\xB0\xA9\x85-0|\x08#\xB05\x11\xB6\xC1h,\xEC\x80\xED\xFE\x9F\x19
+..\\..\\Transactions\\common_lib.h(68):     \x85\xFA\x0B\x9D\xBE`\xBA\x00\x00\x00\x00\x01R{\xF7q\x00\x00
+..\\..\\Transactions\\common_lib.h(68): t=384075ms: Request done "https://www.advantageonlineshopping.com/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff"  	[MsgId: MMSG-26000]
+..\\..\\Transactions\\common_lib.h(68): web_custom_request("GetAccountConfigurationRequest") was successful, 25871 body bytes, 1118 header bytes  	[MsgId: MMSG-26386]
+..\\..\\Transactions\\common_lib.h(82): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+..\\..\\Transactions\\common_lib.h(82): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+..\\..\\Transactions\\common_lib.h(88): web_url("categories") started  	[MsgId: MMSG-26355]
+..\\..\\Transactions\\common_lib.h(88): The request to server https://www.advantageonlineshopping.com/catalog/api/v1/categories" is done with headers:
+..\\..\\Transactions\\common_lib.h(88):     :method = GET
+..\\..\\Transactions\\common_lib.h(88):     :scheme = https
+..\\..\\Transactions\\common_lib.h(88):     :path = /catalog/api/v1/categories
+..\\..\\Transactions\\common_lib.h(88):     :authority = www.advantageonlineshopping.com
+..\\..\\Transactions\\common_lib.h(88):     Referer = https://www.advantageonlineshopping.com/
+..\\..\\Transactions\\common_lib.h(88):     Sec-Fetch-Dest = empty
+..\\..\\Transactions\\common_lib.h(88):     Sec-Fetch-Mode = cors
+..\\..\\Transactions\\common_lib.h(88):     Sec-Fetch-Site = same-origin
+..\\..\\Transactions\\common_lib.h(88):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/13
+..\\..\\Transactions\\common_lib.h(88):     0.0
+..\\..\\Transactions\\common_lib.h(88):     Accept-Encoding = gzip, deflate
+..\\..\\Transactions\\common_lib.h(88):     Accept-Language = ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+..\\..\\Transactions\\common_lib.h(88):     Accept = */*
+..\\..\\Transactions\\common_lib.h(88): Notify: Transaction "Go_To_HomePage" ended with a "Stop" status (Duration: 3,7830 Wasted Time: 0,0033).	[MsgId: MMSG-16871]
+..\\..\\Transactions\\common_lib.h(88): Notify: Transaction "US5_RegistrtionRandomUser" ended with a "Stop" status (Duration: 3,7831 Wasted Time: 0,0033).	[MsgId: MMSG-16871]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+..\\..\\Transactions\\common_lib.h(88): Error -27760: Request "https://www.advantageonlineshopping.com/catalog/api/v1/categories" failed  	[MsgId: MERR-27760]
+..\\..\\Transactions\\common_lib.h(88): t=389283ms: Closed connection [0] to www.advantageonlineshopping.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+..\\..\\Transactions\\common_lib.h(88): t=389283ms: Closed connection [1] to www.googletagmanager.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=1, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 1 (thread 11532), ended OK."	[MsgId: MMSG-10695]
+Action.c(78): Notify: Transaction "US5_RegistrtionRandomUser" ended with a "Stop" status (Duration: 14,6144 Think Time: 2,0049 Wasted Time: 0,0041).	[MsgId: MMSG-16870]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Action.c(78): t=390197ms: Closed connection [0] to www.advantageonlineshopping.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(78): t=390197ms: Closed connection [1] to www.googletagmanager.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=1, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 0 (thread 11332), ended OK."	[MsgId: MMSG-10695]

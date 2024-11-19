@@ -1,4 +1,4 @@
 "{"seaddress":{"addressLine1":"Kavkazska 16","addressLine2":"","city":"Saratov","country":"ru","
 ""postalCode":123123123,"state":"Saratovska"},"secustomerName":"Artem Zayarny","secustomerPhone"
-"":"+71231231212","senumberOfProducts":1,"setransactionType":"SHIPPING_COST","sessionId":"AB8BF"
-"4B0EDA359CCEB847D74E431D48B"}"
+"":"+71231231212","senumberOfProducts":1,"setransactionType":"SHIPPING_COST","sessionId":"00409"
+"F606E1BDA66EA496FBE51148FCF"}"

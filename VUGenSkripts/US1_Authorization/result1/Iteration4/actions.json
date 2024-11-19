@@ -6,91 +6,91 @@
                 "stepId": "STEP31",
                 "stepName": "Url: www.advantageonlineshopping.com",
                 "infFile": "t1.inf",
-                "time": 1731870353954
+                "time": 1731881720982
             },
             {
                 "stepId": "STEP32",
                 "stepName": "Url: ALL",
                 "infFile": "t2.inf",
-                "time": 1731870354313
+                "time": 1731881721308
             },
             {
                 "stepId": "STEP33",
                 "stepName": "Custom Request: GetAccountConfigurationRequest",
                 "infFile": "t3.inf",
-                "time": 1731870354981
+                "time": 1731881721984
             },
             {
                 "stepId": "STEP34",
                 "stepName": "Url: categories",
                 "infFile": "t4.inf",
-                "time": 1731870355770
+                "time": 1731881722829
             },
             {
                 "stepId": "STEP35",
                 "stepName": "Url: search",
                 "infFile": "t5.inf",
-                "time": 1731870356395
+                "time": 1731881723481
             },
             {
                 "stepId": "STEP36",
                 "stepName": "Url: popularProducts.json",
                 "infFile": "t6.inf",
-                "time": 1731870356614
+                "time": 1731881723694
             },
             {
                 "stepId": "STEP37",
                 "stepName": "Url: home-page.html",
                 "infFile": "t7.inf",
-                "time": 1731870357584
+                "time": 1731881724627
             },
             {
                 "stepId": "STEP38",
                 "stepName": "Custom Request: AccountLoginRequest",
                 "infFile": "t8.inf",
-                "time": 1731870358395
+                "time": 1731881725436
             },
             {
                 "stepId": "STEP39",
                 "stepName": "Url: carts",
                 "infFile": "t9.inf",
-                "time": 1731870358786
+                "time": 1731881725843
             },
             {
                 "stepId": "STEP40",
                 "stepName": "Custom Request: AccountLogoutRequest",
                 "infFile": "t10.inf",
-                "time": 1731870359571
+                "time": 1731881726665
             }
         ],
         "transactions": [
             {
                 "transactionName": "Go_To_HomePage",
-                "rawStartTime": 1731870351304,
-                "rawEndTime": 1731870357597,
+                "rawStartTime": 1731881718265,
+                "rawEndTime": 1731881724640,
                 "thinkTime": 0.0,
-                "wastedTime": 0.18183493614196778
+                "wastedTime": 0.18778228759765626
             },
             {
                 "transactionName": "Login",
-                "rawStartTime": 1731870357628,
-                "rawEndTime": 1731870358789,
+                "rawStartTime": 1731881724673,
+                "rawEndTime": 1731881725845,
                 "thinkTime": 0.0,
-                "wastedTime": 0.047167301177978519
+                "wastedTime": 0.05694246292114258
             },
             {
                 "transactionName": "Logout",
-                "rawStartTime": 1731870358821,
-                "rawEndTime": 1731870359584,
+                "rawStartTime": 1731881725877,
+                "rawEndTime": 1731881726681,
                 "thinkTime": 0.0,
-                "wastedTime": 0.028954029083251954
+                "wastedTime": 0.03728842735290527
             },
             {
                 "transactionName": "US1_Authorization",
-                "rawStartTime": 1731870351288,
-                "rawEndTime": 1731870359600,
+                "rawStartTime": 1731881718249,
+                "rawEndTime": 1731881726697,
                 "thinkTime": 0.0,
-                "wastedTime": 0.25795626640319826
+                "wastedTime": 0.2820131778717041
             }
         ]
     }

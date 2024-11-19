@@ -1,0 +1,574 @@
+..\\..\\Transactions\\common_lib.h(205):     serId><ns2:reason>Logout Successful</ns2:reason></ns2:StatusMessage></ns2:AccountLogoutRes
+..\\..\\Transactions\\common_lib.h(205):     ponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+..\\..\\Transactions\\common_lib.h(205): t=3907303ms: Request done "https://www.advantageonlineshopping.com/accountservice/ws/AccountLogoutRequest"  	[MsgId: MMSG-26000]
+..\\..\\Transactions\\common_lib.h(205): Registered web_reg_find successful for "Text=Logout Successful" (count=1)  	[MsgId: MMSG-26364]
+..\\..\\Transactions\\common_lib.h(205): web_custom_request("AccountLogoutRequest") was successful, 402 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+..\\..\\Transactions\\common_lib.h(217): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,6495 Wasted Time: 0,0000).	[MsgId: MMSG-16871]
+Action.c(46): Notify: Transaction "US2_Search_product" ended with a "Pass" status (Duration: 27,9444 Think Time: 6,0152 Wasted Time: 0,0046).	[MsgId: MMSG-16870]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=3907304ms: Closed connection [0] to www.advantageonlineshopping.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+t=3907305ms: Closed connection [1] to www.googletagmanager.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=1, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 6 (thread 11396), ended OK."	[MsgId: MMSG-10695]
+..\\..\\Transactions\\common_lib.h(190): Notify: Transaction "Logout" started.	[MsgId: MMSG-16999]
+..\\..\\Transactions\\common_lib.h(191): web_reg_find started  	[MsgId: MMSG-26355]
+..\\..\\Transactions\\common_lib.h(191): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\..\\Transactions\\common_lib.h(193): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+..\\..\\Transactions\\common_lib.h(193): An unrecognized header ("Origin") is being added  	[MsgId: MMSG-26595]
+..\\..\\Transactions\\common_lib.h(193): "Origin: https://www.advantageonlineshopping.com" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+..\\..\\Transactions\\common_lib.h(193): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\..\\Transactions\\common_lib.h(196): web_add_header("Priority") started  	[MsgId: MMSG-26355]
+..\\..\\Transactions\\common_lib.h(196): An unrecognized header ("Priority") is being added  	[MsgId: MMSG-26595]
+..\\..\\Transactions\\common_lib.h(196): "Priority: u=0" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+..\\..\\Transactions\\common_lib.h(196): web_add_header("Priority") was successful  	[MsgId: MMSG-26392]
+..\\..\\Transactions\\common_lib.h(199): web_add_header("SOAPAction") started  	[MsgId: MMSG-26355]
+..\\..\\Transactions\\common_lib.h(199): "SOAPAction: com.advantage.online.store.accountserviceAccountLogoutRequest" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+..\\..\\Transactions\\common_lib.h(199): web_add_header("SOAPAction") was successful  	[MsgId: MMSG-26392]
+..\\..\\Transactions\\common_lib.h(202): web_add_header("X-Requested-With") started  	[MsgId: MMSG-26355]
+..\\..\\Transactions\\common_lib.h(202): An unrecognized header ("X-Requested-With") is being added  	[MsgId: MMSG-26595]
+..\\..\\Transactions\\common_lib.h(202): "X-Requested-With: XMLHttpRequest" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+..\\..\\Transactions\\common_lib.h(202): web_add_header("X-Requested-With") was successful  	[MsgId: MMSG-26392]
+..\\..\\Transactions\\common_lib.h(205): web_custom_request("AccountLogoutRequest") started  	[MsgId: MMSG-26355]
+..\\..\\Transactions\\common_lib.h(205): Notify: Parameter Substitution: parameter "userId_1" =  "464218932"	[MsgId: MMSG-13992]
+..\\..\\Transactions\\common_lib.h(205): Notify: Parameter Substitution: parameter "authorization_1" =  "THVmZnlHZWFyNDpSdWJiM3JNYW4="	[MsgId: MMSG-13992]
+..\\..\\Transactions\\common_lib.h(205): The request to server https://www.advantageonlineshopping.com/accountservice/ws/AccountLogoutRequest" is done with headers:
+..\\..\\Transactions\\common_lib.h(205):     :method = POST
+..\\..\\Transactions\\common_lib.h(205):     :scheme = https
+..\\..\\Transactions\\common_lib.h(205):     :path = /accountservice/ws/AccountLogoutRequest
+..\\..\\Transactions\\common_lib.h(205):     :authority = www.advantageonlineshopping.com
+..\\..\\Transactions\\common_lib.h(205):     Authorization = Basic THVmZnlHZWFyNDpSdWJiM3JNYW4=
+..\\..\\Transactions\\common_lib.h(205):     Content-Type = text/xml; charset=UTF-8
+..\\..\\Transactions\\common_lib.h(205):     Referer = https://www.advantageonlineshopping.com/
+..\\..\\Transactions\\common_lib.h(205):     Origin = https://www.advantageonlineshopping.com
+..\\..\\Transactions\\common_lib.h(205):     Priority = u=0
+..\\..\\Transactions\\common_lib.h(205):     SOAPAction = com.advantage.online.store.accountserviceAccountLogoutRequest
+..\\..\\Transactions\\common_lib.h(205):     X-Requested-With = XMLHttpRequest
+..\\..\\Transactions\\common_lib.h(205):     Sec-Fetch-Dest = empty
+..\\..\\Transactions\\common_lib.h(205):     Sec-Fetch-Mode = cors
+..\\..\\Transactions\\common_lib.h(205):     Sec-Fetch-Site = same-origin
+..\\..\\Transactions\\common_lib.h(205):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/13
+..\\..\\Transactions\\common_lib.h(205):     0.0
+..\\..\\Transactions\\common_lib.h(205):     Accept-Encoding = gzip, deflate
+..\\..\\Transactions\\common_lib.h(205):     Accept-Language = ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+..\\..\\Transactions\\common_lib.h(205):     Accept = */*
+..\\..\\Transactions\\common_lib.h(205):     content-length = 434
+..\\..\\Transactions\\common_lib.h(205): The request to server "https://www.advantageonlineshopping.com/accountservice/ws/AccountLogoutRequest" is done with body:
+..\\..\\Transactions\\common_lib.h(205):     <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.or
+..\\..\\Transactions\\common_lib.h(205):     g/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://
+..\\..\\Transactions\\common_lib.h(205):     www.w3.org/2001/XMLSchema"><soap:Body><AccountLogoutRequest xmlns="com.advantage.online.st
+..\\..\\Transactions\\common_lib.h(205):     ore.accountservice"><loginUser>464218932</loginUser><base64Token>Basic THVmZnlHZWFyNDpSdWJ
+..\\..\\Transactions\\common_lib.h(205):     iM3JNYW4=</base64Token></AccountLogoutRequest></soap:Body></soap:Envelope>
+..\\..\\Transactions\\common_lib.h(205): t=3909853ms: 735-byte response headers for "https://www.advantageonlineshopping.com/accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=754)
+..\\..\\Transactions\\common_lib.h(205):     HTTP/2.0 200\r\n
+..\\..\\Transactions\\common_lib.h(205):     Status: 200\r\n
+..\\..\\Transactions\\common_lib.h(205):     server: nginx/1.18.0 (Ubuntu)\r\n
+..\\..\\Transactions\\common_lib.h(205):     date: Mon, 18 Nov 2024 04:33:43 GMT\r\n
+..\\..\\Transactions\\common_lib.h(205):     content-type: text/xml;charset=utf-8\r\n
+..\\..\\Transactions\\common_lib.h(205):     content-length: 402\r\n
+..\\..\\Transactions\\common_lib.h(205):     x-content-type-options: nosniff\r\n
+..\\..\\Transactions\\common_lib.h(205):     x-xss-protection: 1; mode=block\r\n
+..\\..\\Transactions\\common_lib.h(205):     cache-control: no-store\r\n
+..\\..\\Transactions\\common_lib.h(205):     pragma: no-cache\r\n
+..\\..\\Transactions\\common_lib.h(205):     expires: 0\r\n
+..\\..\\Transactions\\common_lib.h(205):     x-frame-options: DENY\r\n
+..\\..\\Transactions\\common_lib.h(205):     access-control-request-method: POST, GET, OPTIONS, DELETE\r\n
+..\\..\\Transactions\\common_lib.h(205):     access-control-allow-methods: POST, GET, OPTIONS, DELETE\r\n
+..\\..\\Transactions\\common_lib.h(205):     access-control-max-age: 3600\r\n
+..\\..\\Transactions\\common_lib.h(205):     access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapact
+..\\..\\Transactions\\common_lib.h(205):     ion\r\n
+..\\..\\Transactions\\common_lib.h(205):     access-control-allow-origin: *\r\n
+..\\..\\Transactions\\common_lib.h(205):     accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n
+..\\..\\Transactions\\common_lib.h(205):     soapaction: ""\r\n
+..\\..\\Transactions\\common_lib.h(205):     strict-transport-security: max-age=31536000; includeSubDomains; preload\r\n
+..\\..\\Transactions\\common_lib.h(205):     \r\n
+..\\..\\Transactions\\common_lib.h(205): t=3909855ms: 402-byte response body for "https://www.advantageonlineshopping.com/accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=754)
+..\\..\\Transactions\\common_lib.h(205):     <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:He
+..\\..\\Transactions\\common_lib.h(205):     ader/><SOAP-ENV:Body><ns2:AccountLogoutResponse xmlns:ns2="com.advantage.online.store.acco
+..\\..\\Transactions\\common_lib.h(205):     untservice"><ns2:StatusMessage><ns2:success>true</ns2:success><ns2:userId>464218932</ns2:u
+..\\..\\Transactions\\common_lib.h(205):     serId><ns2:reason>Logout Successful</ns2:reason></ns2:StatusMessage></ns2:AccountLogoutRes
+..\\..\\Transactions\\common_lib.h(205):     ponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+..\\..\\Transactions\\common_lib.h(205): t=3909855ms: Request done "https://www.advantageonlineshopping.com/accountservice/ws/AccountLogoutRequest"  	[MsgId: MMSG-26000]
+..\\..\\Transactions\\common_lib.h(205): Registered web_reg_find successful for "Text=Logout Successful" (count=1)  	[MsgId: MMSG-26364]
+..\\..\\Transactions\\common_lib.h(205): web_custom_request("AccountLogoutRequest") was successful, 402 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+..\\..\\Transactions\\common_lib.h(217): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,6666 Wasted Time: 0,0000).	[MsgId: MMSG-16871]
+Action.c(46): Notify: Transaction "US2_Search_product" ended with a "Pass" status (Duration: 16,9752 Think Time: 6,0298 Wasted Time: 0,0043).	[MsgId: MMSG-16870]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=3909856ms: Closed connection [0] to www.advantageonlineshopping.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+t=3909857ms: Closed connection [1] to www.googletagmanager.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=1, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 9 (thread 11716), ended OK."	[MsgId: MMSG-10695]
+..\\..\\Transactions\\common_lib.h(176): t=3912419ms: 455-byte response headers for "https://www.advantageonlineshopping.com/order/api/v1/carts/451637020" (RelFrameId=1, Internal ID=1475)
+..\\..\\Transactions\\common_lib.h(176):     HTTP/2.0 200\r\n
+..\\..\\Transactions\\common_lib.h(176):     Status: 200\r\n
+..\\..\\Transactions\\common_lib.h(176):     server: nginx/1.18.0 (Ubuntu)\r\n
+..\\..\\Transactions\\common_lib.h(176):     date: Mon, 18 Nov 2024 04:33:45 GMT\r\n
+..\\..\\Transactions\\common_lib.h(176):     content-type: application/json\r\n
+..\\..\\Transactions\\common_lib.h(176):     expires: 0\r\n
+..\\..\\Transactions\\common_lib.h(176):     cache-control: no-store\r\n
+..\\..\\Transactions\\common_lib.h(176):     set-cookie: JSESSIONID=6BB9B2A0E9694E9A77984D22E9E85D00; Path=/order; HttpOnly\r\n
+..\\..\\Transactions\\common_lib.h(176):     x-content-type-options: nosniff\r\n
+..\\..\\Transactions\\common_lib.h(176):     x-xss-protection: 1; mode=block\r\n
+..\\..\\Transactions\\common_lib.h(176):     x-frame-options: DENY\r\n
+..\\..\\Transactions\\common_lib.h(176):     vary: accept-encoding\r\n
+..\\..\\Transactions\\common_lib.h(176):     content-encoding: gzip\r\n
+..\\..\\Transactions\\common_lib.h(176):     strict-transport-security: max-age=31536000; includeSubDomains; preload\r\n
+..\\..\\Transactions\\common_lib.h(176):     \r\n
+..\\..\\Transactions\\common_lib.h(176): t=3912420ms: 508-byte ENCODED response body received for "https://www.advantageonlineshopping.com/order/api/v1/carts/451637020" (RelFrameId=1, Internal ID=1475)
+..\\..\\Transactions\\common_lib.h(176): t=3912420ms: 1846-byte DECODED response body for "https://www.advantageonlineshopping.com/order/api/v1/carts/451637020" (RelFrameId=1, Internal ID=1475)
+..\\..\\Transactions\\common_lib.h(176):     {"userId":451637020,"productsInCart":[{"productId":23,"productName":"Logitech X100 Speaker
+..\\..\\Transactions\\common_lib.h(176):      System - Wireless Speaker(s)","price":49.99,"quantity":1,"imageUrl":"4500","color":{"code
+..\\..\\Transactions\\common_lib.h(176):     ":"414141","name":"BLACK","inStock":10},"exists":true,"hasWarranty":false},{"productId":1,
+..\\..\\Transactions\\common_lib.h(176):     "productName":"HP Pavilion 15t Touch Laptop","price":519.99,"quantity":1,"imageUrl":"1100"
+..\\..\\Transactions\\common_lib.h(176):     ,"color":{"code":"C3C3C3","name":"GRAY","inStock":10},"exists":true,"hasWarranty":false},{
+..\\..\\Transactions\\common_lib.h(176):     "productId":8,"productName":"HP ZBook 17 G2 Mobile Workstation","price":1799.0,"quantity":
+..\\..\\Transactions\\common_lib.h(176):     1,"imageUrl":"1800","color":{"code":"414141","name":"BLACK","inStock":10},"exists":true,"h
+..\\..\\Transactions\\common_lib.h(176):     asWarranty":false},{"productId":17,"productName":"HP Elite x2 1011 G1 Tablet","price":1279
+..\\..\\Transactions\\common_lib.h(176):     .0,"quantity":1,"imageUrl":"3200","color":{"code":"414141","name":"BLACK","inStock":10},"e
+..\\..\\Transactions\\common_lib.h(176):     xists":true,"hasWarranty":false},{"productId":2,"productName":"HP Pavilion 15z Laptop","pr
+..\\..\\Transactions\\common_lib.h(176):     ice":549.99,"quantity":1,"imageUrl":"1200","color":{"code":"DD3A5B","name":"RED","inStock"
+..\\..\\Transactions\\common_lib.h(176):     :10},"exists":true,"hasWarranty":false},{"productId":16,"productName":"HP ElitePad 1000 G2
+..\\..\\Transactions\\common_lib.h(176):      Tablet","price":1009.0,"quantity":1,"imageUrl":"3100","color":{"code":"414141","name":"BL
+..\\..\\Transactions\\common_lib.h(176):     UE","inStock":10},"exists":true,"hasWarranty":false},{"productId":17,"productName":"HP Eli
+..\\..\\Transactions\\common_lib.h(176):     te x2 1011 G1 Tablet","price":1279.0,"quantity":1,"imageUrl":"3200","color":{"code":"C3C3C
+..\\..\\Transactions\\common_lib.h(176):     3","name":"GRAY","inStock":10},"exists":true,"hasWarranty":false},{"productId":5,"productN
+..\\..\\Transactions\\common_lib.h(176):     ame":"HP Stream - 11-d020nr Laptop","price":179.99,"quantity":1,"imageUrl":"1245","color":
+..\\..\\Transactions\\common_lib.h(176):     {"code":"545195","name":"PURPLE","inStock":10},"exists":true,"hasWarranty":false},{"produc
+..\\..\\Transactions\\common_lib.h(176):     tId":143,"productName":"game of thrones","price":10000.0,"quantity":1,"imageUrl":"1245","c
+..\\..\\Transactions\\common_lib.h(176):     olor":{"code":"545195","name":"PURPLE","inStock":10},"exists":true,"hasWarranty":false}],"
+..\\..\\Transactions\\common_lib.h(176):     sessionId":"6BB9B2A0E9694E9A77984D22E9E85D00"}
+..\\..\\Transactions\\common_lib.h(176): Notify: Saving Parameter "sessionId = 6BB9B2A0E9694E9A77984D22E9E85D00".	[MsgId: MMSG-13798]
+..\\..\\Transactions\\common_lib.h(176): t=3912421ms: Request done "https://www.advantageonlineshopping.com/order/api/v1/carts/451637020"  	[MsgId: MMSG-26000]
+..\\..\\Transactions\\common_lib.h(176): web_url("carts") was successful, 508 body bytes, 455 header bytes  	[MsgId: MMSG-26386]
+..\\..\\Transactions\\common_lib.h(185): Notify: Transaction "Login" ended with a "Pass" status (Duration: 8,3179 Wasted Time: 0,0005).	[MsgId: MMSG-16871]
+..\\..\\Transactions\\common_lib.h(187): lr_think_time: 2,00 seconds.	[MsgId: MMSG-15948]
+Action.c(7): Notify: Transaction "Search_Product" started.	[MsgId: MMSG-16999]
+Action.c(9): web_add_header("Priority") started  	[MsgId: MMSG-26355]
+Action.c(9): An unrecognized header ("Priority") is being added  	[MsgId: MMSG-26595]
+Action.c(9): "Priority: u=0" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(9): web_add_header("Priority") was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Notify: Parameter Substitution: parameter "randomCategory" =  "4"	[MsgId: MMSG-13992]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(14): web_url("products") started  	[MsgId: MMSG-26355]
+Action.c(14): Notify: Parameter Substitution: parameter "randomCategory" =  "4"	[MsgId: MMSG-13992]
+Action.c(14): The request to server https://www.advantageonlineshopping.com/catalog/api/v1/categories/4/products" is done with headers:
+Action.c(14):     :method = GET
+Action.c(14):     :scheme = https
+Action.c(14):     :path = /catalog/api/v1/categories/4/products
+Action.c(14):     :authority = www.advantageonlineshopping.com
+Action.c(14):     Authorization = Basic Sm9objg3OldhdHNvbjEyMw==
+Action.c(14):     Referer = https://www.advantageonlineshopping.com/
+Action.c(14):     Priority = u=0
+Action.c(14):     Sec-Fetch-Dest = empty
+Action.c(14):     Sec-Fetch-Mode = cors
+Action.c(14):     Sec-Fetch-Site = same-origin
+Action.c(14):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/13
+Action.c(14):     0.0
+Action.c(14):     Accept-Encoding = gzip, deflate
+Action.c(14):     Accept-Language = ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Action.c(14):     Accept = */*
+Action.c(14): t=3915240ms: 375-byte response headers for "https://www.advantageonlineshopping.com/catalog/api/v1/categories/4/products" (RelFrameId=1, Internal ID=1476)
+Action.c(14):     HTTP/2.0 200\r\n
+Action.c(14):     Status: 200\r\n
+Action.c(14):     server: nginx/1.18.0 (Ubuntu)\r\n
+Action.c(14):     date: Mon, 18 Nov 2024 04:33:48 GMT\r\n
+Action.c(14):     content-type: application/json\r\n
+Action.c(14):     expires: 0\r\n
+Action.c(14):     cache-control: no-store\r\n
+Action.c(14):     x-content-type-options: nosniff\r\n
+Action.c(14):     x-xss-protection: 1; mode=block\r\n
+Action.c(14):     x-frame-options: DENY\r\n
+Action.c(14):     vary: accept-encoding\r\n
+Action.c(14):     content-encoding: gzip\r\n
+Action.c(14):     strict-transport-security: max-age=31536000; includeSubDomains; preload\r\n
+Action.c(14):     \r\n
+Action.c(14): t=3915240ms: 1968-byte ENCODED response body received for "https://www.advantageonlineshopping.com/catalog/api/v1/categories/4/products" (RelFrameId=1, Internal ID=1476)
+Action.c(14): t=3915240ms: 8160-byte DECODED response body for "https://www.advantageonlineshopping.com/catalog/api/v1/categories/4/products" (RelFrameId=1, Internal ID=1476)
+Action.c(14):     {"categoryId":4,"categoryName":"SPEAKERS","categoryImageId":"speakers","promotedProduct":{
+Action.c(14):     "id":19,"staringPrice":"200","promotionHeader":"ENJOY PREMIUM SOUND","promotionSubHeader":
+Action.c(14):     "Colorful style meets serious sound","productName":"HP S9500 Bluetooth Wireless Speaker","
+Action.c(14):     price":200.0,"description":"Impress \xE2\x80\xA6 everyone! Futuristic design with perforat
+Action.c(14):     ed steel formed into subtle angles. Requiring only minimal space, this speaker is the idea
+Action.c(14):     l complement to any setting.","imageUrl":"4100","attributes":[{"attributeName":"CONNECTOR"
+Action.c(14):     ,"attributeValue":"Wireless"},{"attributeName":"COMPATIBILITY","attributeValue":"Any devic
+Action.c(14):     e that has bluetooth enabled"},{"attributeName":"WEIGHT","attributeValue":"1.95 lb"},{"att
+Action.c(14):     ributeName":"WIRELESS TECHNOLOGY","attributeValue":"Bluetooh\xC2\xAE"},{"attributeName":"M
+Action.c(14):     ANUFACTURER","attributeValue":"HP"}]},"attributes":[{"attributeName":"CONNECTOR","attribut
+Action.c(14):     eValues":["Wireless"]},{"attributeName":"COMPATIBILITY","attributeValues":["Any device tha
+Action.c(14):     t has bluetooth enabled or a 3.5 mm audio connector.","Any device that has bluetooth enabl
+Action.c(14):     ed"]},{"attributeName":"WEIGHT","attributeValues":["3.03 lb","1.95 lb","0.55 lb","1.26 lb"
+Action.c(14):     ,"1.1 lb","1.25 lb","1.0 lb"]},{"attributeName":"WIRELESS TECHNOLOGY","attributeValues":["
+Action.c(14):     Bluetooh\xC2\xAE","Bluetooth\xC2\xAE"]},{"attributeName":"MANUFACTURER","attributeValues":
+Action.c(14):     ["Bose","Logitech","HP"]}],"products":[{"productId":20,"categoryId":4,"productName":"Bose 
+Action.c(14):     Soundlink Bluetooth Speaker III","price":269.99,"description":"Meet the speaker that bring
+Action.c(14):     s your music and friends together-with a style that's all your own. The SoundLink\xC2\xAE 
+Action.c(14):     Bluetooth speaker III is our best-performing mobile Bluetooth speaker. It plays louder and
+Action.c(14):      longer than its popular predecessor, with advanced Bose\xC2\xAE technologies that reprodu
+Action.c(14):     ce the fullness, clarity and depth of your music. And a colorful assortment of optional co
+Action.c(14):     vers let you personalize your speaker.","imageUrl":"4200","attributes":[{"attributeName":"
+Action.c(14):     CONNECTOR","attributeValue":"Wireless"},{"attributeName":"MANUFACTURER","attributeValue":"
+Action.c(14):     Bose"},{"attributeName":"WEIGHT","attributeValue":"3.03 lb"},{"attributeName":"COMPATIBILI
+Action.c(14):     TY","attributeValue":"Any device that has bluetooth enabled"},{"attributeName":"WIRELESS T
+Action.c(14):     ECHNOLOGY","attributeValue":"Bluetooh\xC2\xAE"}],"colors":[{"code":"414141","name":"BLACK"
+Action.c(14):     ,"inStock":10},{"code":"C3C3C3","name":"GRAY","inStock":10}],"images":["ABCDEF##4200"],"pr
+Action.c(14):     oductStatus":"Active"},{"productId":25,"categoryId":4,"productName":"Bose SoundLink Wirele
+Action.c(14):     ss Speaker","price":129.0,"description":"If music is your motivation, wait until you hear 
+Action.c(14):     the SoundLink\xC2\xAE Color Bluetooth speaker. It plays your favorite tunes from your favo
+Action.c(14):     rite Bluetooth device-out loud in clear, full audio-just about anywhere you want to go. It
+Action.c(14):     's small, durable and simple to use. And it comes in a spectrum of colors to match almost 
+Action.c(14):     any style.","imageUrl":"4700","attributes":[{"attributeName":"WIRELESS TECHNOLOGY","attrib
+Action.c(14):     uteValue":"Bluetooh\xC2\xAE"},{"attributeName":"MANUFACTURER","attributeValue":"Bose"},{"a
+Action.c(14):     ttributeName":"COMPATIBILITY","attributeValue":"Any device that has bluetooth enabled or a
+Action.c(14):      3.5 mm audio connector."},{"attributeName":"WEIGHT","attributeValue":"1.25 lb"},{"attribu
+Action.c(14):     teName":"CONNECTOR","attributeValue":"Wireless"}],"colors":[{"code":"414141","name":"BLACK
+Action.c(14):     ","inStock":10},{"code":"3683D1","name":"BLUE","inStock":10},{"code":"DD3A5B","name":"RED"
+Action.c(14):     ,"inStock":10},{"code":"55CDD5","name":"TURQUOISE","inStock":10}],"images":["3683D1##4704"
+Action.c(14):     ,"414141##4701","55CDD5##4700","DD3A5B##4702"],"productStatus":"Active"},{"productId":24,"
+Action.c(14):     categoryId":4,"productName":"HP Roar Mini Wireless Speaker","price":44.99,"description":"A
+Action.c(14):     ttention-getting design, color, and sound - the HP Roar Mini Wireless Speaker. Exceptional
+Action.c(14):      size-defying audio while streaming music and calls from a distinctively compact speaker."
+Action.c(14):     ,"imageUrl":"4600","attributes":[{"attributeName":"WEIGHT","attributeValue":"0.55 lb"},{"a
+Action.c(14):     ttributeName":"CONNECTOR","attributeValue":"Wireless"},{"attributeName":"WIRELESS TECHNOLO
+Action.c(14):     GY","attributeValue":"Bluetooh\xC2\xAE"},{"attributeName":"COMPATIBILITY","attributeValue"
+Action.c(14):     :"Any device that has bluetooth enabled or a 3.5 mm audio connector."},{"attributeName":"M
+Action.c(14):     ANUFACTURER","attributeValue":"HP"}],"colors":[{"code":"414141","name":"BLACK","inStock":1
+Action.c(14):     0},{"code":"C3C3C3","name":"GRAY","inStock":10},{"code":"DD3A5B","name":"RED","inStock":10
+Action.c(14):     },{"code":"FCC23D","name":"YELLOW","inStock":10}],"images":["414141##4602","C3C3C3##4603",
+Action.c(14):     "DD3A5B##4600","FCC23D##4601"],"productStatus":"Active"},{"productId":21,"categoryId":4,"p
+Action.c(14):     roductName":"HP Roar Plus Wireless Speaker","price":169.99,"description":"Showcase your mu
+Action.c(14):     sic anywhere with the ease of wireless Bluetooth\xC2\xAE connectivity.","imageUrl":"4300",
+Action.c(14):     "attributes":[{"attributeName":"WEIGHT","attributeValue":"1.26 lb"},{"attributeName":"CONN
+Action.c(14):     ECTOR","attributeValue":"Wireless"},{"attributeName":"COMPATIBILITY","attributeValue":"Any
+Action.c(14):      device that has bluetooth enabled"},{"attributeName":"MANUFACTURER","attributeValue":"HP"
+Action.c(14):     },{"attributeName":"WIRELESS TECHNOLOGY","attributeValue":"Bluetooth\xC2\xAE"}],"colors":[
+Action.c(14):     {"code":"414141","name":"BLACK","inStock":10},{"code":"3683D1","name":"BLUE","inStock":10}
+Action.c(14):     ,{"code":"545195","name":"PURPLE","inStock":10}],"images":["3683D1##4300","3683D1##4301","
+Action.c(14):     414141##4304","545195##4308"],"productStatus":"Active"},{"productId":22,"categoryId":4,"pr
+Action.c(14):     oductName":"HP Roar Wireless Speaker","price":84.99,"description":"Showcase your music any
+Action.c(14):     where with the ease of wireless Bluetooth\xC2\xAE connectivity.","imageUrl":"4400","attrib
+Action.c(14):     utes":[{"attributeName":"COMPATIBILITY","attributeValue":"Any device that has bluetooth en
+Action.c(14):     abled"},{"attributeName":"CONNECTOR","attributeValue":"Wireless"},{"attributeName":"WIRELE
+Action.c(14):     SS TECHNOLOGY","attributeValue":"Bluetooh\xC2\xAE"},{"attributeName":"MANUFACTURER","attri
+Action.c(14):     buteValue":"HP"},{"attributeName":"WEIGHT","attributeValue":"1.1 lb"}],"colors":[{"code":"
+Action.c(14):     3683D1","name":"BLUE","inStock":10},{"code":"FFFFFF","name":"WHITE","inStock":10},{"code":
+Action.c(14):     "FCC23D","name":"YELLOW","inStock":10}],"images":["3683D1##4404","FCC23D##4408","FFFFFF##4
+Action.c(14):     400","FFFFFF##4401"],"productStatus":"Active"},{"productId":19,"categoryId":4,"productName
+Action.c(14):     ":"HP S9500 Bluetooth Wireless Speaker","price":200.0,"description":"Impress \xE2\x80\xA6 
+Action.c(14):     everyone! Futuristic design with perforated steel formed into subtle angles. Requiring onl
+Action.c(14):     y minimal space, this speaker is the ideal complement to any setting.","imageUrl":"4100","
+Action.c(14):     attributes":[{"attributeName":"CONNECTOR","attributeValue":"Wireless"},{"attributeName":"C
+Action.c(14):     OMPATIBILITY","attributeValue":"Any device that has bluetooth enabled"},{"attributeName":"
+Action.c(14):     WEIGHT","attributeValue":"1.95 lb"},{"attributeName":"WIRELESS TECHNOLOGY","attributeValue
+Action.c(14):     ":"Bluetooh\xC2\xAE"},{"attributeName":"MANUFACTURER","attributeValue":"HP"}],"colors":[{"
+Action.c(14):     code":"C3C3C3","name":"GRAY","inStock":10},{"code":"FFFFFF","name":"WHITE","inStock":10}],
+Action.c(14):     "images":["ABCDEF##4100","ABCDEF##4101"],"productStatus":"Active"},{"productId":23,"catego
+Action.c(14):     ryId":4,"productName":"Logitech X100 Speaker System - Wireless Speaker(s)","price":49.99,"
+Action.c(14):     description":"Pump up the volume and enjoy crystal-clear sound from this mobile speaker. T
+Action.c(14):     his portable speaker is perfect for life on-the-go. Take it on the road or relax and liste
+Action.c(14):     n at home because this mobile speaker goes everywhere. Simple, intuitive design lets you w
+Action.c(14):     irelessly connect and stream music from your Bluetooth-enabled device from up to 30' away.
+Action.c(14):      Easily manage phone calls and volume control from your mobile phone. Enjoy five hours of 
+Action.c(14):     continuous play before you need to recharge. Recharge the built-in, lithium-ion battery wi
+Action.c(14):     th the convenience of the included micro-USB cable.","imageUrl":"4500","attributes":[{"att
+Action.c(14):     ributeName":"CONNECTOR","attributeValue":"Wireless"},{"attributeName":"COMPATIBILITY","att
+Action.c(14):     ributeValue":"Any device that has bluetooth enabled"},{"attributeName":"WEIGHT","attribute
+Action.c(14):     Value":"1.0 lb"},{"attributeName":"WIRELESS TECHNOLOGY","attributeValue":"Bluetooh\xC2\xAE
+Action.c(14):     "},{"attributeName":"MANUFACTURER","attributeValue":"Logitech"}],"colors":[{"code":"414141
+Action.c(14):     ","name":"BLACK","inStock":10}],"images":["414141##4500"],"productStatus":"Active"}],"colo
+Action.c(14):     rs":["414141","3683D1","545195","C3C3C3","DD3A5B","55CDD5","FFFFFF","FCC23D"]}
+Action.c(14): t=3915244ms: 10-byte ENCODED response body received for "https://www.advantageonlineshopping.com/catalog/api/v1/categories/4/products" (RelFrameId=1, Internal ID=1476)
+Action.c(14): t=3915244ms: Request done "https://www.advantageonlineshopping.com/catalog/api/v1/categories/4/products"  	[MsgId: MMSG-26000]
+Action.c(14): Registered web_reg_find successful for "Text="categoryId":4,"categoryName":" (count=1)  	[MsgId: MMSG-26364]
+Action.c(14): web_url("products") was successful, 1978 body bytes, 375 header bytes  	[MsgId: MMSG-26386]
+Action.c(23): web_url("attributes") started  	[MsgId: MMSG-26355]
+Action.c(23): The request to server https://www.advantageonlineshopping.com/catalog/api/v1/categories/attributes" is done with headers:
+Action.c(23):     :method = GET
+Action.c(23):     :scheme = https
+Action.c(23):     :path = /catalog/api/v1/categories/attributes
+Action.c(23):     :authority = www.advantageonlineshopping.com
+Action.c(23):     Authorization = Basic Sm9objg3OldhdHNvbjEyMw==
+Action.c(23):     Referer = https://www.advantageonlineshopping.com/
+Action.c(23):     Sec-Fetch-Dest = empty
+Action.c(23):     Sec-Fetch-Mode = cors
+Action.c(23):     Sec-Fetch-Site = same-origin
+Action.c(23):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/13
+Action.c(23):     0.0
+Action.c(23):     Accept-Encoding = gzip, deflate
+Action.c(23):     Accept-Language = ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Action.c(23):     Accept = */*
+Action.c(23): t=3916252ms: 375-byte response headers for "https://www.advantageonlineshopping.com/catalog/api/v1/categories/attributes" (RelFrameId=1, Internal ID=1477)
+Action.c(23):     HTTP/2.0 200\r\n
+Action.c(23):     Status: 200\r\n
+Action.c(23):     server: nginx/1.18.0 (Ubuntu)\r\n
+Action.c(23):     date: Mon, 18 Nov 2024 04:33:49 GMT\r\n
+Action.c(23):     content-type: application/json\r\n
+Action.c(23):     expires: 0\r\n
+Action.c(23):     cache-control: no-store\r\n
+Action.c(23):     x-content-type-options: nosniff\r\n
+Action.c(23):     x-xss-protection: 1; mode=block\r\n
+Action.c(23):     x-frame-options: DENY\r\n
+Action.c(23):     vary: accept-encoding\r\n
+Action.c(23):     content-encoding: gzip\r\n
+Action.c(23):     strict-transport-security: max-age=31536000; includeSubDomains; preload\r\n
+Action.c(23):     \r\n
+Action.c(23): t=3916253ms: 542-byte ENCODED response body received for "https://www.advantageonlineshopping.com/catalog/api/v1/categories/attributes" (RelFrameId=1, Internal ID=1477)
+Action.c(23): t=3916253ms: 6213-byte DECODED response body for "https://www.advantageonlineshopping.com/catalog/api/v1/categories/attributes" (RelFrameId=1, Internal ID=1477)
+Action.c(23):     {"categoriesAttributes":[{"categoryId":1,"categoryName":"LAPTOPS","attributeId":1,"attribu
+Action.c(23):     teName":"GRAPHICS","showInFilter":false},{"categoryId":1,"categoryName":"LAPTOPS","attribu
+Action.c(23):     teId":2,"attributeName":"CUSTOMIZATION","showInFilter":false},{"categoryId":1,"categoryNam
+Action.c(23):     e":"LAPTOPS","attributeId":3,"attributeName":"OPERATING SYSTEM","showInFilter":true},{"cat
+Action.c(23):     egoryId":1,"categoryName":"LAPTOPS","attributeId":4,"attributeName":"PROCESSOR","showInFil
+Action.c(23):     ter":true},{"categoryId":1,"categoryName":"LAPTOPS","attributeId":5,"attributeName":"MEMOR
+Action.c(23):     Y","showInFilter":false},{"categoryId":1,"categoryName":"LAPTOPS","attributeId":6,"attribu
+Action.c(23):     teName":"DISPLAY","showInFilter":true},{"categoryId":1,"categoryName":"LAPTOPS","attribute
+Action.c(23):     Id":7,"attributeName":"CONNECTOR","showInFilter":false},{"categoryId":1,"categoryName":"LA
+Action.c(23):     PTOPS","attributeId":8,"attributeName":"COMPATIBILITY","showInFilter":false},{"categoryId"
+Action.c(23):     :1,"categoryName":"LAPTOPS","attributeId":9,"attributeName":"WEIGHT","showInFilter":true},
+Action.c(23):     {"categoryId":1,"categoryName":"LAPTOPS","attributeId":10,"attributeName":"WIRELESS TECHNO
+Action.c(23):     LOGY","showInFilter":false},{"categoryId":1,"categoryName":"LAPTOPS","attributeId":11,"att
+Action.c(23):     ributeName":"SENSOR RESOLUTION","showInFilter":false},{"categoryId":1,"categoryName":"LAPT
+Action.c(23):     OPS","attributeId":12,"attributeName":"TYPE","showInFilter":false},{"categoryId":1,"catego
+Action.c(23):     ryName":"LAPTOPS","attributeId":13,"attributeName":"MANUFACTURER","showInFilter":false},{"
+Action.c(23):     categoryId":1,"categoryName":"LAPTOPS","attributeId":14,"attributeName":"SCROLLER TYPE","s
+Action.c(23):     howInFilter":false},{"categoryId":1,"categoryName":"LAPTOPS","attributeId":15,"attributeNa
+Action.c(23):     me":"DISPLAY SIZE","showInFilter":false},{"categoryId":1,"categoryName":"LAPTOPS","attribu
+Action.c(23):     teId":16,"attributeName":"DISPLAY RESOLUTION","showInFilter":false},{"categoryId":1,"categ
+Action.c(23):     oryName":"LAPTOPS","attributeId":17,"attributeName":"TOUCHSCREEN","showInFilter":false},{"
+Action.c(23):     categoryId":2,"categoryName":"HEADPHONES","attributeId":8,"attributeName":"COMPATIBILITY",
+Action.c(23):     "showInFilter":true},{"categoryId":2,"categoryName":"HEADPHONES","attributeId":7,"attribut
+Action.c(23):     eName":"CONNECTOR","showInFilter":true},{"categoryId":2,"categoryName":"HEADPHONES","attri
+Action.c(23):     buteId":9,"attributeName":"WEIGHT","showInFilter":true},{"categoryId":3,"categoryName":"TA
+Action.c(23):     BLETS","attributeId":1,"attributeName":"GRAPHICS","showInFilter":false},{"categoryId":3,"c
+Action.c(23):     ategoryName":"TABLETS","attributeId":2,"attributeName":"CUSTOMIZATION","showInFilter":fals
+Action.c(23):     e},{"categoryId":3,"categoryName":"TABLETS","attributeId":3,"attributeName":"OPERATING SYS
+Action.c(23):     TEM","showInFilter":false},{"categoryId":3,"categoryName":"TABLETS","attributeId":4,"attri
+Action.c(23):     buteName":"PROCESSOR","showInFilter":true},{"categoryId":3,"categoryName":"TABLETS","attri
+Action.c(23):     buteId":5,"attributeName":"MEMORY","showInFilter":false},{"categoryId":3,"categoryName":"T
+Action.c(23):     ABLETS","attributeId":6,"attributeName":"DISPLAY","showInFilter":true},{"categoryId":3,"ca
+Action.c(23):     tegoryName":"TABLETS","attributeId":7,"attributeName":"CONNECTOR","showInFilter":false},{"
+Action.c(23):     categoryId":3,"categoryName":"TABLETS","attributeId":8,"attributeName":"COMPATIBILITY","sh
+Action.c(23):     owInFilter":false},{"categoryId":3,"categoryName":"TABLETS","attributeId":9,"attributeName
+Action.c(23):     ":"WEIGHT","showInFilter":false},{"categoryId":3,"categoryName":"TABLETS","attributeId":10
+Action.c(23):     ,"attributeName":"WIRELESS TECHNOLOGY","showInFilter":false},{"categoryId":4,"categoryName
+Action.c(23):     ":"SPEAKERS","attributeId":1,"attributeName":"GRAPHICS","showInFilter":false},{"categoryId
+Action.c(23):     ":4,"categoryName":"SPEAKERS","attributeId":2,"attributeName":"CUSTOMIZATION","showInFilte
+Action.c(23):     r":false},{"categoryId":4,"categoryName":"SPEAKERS","attributeId":3,"attributeName":"OPERA
+Action.c(23):     TING SYSTEM","showInFilter":false},{"categoryId":4,"categoryName":"SPEAKERS","attributeId"
+Action.c(23):     :4,"attributeName":"PROCESSOR","showInFilter":false},{"categoryId":4,"categoryName":"SPEAK
+Action.c(23):     ERS","attributeId":5,"attributeName":"MEMORY","showInFilter":false},{"categoryId":4,"categ
+Action.c(23):     oryName":"SPEAKERS","attributeId":6,"attributeName":"DISPLAY","showInFilter":false},{"cate
+Action.c(23):     goryId":4,"categoryName":"SPEAKERS","attributeId":7,"attributeName":"CONNECTOR","showInFil
+Action.c(23):     ter":true},{"categoryId":4,"categoryName":"SPEAKERS","attributeId":8,"attributeName":"COMP
+Action.c(23):     ATIBILITY","showInFilter":true},{"categoryId":4,"categoryName":"SPEAKERS","attributeId":9,
+Action.c(23):     "attributeName":"WEIGHT","showInFilter":true},{"categoryId":4,"categoryName":"SPEAKERS","a
+Action.c(23):     ttributeId":10,"attributeName":"WIRELESS TECHNOLOGY","showInFilter":true},{"categoryId":4,
+Action.c(23):     "categoryName":"SPEAKERS","attributeId":11,"attributeName":"SENSOR RESOLUTION","showInFilt
+Action.c(23):     er":false},{"categoryId":4,"categoryName":"SPEAKERS","attributeId":12,"attributeName":"TYP
+Action.c(23):     E","showInFilter":false},{"categoryId":4,"categoryName":"SPEAKERS","attributeId":13,"attri
+Action.c(23):     buteName":"MANUFACTURER","showInFilter":true},{"categoryId":5,"categoryName":"MICE","attri
+Action.c(23):     buteId":1,"attributeName":"GRAPHICS","showInFilter":false},{"categoryId":5,"categoryName":
+Action.c(23):     "MICE","attributeId":2,"attributeName":"CUSTOMIZATION","showInFilter":false},{"categoryId"
+Action.c(23):     :5,"categoryName":"MICE","attributeId":3,"attributeName":"OPERATING SYSTEM","showInFilter"
+Action.c(23):     :false},{"categoryId":5,"categoryName":"MICE","attributeId":4,"attributeName":"PROCESSOR",
+Action.c(23):     "showInFilter":false},{"categoryId":5,"categoryName":"MICE","attributeId":5,"attributeName
+Action.c(23):     ":"MEMORY","showInFilter":false},{"categoryId":5,"categoryName":"MICE","attributeId":6,"at
+Action.c(23):     tributeName":"DISPLAY","showInFilter":false},{"categoryId":5,"categoryName":"MICE","attrib
+Action.c(23):     uteId":7,"attributeName":"CONNECTOR","showInFilter":false},{"categoryId":5,"categoryName":
+Action.c(23):     "MICE","attributeId":8,"attributeName":"COMPATIBILITY","showInFilter":false},{"categoryId"
+Action.c(23):     :5,"categoryName":"MICE","attributeId":9,"attributeName":"WEIGHT","showInFilter":false},{"
+Action.c(23):     categoryId":5,"categoryName":"MICE","attributeId":10,"attributeName":"WIRELESS TECHNOLOGY"
+Action.c(23):     ,"showInFilter":false},{"categoryId":5,"categoryName":"MICE","attributeId":11,"attributeNa
+Action.c(23):     me":"SENSOR RESOLUTION","showInFilter":false},{"categoryId":5,"categoryName":"MICE","attri
+Action.c(23):     buteId":12,"attributeName":"TYPE","showInFilter":false},{"categoryId":5,"categoryName":"MI
+Action.c(23):     CE","attributeId":13,"attributeName":"MANUFACTURER","showInFilter":false},{"categoryId":5,
+Action.c(23):     "categoryName":"MICE","attributeId":14,"attributeName":"SCROLLER TYPE","showInFilter":true
+Action.c(23):     }]}
+Action.c(23): t=3916256ms: 10-byte ENCODED response body received for "https://www.advantageonlineshopping.com/catalog/api/v1/categories/attributes" (RelFrameId=1, Internal ID=1477)
+Action.c(23): t=3916256ms: Request done "https://www.advantageonlineshopping.com/catalog/api/v1/categories/attributes"  	[MsgId: MMSG-26000]
+Action.c(23): web_url("attributes") was successful, 552 body bytes, 375 header bytes  	[MsgId: MMSG-26386]
+Action.c(32): web_url("category-page.html") started  	[MsgId: MMSG-26355]
+Action.c(32): The request to server https://www.advantageonlineshopping.com/app/views/category-page.html" is done with headers:
+Action.c(32):     :method = GET
+Action.c(32):     :scheme = https
+Action.c(32):     :path = /app/views/category-page.html
+Action.c(32):     :authority = www.advantageonlineshopping.com
+Action.c(32):     Authorization = Basic Sm9objg3OldhdHNvbjEyMw==
+Action.c(32):     Referer = https://www.advantageonlineshopping.com/
+Action.c(32):     Sec-Fetch-Dest = empty
+Action.c(32):     Sec-Fetch-Mode = cors
+Action.c(32):     Sec-Fetch-Site = same-origin
+Action.c(32):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/13
+Action.c(32):     0.0
+Action.c(32):     Accept-Encoding = gzip, deflate
+Action.c(32):     Accept-Language = ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Action.c(32):     Accept = */*
+Action.c(32): t=3916403ms: 361-byte response headers for "https://www.advantageonlineshopping.com/app/views/category-page.html" (RelFrameId=1, Internal ID=1478)
+Action.c(32):     HTTP/2.0 200\r\n
+Action.c(32):     Status: 200\r\n
+Action.c(32):     server: nginx/1.18.0 (Ubuntu)\r\n
+Action.c(32):     date: Mon, 18 Nov 2024 04:33:49 GMT\r\n
+Action.c(32):     content-type: text/html\r\n
+Action.c(32):     etag: W/"1915-1723632370000"\r\n
+Action.c(32):     last-modified: Wed, 14 Aug 2024 10:46:10 GMT\r\n
+Action.c(32):     cache-control: max-age=0\r\n
+Action.c(32):     expires: Mon, 18 Nov 2024 04:33:49 GMT\r\n
+Action.c(32):     strict-transport-security: max-age=31536000; includeSubDomains; preload\r\n
+Action.c(32):     content-encoding: gzip\r\n
+Action.c(32):     \r\n
+Action.c(32): t=3916404ms: 741-byte ENCODED response body received for "https://www.advantageonlineshopping.com/app/views/category-page.html" (RelFrameId=1, Internal ID=1478)
+Action.c(32): t=3916404ms: 1915-byte DECODED response body for "https://www.advantageonlineshopping.com/app/views/category-page.html" (RelFrameId=1, Internal ID=1478)
+Action.c(32):     \n
+Action.c(32):     <section>\n
+Action.c(32):         <article ng-switch="noProducts">\n
+Action.c(32):     \n
+Action.c(32):             <div ng-style="categoryData.categoryId ? { 'background-image': 'url(css/images/cat
+Action.c(32):     egory_banner_' + categoryData.categoryId + '.png)' } : {}"\n
+Action.c(32):                  data-ng-hide="categoryData.promotedProduct == null" class="categoryData" >\n
+Action.c(32):                 <h1 class="roboto-bold"> {{categoryData.promotedProduct.promotionHeader}}</h1>
+Action.c(32):     \n
+Action.c(32):                 <h2 class="roboto-thin"> {{categoryData.promotedProduct.promotionSubHeader}}</
+Action.c(32):     h2>\n
+Action.c(32):                 <h3 class="roboto-thin">\n
+Action.c(32):                     {{categoryData.promotedProduct.productName}} |\n
+Action.c(32):                     {{ 'STARTING_AT' | translate }} ${{categoryData.promotedProduct.staringPri
+Action.c(32):     ce}}\n
+Action.c(32):                 </h3>\n
+Action.c(32):                 <a href="#/product/{{categoryData.promotedProduct.id}}">\n
+Action.c(32):                     <button name="buy_now" class="roboto-medium" translate="BUY_NOW" role="but
+Action.c(32):     ton">\n
+Action.c(32):                     </button>\n
+Action.c(32):                 </a>\n
+Action.c(32):             </div>\n
+Action.c(32):             <div>\n
+Action.c(32):                 <nav class="pages categoryDataFixedNav"  data-ng-class="{ fixedImportant : vie
+Action.c(32):     wAll }">\n
+Action.c(32):                     <a translate="HOME" href="#/" ></a>\n
+Action.c(32):                     <a class="select "> {{categoryName}} </a>\n
+Action.c(32):                 </nav>\n
+Action.c(32):             </div>\n
+Action.c(32):             <h3 class="categoryTitle roboto-regular sticky"\n
+Action.c(32):                 data-ng-class="{ noPromotedProduct : viewAll }" >{{categoryName}}\n
+Action.c(32):             </h3>\n
+Action.c(32):             <div ng-class="{ noPromotedProductDiv : viewAll }">\n
+Action.c(32):                 <div ng-switch-when="true">\n
+Action.c(32):                     <label style="display: block; text-align: center; color:black; font-size: 
+Action.c(32):     100px">\n
+Action.c(32):                         No products!\n
+Action.c(32):                     </label>\n
+Action.c(32):                 </div>\n
+Action.c(32):                 <div ng-switch-when="false">\n
+Action.c(32):                     <div class="category-type-products"\n
+Action.c(32):                          category-type-products-drtv\n
+Action.c(32):                          params-to-pass="paramsToPass"\n
+Action.c(32):                     ></div>\n
+Action.c(32):                 </div>\n
+Action.c(32):                 <social-media-drtv></social-media-drtv>\n
+Action.c(32):             </div>\n
+Action.c(32):         </article>\n
+Action.c(32):     </section>
+Action.c(32): t=3916406ms: Request done "https://www.advantageonlineshopping.com/app/views/category-page.html"  	[MsgId: MMSG-26000]
+Action.c(32): web_url("category-page.html") was successful, 741 body bytes, 361 header bytes  	[MsgId: MMSG-26386]
+Action.c(40): Notify: Transaction "Search_Product" ended with a "Pass" status (Duration: 1,9830 Wasted Time: 0,0001).	[MsgId: MMSG-16871]
+Action.c(42): lr_think_time: 2,00 seconds.	[MsgId: MMSG-15948]
+..\\..\\Transactions\\common_lib.h(190): Notify: Transaction "Logout" started.	[MsgId: MMSG-16999]
+..\\..\\Transactions\\common_lib.h(191): web_reg_find started  	[MsgId: MMSG-26355]
+..\\..\\Transactions\\common_lib.h(191): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\..\\Transactions\\common_lib.h(193): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+..\\..\\Transactions\\common_lib.h(193): An unrecognized header ("Origin") is being added  	[MsgId: MMSG-26595]
+..\\..\\Transactions\\common_lib.h(193): "Origin: https://www.advantageonlineshopping.com" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+..\\..\\Transactions\\common_lib.h(193): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\..\\Transactions\\common_lib.h(196): web_add_header("Priority") started  	[MsgId: MMSG-26355]
+..\\..\\Transactions\\common_lib.h(196): An unrecognized header ("Priority") is being added  	[MsgId: MMSG-26595]
+..\\..\\Transactions\\common_lib.h(196): "Priority: u=0" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+..\\..\\Transactions\\common_lib.h(196): web_add_header("Priority") was successful  	[MsgId: MMSG-26392]
+..\\..\\Transactions\\common_lib.h(199): web_add_header("SOAPAction") started  	[MsgId: MMSG-26355]
+..\\..\\Transactions\\common_lib.h(199): "SOAPAction: com.advantage.online.store.accountserviceAccountLogoutRequest" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+..\\..\\Transactions\\common_lib.h(199): web_add_header("SOAPAction") was successful  	[MsgId: MMSG-26392]
+..\\..\\Transactions\\common_lib.h(202): web_add_header("X-Requested-With") started  	[MsgId: MMSG-26355]
+..\\..\\Transactions\\common_lib.h(202): An unrecognized header ("X-Requested-With") is being added  	[MsgId: MMSG-26595]
+..\\..\\Transactions\\common_lib.h(202): "X-Requested-With: XMLHttpRequest" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+..\\..\\Transactions\\common_lib.h(202): web_add_header("X-Requested-With") was successful  	[MsgId: MMSG-26392]
+..\\..\\Transactions\\common_lib.h(205): web_custom_request("AccountLogoutRequest") started  	[MsgId: MMSG-26355]
+..\\..\\Transactions\\common_lib.h(205): Notify: Parameter Substitution: parameter "userId_1" =  "451637020"	[MsgId: MMSG-13992]
+..\\..\\Transactions\\common_lib.h(205): Notify: Parameter Substitution: parameter "authorization_1" =  "Sm9objg3OldhdHNvbjEyMw=="	[MsgId: MMSG-13992]
+..\\..\\Transactions\\common_lib.h(205): The request to server https://www.advantageonlineshopping.com/accountservice/ws/AccountLogoutRequest" is done with headers:
+..\\..\\Transactions\\common_lib.h(205):     :method = POST
+..\\..\\Transactions\\common_lib.h(205):     :scheme = https
+..\\..\\Transactions\\common_lib.h(205):     :path = /accountservice/ws/AccountLogoutRequest
+..\\..\\Transactions\\common_lib.h(205):     :authority = www.advantageonlineshopping.com
+..\\..\\Transactions\\common_lib.h(205):     Authorization = Basic Sm9objg3OldhdHNvbjEyMw==
+..\\..\\Transactions\\common_lib.h(205):     Content-Type = text/xml; charset=UTF-8
+..\\..\\Transactions\\common_lib.h(205):     Referer = https://www.advantageonlineshopping.com/
+..\\..\\Transactions\\common_lib.h(205):     Origin = https://www.advantageonlineshopping.com
+..\\..\\Transactions\\common_lib.h(205):     Priority = u=0
+..\\..\\Transactions\\common_lib.h(205):     SOAPAction = com.advantage.online.store.accountserviceAccountLogoutRequest
+..\\..\\Transactions\\common_lib.h(205):     X-Requested-With = XMLHttpRequest
+..\\..\\Transactions\\common_lib.h(205):     Sec-Fetch-Dest = empty
+..\\..\\Transactions\\common_lib.h(205):     Sec-Fetch-Mode = cors
+..\\..\\Transactions\\common_lib.h(205):     Sec-Fetch-Site = same-origin
+..\\..\\Transactions\\common_lib.h(205):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/13
+..\\..\\Transactions\\common_lib.h(205):     0.0
+..\\..\\Transactions\\common_lib.h(205):     Accept-Encoding = gzip, deflate
+..\\..\\Transactions\\common_lib.h(205):     Accept-Language = ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+..\\..\\Transactions\\common_lib.h(205):     Accept = */*
+..\\..\\Transactions\\common_lib.h(205):     content-length = 430
+..\\..\\Transactions\\common_lib.h(205): The request to server "https://www.advantageonlineshopping.com/accountservice/ws/AccountLogoutRequest" is done with body:
+..\\..\\Transactions\\common_lib.h(205):     <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.or
+..\\..\\Transactions\\common_lib.h(205):     g/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://
+..\\..\\Transactions\\common_lib.h(205):     www.w3.org/2001/XMLSchema"><soap:Body><AccountLogoutRequest xmlns="com.advantage.online.st
+..\\..\\Transactions\\common_lib.h(205):     ore.accountservice"><loginUser>451637020</loginUser><base64Token>Basic Sm9objg3OldhdHNvbjE
+..\\..\\Transactions\\common_lib.h(205):     yMw==</base64Token></AccountLogoutRequest></soap:Body></soap:Envelope>
+..\\..\\Transactions\\common_lib.h(205): t=3918954ms: 735-byte response headers for "https://www.advantageonlineshopping.com/accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1479)
+..\\..\\Transactions\\common_lib.h(205):     HTTP/2.0 200\r\n
+..\\..\\Transactions\\common_lib.h(205):     Status: 200\r\n
+..\\..\\Transactions\\common_lib.h(205):     server: nginx/1.18.0 (Ubuntu)\r\n
+..\\..\\Transactions\\common_lib.h(205):     date: Mon, 18 Nov 2024 04:33:52 GMT\r\n
+..\\..\\Transactions\\common_lib.h(205):     content-type: text/xml;charset=utf-8\r\n
+..\\..\\Transactions\\common_lib.h(205):     content-length: 402\r\n
+..\\..\\Transactions\\common_lib.h(205):     x-content-type-options: nosniff\r\n
+..\\..\\Transactions\\common_lib.h(205):     x-xss-protection: 1; mode=block\r\n
+..\\..\\Transactions\\common_lib.h(205):     cache-control: no-store\r\n
+..\\..\\Transactions\\common_lib.h(205):     pragma: no-cache\r\n
+..\\..\\Transactions\\common_lib.h(205):     expires: 0\r\n
+..\\..\\Transactions\\common_lib.h(205):     x-frame-options: DENY\r\n
+..\\..\\Transactions\\common_lib.h(205):     access-control-request-method: POST, GET, OPTIONS, DELETE\r\n
+..\\..\\Transactions\\common_lib.h(205):     access-control-allow-methods: POST, GET, OPTIONS, DELETE\r\n
+..\\..\\Transactions\\common_lib.h(205):     access-control-max-age: 3600\r\n
+..\\..\\Transactions\\common_lib.h(205):     access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapact
+..\\..\\Transactions\\common_lib.h(205):     ion\r\n
+..\\..\\Transactions\\common_lib.h(205):     access-control-allow-origin: *\r\n
+..\\..\\Transactions\\common_lib.h(205):     accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n
+..\\..\\Transactions\\common_lib.h(205):     soapaction: ""\r\n
+..\\..\\Transactions\\common_lib.h(205):     strict-transport-security: max-age=31536000; includeSubDomains; preload\r\n
+..\\..\\Transactions\\common_lib.h(205):     \r\n
+..\\..\\Transactions\\common_lib.h(205): t=3918955ms: 402-byte response body for "https://www.advantageonlineshopping.com/accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1479)
+..\\..\\Transactions\\common_lib.h(205):     <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:He
+..\\..\\Transactions\\common_lib.h(205):     ader/><SOAP-ENV:Body><ns2:AccountLogoutResponse xmlns:ns2="com.advantage.online.store.acco
+..\\..\\Transactions\\common_lib.h(205):     untservice"><ns2:StatusMessage><ns2:success>true</ns2:success><ns2:userId>451637020</ns2:u
+..\\..\\Transactions\\common_lib.h(205):     serId><ns2:reason>Logout Successful</ns2:reason></ns2:StatusMessage></ns2:AccountLogoutRes
+..\\..\\Transactions\\common_lib.h(205):     ponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+..\\..\\Transactions\\common_lib.h(205): t=3918955ms: Request done "https://www.advantageonlineshopping.com/accountservice/ws/AccountLogoutRequest"  	[MsgId: MMSG-26000]
+..\\..\\Transactions\\common_lib.h(205): Registered web_reg_find successful for "Text=Logout Successful" (count=1)  	[MsgId: MMSG-26364]
+..\\..\\Transactions\\common_lib.h(205): web_custom_request("AccountLogoutRequest") was successful, 402 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+..\\..\\Transactions\\common_lib.h(217): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,5470 Wasted Time: 0,0000).	[MsgId: MMSG-16871]
+Action.c(46): Notify: Transaction "US2_Search_product" ended with a "Pass" status (Duration: 23,5439 Think Time: 6,0109 Wasted Time: 0,0047).	[MsgId: MMSG-16870]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=3918957ms: Closed connection [0] to www.advantageonlineshopping.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+t=3918957ms: Closed connection [1] to www.googletagmanager.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=1, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 7 (thread 7368), ended OK."	[MsgId: MMSG-10695]

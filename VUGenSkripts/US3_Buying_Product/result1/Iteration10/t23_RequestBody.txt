@@ -1,4 +1,0 @@
-"{"seaddress":{"addressLine1":"Mt.Sagiri 15","addressLine2":"","city":"Taisho Era","country":"j"
-"p","postalCode":600002,"state":"Mountain"},"secustomerName":"Nezuko Kamado","secustomerPhone":"
-""+81880005566","senumberOfProducts":1,"setransactionType":"SHIPPING_COST","sessionId":"D786786"
-"0A61858E89CB7FFD860FC55F5"}"

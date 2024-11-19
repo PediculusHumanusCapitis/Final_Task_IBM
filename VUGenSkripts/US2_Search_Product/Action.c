@@ -39,7 +39,7 @@ Action()
 
 	lr_end_transaction("Search_Product",LR_AUTO);
 	
-	lr_think_time(5);
+	lr_think_time(2);
 
 	Logout();
 

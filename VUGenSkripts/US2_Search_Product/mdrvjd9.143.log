@@ -1,0 +1,13 @@
+..\\..\\Transactions\\common_lib.h(115):     Sdr6\xCC\x90\xE9\xD1p\x84\xCC\x0C\x15\xE4\xF2\x0BL\xE8L\xA0\x00\x00\x00\x01R{\xF7\x8E\x00\x00
+..\\..\\Transactions\\common_lib.h(115): t=1348971ms: Request done "https://www.advantageonlineshopping.com/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff"  	[MsgId: MMSG-26000]
+..\\..\\Transactions\\common_lib.h(115): Notify: Transaction "Go_To_HomePage" ended with a "Stop" status (Duration: 9,9203 Wasted Time: 0,0045).	[MsgId: MMSG-16871]
+..\\..\\Transactions\\common_lib.h(115): Notify: Transaction "US2_Search_product" ended with a "Stop" status (Duration: 9,9204 Wasted Time: 0,0045).	[MsgId: MMSG-16871]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+..\\..\\Transactions\\common_lib.h(115): t=1348972ms: Closed connection [0] to www.advantageonlineshopping.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+..\\..\\Transactions\\common_lib.h(115): t=1348973ms: Closed connection [1] to www.googletagmanager.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=1, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 4 (thread 4072), ended OK."	[MsgId: MMSG-10695]

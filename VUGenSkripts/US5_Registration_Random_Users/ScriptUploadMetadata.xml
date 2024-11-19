@@ -35,6 +35,15 @@
     <FileEntry Name="login.dat" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv8p5.111.log" Filter="1" />
+    <FileEntry Name="mdrvAtz.383.log" Filter="1" />
+    <FileEntry Name="mdrvbap.913.log" Filter="1" />
+    <FileEntry Name="mdrvdaH.767.log" Filter="1" />
+    <FileEntry Name="mdrvGl6.867.log" Filter="1" />
+    <FileEntry Name="mdrvhLy.109.log" Filter="1" />
+    <FileEntry Name="mdrvkEg.565.log" Filter="1" />
+    <FileEntry Name="mdrvLDP.19.log" Filter="1" />
+    <FileEntry Name="mdrvSux.67.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="NewUser" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />

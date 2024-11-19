@@ -1,10 +1,10 @@
 [Graph definition]
 count=1
-GraphTitle=Available MBytes (Memory)
+GraphTitle=Private Bytes (Process _Total)
 DataPointLabel_1=offline_datapoint_25
-LineTitle_1=Local
+LineTitle_1=localhost
 LineGroup_1=0
-YAxisTitle=Available MBytes (Memory)
+YAxisTitle=Private Bytes (Process _Total)
 GraphGroupMenuTitle=Windows Resources
 XAxisTitle=Elapsed Scenario Time (seconds)
 XAxisIsElapsedTime=TRUE
@@ -15,4 +15,4 @@ MissingData=PREVIOUS
 GranularityMode=NOTINCLUDEZERO
 NoDataBehavior=RemoveGraph
 GraphType=es_rm_svr_res_nt
-DataPointDescr_1=Available MBytes is the amount of physical memory available to processes running on the computer, in Megabytes, rather than bytes as reported in Memory\Available Bytes. It is calculated by adding the amount of space on the Zeroed, Free, and Stand by memory lists. Free memory is ready for use; Zeroed memory are pages of memory filled with zeros to prevent later processes from seeing data used by a previous process; Standby memory is memory removed from a process' working set (its physical memory) on route to disk, but is still available to be recalled.  This counter displays the last observed value only; it is not an average.
+DataPointDescr_1=Private Bytes is the current number of bytes this process has allocated that cannot be shared with other processes.

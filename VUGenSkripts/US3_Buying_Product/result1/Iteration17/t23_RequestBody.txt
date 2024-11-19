@@ -1,4 +1,0 @@
-"{"seaddress":{"addressLine1":"Winchester Road 12","addressLine2":"","city":"Kansas","country":"
-""us","postalCode":66044,"state":"Kansas"},"secustomerName":"Dean Winchester","secustomerPhone""
-":"+19135550808","senumberOfProducts":1,"setransactionType":"SHIPPING_COST","sessionId":"0E4A92"
-"9E8BA1A7BF936661AB887EF735"}"

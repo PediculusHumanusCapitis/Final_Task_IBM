@@ -1,4 +1,0 @@
-"{"seaddress":{"addressLine1":"Uchiha Street 1","addressLine2":"","city":"Konoha","country":"jp"
-"","postalCode":110112,"state":"Uchiha Cl"},"secustomerName":"Sasuke Uchiha","secustomerPhone":"
-""+81880001123","senumberOfProducts":1,"setransactionType":"SHIPPING_COST","sessionId":"DF231DB"
-"220AC8F4890464B48AD074B86"}"

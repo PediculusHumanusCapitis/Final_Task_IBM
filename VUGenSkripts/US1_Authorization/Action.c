@@ -124,7 +124,7 @@ Action()
 
 	lr_end_transaction("Go_To_HomePage",LR_AUTO);
 	
-	lr_think_time(5);
+	lr_think_time(2);
 
 	lr_start_transaction("Login");
 	web_set_max_html_param_len("800");
@@ -178,7 +178,7 @@ Action()
 
 	lr_end_transaction("Login",LR_AUTO);
 	
-	lr_think_time(5);
+	lr_think_time(2);
 
 	lr_start_transaction("Logout");
 		web_reg_find("Text=Logout Successful",LAST);

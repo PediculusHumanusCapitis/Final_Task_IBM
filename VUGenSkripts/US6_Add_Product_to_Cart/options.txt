@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IF:\Git\Final_Task_IBM\VUGenSkripts\US6_Add_Product_to_Cart
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ef:\git\final_task_ibm\vugenskripts\us6_add_product_to_cart\\logfile.log
+f:\git\final_task_ibm\vugenskripts\us6_add_product_to_cart\\combined_US6_Add_Product_to_Cart.c
+f:\git\final_task_ibm\vugenskripts\us6_add_product_to_cart\\pre_cci.c

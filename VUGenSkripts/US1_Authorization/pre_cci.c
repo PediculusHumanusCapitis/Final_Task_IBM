@@ -2585,34 +2585,9 @@ void
 
 # 8 "globals.h" 2
 
-# 1 "WebSocketBuffer.h" 1
-
-
-
- 
-
-char WebSocketReceive0[] = "{\"messageType\":\"hello\",\"uaid\":\"5693cb3833fd4edc82b7ff0c2172f972\",\"statu"
-                        "s\":200,\"use_webpush\":true,\"broadcasts\":{}}";
-long WebSocketReceiveLen0   = sizeof(WebSocketReceive0) - 1;	 
-
-
-# 9 "globals.h" 2
-
-
-
-
-
-
-
 
  
  
-
-
-
-
-
-
 
 
 # 3 "f:\\git\\final_task_ibm\\vugenskripts\\us1_authorization\\\\combined_US1_Authorization.c" 2

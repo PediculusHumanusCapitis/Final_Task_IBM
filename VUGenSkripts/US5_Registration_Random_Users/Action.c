@@ -75,7 +75,7 @@ Action()
 		LAST);
 
 	lr_end_transaction("Go_to_registration",LR_AUTO);
-	lr_think_time(5);
+	lr_think_time(2);
 	lr_start_transaction("Add_information");
 	web_reg_find("Text=New user created successfully",LAST);
 	web_add_header("SOAPAction", 

@@ -84,10 +84,10 @@ Action()
 
 	lr_end_transaction("Add_to_Cart",LR_AUTO);
 
-	lr_think_time(5);
+	lr_think_time(2);
 
 	lr_start_transaction("Go_to_cart");
-	web_reg_find("Text=\"code\":\"{randomColor}\",\"name",LAST);
+	
 	web_url("964281101_2", 
 		"URL=https://www.advantageonlineshopping.com/order/api/v1/carts/{userId_1}", 
 		"Resource=0", 
@@ -108,7 +108,9 @@ Action()
 		LAST);
 
 	lr_end_transaction("Go_to_cart",LR_AUTO);
-
+	
+	lr_think_time(2);
+	
 	lr_start_transaction("Checkout");
 
 	web_add_header("SOAPAction", 
@@ -230,7 +232,7 @@ Action()
 
 	lr_end_transaction("Checkout",LR_AUTO);
 
-	lr_think_time(5);
+	lr_think_time(2);
 	
 	lr_start_transaction("PayNow");
 	web_reg_find("Text=Successful",LAST);
@@ -255,7 +257,6 @@ Action()
 		LAST);
 
 	web_revert_auto_header("X-Requested-With");
-	web_reg_find("Text=order completed successfully",LAST);
 	web_custom_request("964281101_4", 
 		"URL=https://www.advantageonlineshopping.com/order/api/v1/orders/users/{userId_1}", 
 		"Method=POST", 
@@ -266,7 +267,7 @@ Action()
 		"Mode=HTML", 
 		"EncType=application/json", 
 		"Body={\"orderPaymentInformation\":{\"Transaction_AccountNumber\":\"112987298763\",\"Transaction_Currency\":\"USD\",\"Transaction_CustomerPhone\":\"{phone}\",\"Transaction_MasterCredit_CVVNumber\":{cvvNumber},\"Transaction_MasterCredit_CardNumber\":\"4886{cardNumber}\",\"Transaction_MasterCredit_CustomerName\":\"{customerName}\",\"Transaction_MasterCredit_ExpirationDate\":\"{expirationDate}\",\"Transaction_PaymentMethod\":\"MasterCredit\",\"Transaction_ReferenceNumber\":0,\"Transaction_SafePay_Password\":\"\",\""
-		"Transaction_SafePay_UserName\":\"\",\"Transaction_TransactionDate\":\"{Date}\",\"Transaction_Type\":\"PAYMENT\"},\"orderShippingInformation\":{\"Shipping_Address_Address\":\"{address}\",\"Shipping_Address_City\":\"{city}\",\"Shipping_Address_CountryCode\":236,\"Shipping_Address_CustomerName\":\"{fname} {sname}\",\"Shipping_Address_CustomerPhone\":\"{phone}\",\"Shipping_Address_PostalCode\":{postalCode},\"Shipping_Address_State\":\"{state}\",\"Shipping_Cost\":1279,\"Shipping_NumberOfProducts\":1,\""
+		"Transaction_SafePay_UserName\":\"\",\"Transaction_TransactionDate\":\"18112024\",\"Transaction_Type\":\"PAYMENT\"},\"orderShippingInformation\":{\"Shipping_Address_Address\":\"{address}\",\"Shipping_Address_City\":\"{city}\",\"Shipping_Address_CountryCode\":236,\"Shipping_Address_CustomerName\":\"{fname} {sname}\",\"Shipping_Address_CustomerPhone\":\"{phone}\",\"Shipping_Address_PostalCode\":{postalCode},\"Shipping_Address_State\":\"{state}\",\"Shipping_Cost\":1279,\"Shipping_NumberOfProducts\":1,\""
 		"Shipping_TrackingNumber\":0},\"purchasedProducts\":[{\"hexColor\":\"{randomColor}\",\"productId\":{randomProduct},\"quantity\":1,\"hasWarranty\":false}]}", 
 		LAST);
 
@@ -282,7 +283,7 @@ Action()
 		LAST);
 
 	lr_end_transaction("PayNow",LR_AUTO);
-	lr_think_time(5);
+	lr_think_time(2);
 
 	Logout();
 

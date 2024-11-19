@@ -1,4 +1,0 @@
-"{"seaddress":{"addressLine1":"Ocean Drive 25","addressLine2":"","city":"Miami","country":"us","
-""postalCode":33101,"state":"Florida"},"secustomerName":"Dexter Morgan","secustomerPhone":"+130"
-"55550303","senumberOfProducts":1,"setransactionType":"SHIPPING_COST","sessionId":"64EF58C10377"
-"769A5A75A15EBC35E6FE"}"
